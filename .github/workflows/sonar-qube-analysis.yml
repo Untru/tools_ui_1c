@@ -52,9 +52,12 @@ jobs:
       uses: sonarsource/sonarqube-scan-action@v2.3.0
       env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          LC_ALL: "ru_RU.UTF-8"
       with:
         args: >
           -Dsonar.host.url=https://sonar.openbsl.ru
+          -Dsonar.projectKey=tools_ui_1c
+          -Dsonar.sources=./src/Инструменты/src
           -Dsonar.pullrequest.key=${{ github.event.pull_request.number }}
           -Dsonar.pullrequest.branch=${{ github.event.pull_request.head.ref }}
           -Dsonar.pullrequest.base=${{ github.event.pull_request.base.ref }}

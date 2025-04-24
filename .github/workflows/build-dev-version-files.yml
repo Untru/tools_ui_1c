@@ -14,6 +14,9 @@ jobs:
     if: github.repository == 'cpr1c/tools_ui_1c'
     env:
       TOOLS_UI_1C_BUILDER_EDT_PATH: "/opt/1C/1CE/components/1c-edt-2024.1.3+13-x86_64/"
+    defaults:
+      run:
+        shell: bash
     steps:
       - name: Извлечение исходников ветки ${{ github.ref_name }}
         if: github.event_name == 'push'
@@ -38,10 +41,10 @@ jobs:
       - name: Setup Onescript Action
         uses: otymko/setup-onescript@v1.4
         with:
-          version: 1.8.4
+          version: 1.9.2
 
-      - name: Установка зависимостей Oscript
-        run: opm install cli fs logos tempfiles v8runner v8find 1commands
+      # - name: Установка зависимостей Oscript
+      #   run: opm install cli fs logos tempfiles v8runner v8find 1commands
 
       - name: Конвертация исходников
         run: oscript -encoding=utf-8 ./src/builder/build.os xml
@@ -56,7 +59,7 @@ jobs:
 
   build-github:
     name: Сборка файлов инструментов cfe/cf
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-20.04
     needs: export-xml
     env:
       TOOLS_UI_1C_BUILDER_PLATFORM_PATH: "/opt/1C/v8.3/x86_64/"
@@ -86,14 +89,14 @@ jobs:
       - name: Setup Onescript Action
         uses: otymko/setup-onescript@v1.4
         with:
-          version: 1.8.4
+          version: 1.9.2
 
       - name: Сборка расширений
-        run: oscript -encoding=utf-8 src/builder/build.os cfe
+        run: oscript -encoding=utf-8 ./src/builder/build.os cfe
         timeout-minutes: 30
 
       - name: Сборка конфигураций
-        run: oscript -encoding=utf-8 src/builder/build.os cf
+        run: oscript -encoding=utf-8 ./src/builder/build.os cf
         timeout-minutes: 30
       - name: Публикация файлов
         uses: softprops/action-gh-release@v2

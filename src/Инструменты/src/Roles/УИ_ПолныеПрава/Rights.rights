@@ -184,6 +184,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.УИ_РедакторПрототиповФорм</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.УИ_ТехПоддержка.Command.ВопросРазработчику</name>
 		<right>
 			<name>View</name>

@@ -203,6 +203,7 @@
   <dataProcessors>DataProcessor.УИ_РедакторJSON</dataProcessors>
   <dataProcessors>DataProcessor.УИ_РедакторКонстант</dataProcessors>
   <dataProcessors>DataProcessor.УИ_РедакторПараметровСеанса</dataProcessors>
+  <dataProcessors>DataProcessor.УИ_РедакторПрототиповФорм</dataProcessors>
   <dataProcessors>DataProcessor.УИ_РедакторРеквизитовОбъекта</dataProcessors>
   <dataProcessors>DataProcessor.УИ_РедакторСКД</dataProcessors>
   <dataProcessors>DataProcessor.УИ_СравнениеОбъектов</dataProcessors>

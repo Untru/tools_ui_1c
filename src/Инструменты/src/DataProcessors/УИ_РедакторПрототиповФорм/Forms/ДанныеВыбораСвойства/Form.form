@@ -410,7 +410,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ПрименитьДанныеВыбока</name>
+        <name>ПрименитьДанныеВыбора</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

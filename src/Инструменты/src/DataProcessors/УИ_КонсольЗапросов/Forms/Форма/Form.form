@@ -1987,6 +1987,123 @@
                   <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
                   <commandUniqueness>false</commandUniqueness>
                 </items>
+                <items xsi:type="form:FormGroup">
+                  <name>УИ_ГруппаЗапросКомандыРаботыСПредставлениями</name>
+                  <id>644</id>
+                  <items xsi:type="form:Button">
+                    <name>УИ_ЗапросОткрытьКонструкторПредставлений</name>
+                    <id>640</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <extendedTooltip>
+                      <name>УИ_ЗапросОткрытьКонструкторПредставленийРасширеннаяПодсказка</name>
+                      <id>641</id>
+                      <type>Label</type>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <extInfo xsi:type="form:LabelDecorationExtInfo">
+                        <horizontalAlign>Left</horizontalAlign>
+                      </extInfo>
+                    </extendedTooltip>
+                    <commandName>Form.Command.УИ_ОткрытьКонструкторПредставлений</commandName>
+                    <representation>Auto</representation>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <placementArea>UserCmds</placementArea>
+                    <representationInContextMenu>Auto</representationInContextMenu>
+                  </items>
+                  <items xsi:type="form:Button">
+                    <name>УИ_ЗапросВставитьКодЗаменыПредставлений</name>
+                    <id>646</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Добавить код замены перед выполнением</value>
+                    </title>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <extendedTooltip>
+                      <name>УИ_ЗапросВставитьКодЗаменыПредставленийРасширеннаяПодсказка</name>
+                      <id>647</id>
+                      <type>Label</type>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <extInfo xsi:type="form:LabelDecorationExtInfo">
+                        <horizontalAlign>Left</horizontalAlign>
+                      </extInfo>
+                    </extendedTooltip>
+                    <commandName>Form.Command.УИ_ВставитьКодЗаменыПредставлений</commandName>
+                    <representation>Auto</representation>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <placementArea>UserCmds</placementArea>
+                    <representationInContextMenu>Auto</representationInContextMenu>
+                  </items>
+                  <items xsi:type="form:Button">
+                    <name>УИ_ЗапросЗаменитьЗапросыКПредставлениямВиртуальныхТаблиц</name>
+                    <id>648</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Заменить представления на реальные запросы</value>
+                    </title>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <extendedTooltip>
+                      <name>УИ_ЗапросЗаменитьЗапросыКПредставлениямВиртуальныхТаблицРасширеннаяПодсказка</name>
+                      <id>649</id>
+                      <type>Label</type>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <extInfo xsi:type="form:LabelDecorationExtInfo">
+                        <horizontalAlign>Left</horizontalAlign>
+                      </extInfo>
+                    </extendedTooltip>
+                    <commandName>Form.Command.УИ_ЗаменитьЗапросыКПредставлениямВиртуальныхТаблиц</commandName>
+                    <representation>Auto</representation>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <placementArea>UserCmds</placementArea>
+                    <representationInContextMenu>Auto</representationInContextMenu>
+                  </items>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <title>
+                    <key>ru</key>
+                    <value>Представления</value>
+                  </title>
+                  <toolTip>
+                    <key>ru</key>
+                    <value>Функции работы с представлениями запросов подсистемы &quot;Зарплата и кадры&quot;</value>
+                  </toolTip>
+                  <extendedTooltip>
+                    <name>УИ_ГруппаЗапросКомандыРаботыСПредставлениямиРасширеннаяПодсказка</name>
+                    <id>645</id>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <type>Popup</type>
+                  <extInfo xsi:type="form:PopupGroupExtInfo">
+                    <picture xsi:type="core:PictureRef">
+                      <picture>StdPicture.QueryWizardCreateNestedQuery</picture>
+                    </picture>
+                    <representation>Auto</representation>
+                  </extInfo>
+                </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3716,6 +3833,69 @@
           <items xsi:type="form:FormGroup">
             <name>ГруппаАлгоритмПередВыполнениемКоманднаяПанель</name>
             <id>620</id>
+            <items xsi:type="form:FormGroup">
+              <name>УИ_ГруппаАлгоритмПередВыполнениемКомандыРаботыСПредставлениями</name>
+              <id>650</id>
+              <items xsi:type="form:Button">
+                <name>УИ_АлгоритмПередВыполнениемВставитьКодЗаменыПредставлений</name>
+                <id>654</id>
+                <title>
+                  <key>ru</key>
+                  <value>Добавить код замены</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>УИ_АлгоритмПередВыполнениемВставитьКодЗаменыПредставленийРасширеннаяПодсказка</name>
+                  <id>655</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.УИ_ВставитьКодЗаменыПредставлений</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Представления</value>
+              </title>
+              <toolTip>
+                <key>ru</key>
+                <value>Функции работы с представлениями запросов подсистемы &quot;Зарплата и кадры&quot;</value>
+              </toolTip>
+              <extendedTooltip>
+                <name>УИ_ГруппаАлгоритмПередВыполнениемКомандыРаботыСПредставлениямиРасширеннаяПодсказка</name>
+                <id>651</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>Popup</type>
+              <extInfo xsi:type="form:PopupGroupExtInfo">
+                <picture xsi:type="core:PictureRef">
+                  <picture>StdPicture.QueryWizardCreateNestedQuery</picture>
+                </picture>
+                <representation>Auto</representation>
+              </extInfo>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -9396,6 +9576,40 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>УИ_ВставленКодЗаменыПредставлений</name>
+    <title>
+      <key>ru</key>
+      <value>Вставлен код замены представлений ЗУП</value>
+    </title>
+    <id>71</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>УИ_ЕстьПодсистемаЗарплатаКадры</name>
+    <title>
+      <key>ru</key>
+      <value>У и есть подсистема зарплата кадры</value>
+    </title>
+    <id>72</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ВыполнитьЗапрос</name>
     <title>
@@ -10523,6 +10737,73 @@
         <name>ОтобразитьСкрытьРезультатЗапроса</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>УИ_ОткрытьКонструкторПредставлений</name>
+    <title>
+      <key>ru</key>
+      <value>Конструктор представлений</value>
+    </title>
+    <id>51</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открывает конструктор представлений ЗУП с возможностью вставки результата в текст запроса</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.DataCompositionSettingsWizard</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УИ_ВставитьПредставлениеЗапроса</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>УИ_ВставитьКодЗаменыПредставлений</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить код замены в алгоритм перед выполнением</value>
+    </title>
+    <id>52</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УИ_ВставитьКодЗаменыПредставлений</name>
+      </handler>
+    </action>
+    <modifiesStoredData>true</modifiesStoredData>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>УИ_ЗаменитьЗапросыКПредставлениямВиртуальныхТаблиц</name>
+    <title>
+      <key>ru</key>
+      <value>Заменить запросы к представлениям</value>
+    </title>
+    <id>53</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Выполняет замену представлений виртуальных таблиц подсистемы &quot;Зарплата и кадры&quot; на исполняемые запросы</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.QueryWizardReplaceTable</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УИ_ЗаменитьЗапросыКПредставлениямВиртуальныхТаблиц</name>
+      </handler>
+    </action>
+    <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>

@@ -185,6 +185,7 @@
   <dataProcessors>DataProcessor.УИ_КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.УИ_КонсольКода</dataProcessors>
   <dataProcessors>DataProcessor.УИ_КонсольСравненияДанных</dataProcessors>
+  <dataProcessors>DataProcessor.УИ_КонструкторПредставленийЗарплатаКадры</dataProcessors>
   <dataProcessors>DataProcessor.УИ_КонструкторРегулярныхВыражений</dataProcessors>
   <dataProcessors>DataProcessor.УИ_МенеджерОтрытыхФорм</dataProcessors>
   <dataProcessors>DataProcessor.УИ_МенеджерХранилищНастроек</dataProcessors>

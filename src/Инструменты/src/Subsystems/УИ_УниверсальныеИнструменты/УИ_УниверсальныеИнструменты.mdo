@@ -112,6 +112,7 @@
   <content>DataProcessor.УИ_ПросмотрЗначения</content>
   <content>DataProcessor.УИ_МенеджерОтрытыхФорм</content>
   <content>DataProcessor.УИ_РедакторПрототиповФорм</content>
+  <content>DataProcessor.УИ_КонструкторПредставленийЗарплатаКадры</content>
   <subsystems>УИ_Отладка</subsystems>
   <subsystems>УИ_Поддержка</subsystems>
 </mdclass:Subsystem>

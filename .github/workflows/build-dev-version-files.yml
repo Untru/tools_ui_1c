@@ -119,7 +119,7 @@ jobs:
     runs-on: self-hosted
     needs: export-xml
     env:
-      TOOLS_UI_1C_BUILDER_PLATFORM_PATH: "C:\\Program Files\\1cv8\\8.3.17.2256\\bin\\"
+      TOOLS_UI_1C_BUILDER_PLATFORM_PATH: "C:\\Program Files\\1cv8\\8.3.12.1924\\bin\\"
 
     steps:
       - name: Извлечение исходников ветки ${{ github.ref_name }}

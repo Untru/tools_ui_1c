@@ -7,7 +7,7 @@
   <name>УИ_КонструкторПредставленийЗарплатаКадры</name>
   <synonym>
     <key>ru</key>
-    <value>Конструктор представлений подсистемы &quot;Зарплата и кадры&quot;</value>
+    <value>Конструктор представлений подсистемы &quot;Зарплата и кадры&quot; [УИ]</value>
   </synonym>
   <comment>1.0.3</comment>
   <useStandardCommands>true</useStandardCommands>

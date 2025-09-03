@@ -1526,7 +1526,7 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <picture xsi:type="core:PictureRef">
-            <picture>StdPicture.Parameters</picture>
+            <picture>CommonPicture.УИ_Параметры</picture>
           </picture>
           <group>Vertical</group>
           <showTitle>true</showTitle>

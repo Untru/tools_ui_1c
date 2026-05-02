@@ -229,16 +229,13 @@ jobs:
 
       - name: Установка зависимостей платформы
         run: |
-          # Создаём заглушки для библиотек которые нужны только GUI
-          # Для batch-mode (сборка cf/cfe) они не вызываются
           sudo apt-get update -qq
-          sudo apt-get install -y -qq libfontconfig1 libgsf-1-114 t1utils imagemagick 2>/dev/null || true
-          for lib in libwebkitgtk-3.0.so.0 libjavascriptcoregtk-3.0.so.0 libwebkitgtk-3.0.so.0.22.17; do
-            if [ ! -f "/usr/lib/x86_64-linux-gnu/$lib" ]; then
-              sudo touch "/usr/lib/x86_64-linux-gnu/$lib"
-              echo "stub: $lib"
-            fi
-          done
+          sudo apt-get install -y -qq gcc libcups2 libfontconfig1 libgsf-1-114 \
+            libgtk-3-0 libcanberra-gtk3-module libsm6 libice6 libglu1-mesa libsoup2.4-1
+          # Заглушка libwebkitgtk (deprecated, не нужна для batch-mode)
+          echo 'void __attribute__((constructor)) _stub(void) {}' | \
+            gcc -shared -x c - -o /usr/lib/x86_64-linux-gnu/libwebkitgtk-3.0.so.0
+          sudo cp /usr/lib/x86_64-linux-gnu/libwebkitgtk-3.0.so.0 /usr/lib/x86_64-linux-gnu/libjavascriptcoregtk-3.0.so.0
           sudo ldconfig
 
       - name: Setup Onescript Action
@@ -300,16 +297,13 @@ jobs:
 
       - name: Установка зависимостей платформы
         run: |
-          # Создаём заглушки для библиотек которые нужны только GUI
-          # Для batch-mode (сборка cf/cfe) они не вызываются
           sudo apt-get update -qq
-          sudo apt-get install -y -qq libfontconfig1 libgsf-1-114 t1utils imagemagick 2>/dev/null || true
-          for lib in libwebkitgtk-3.0.so.0 libjavascriptcoregtk-3.0.so.0 libwebkitgtk-3.0.so.0.22.17; do
-            if [ ! -f "/usr/lib/x86_64-linux-gnu/$lib" ]; then
-              sudo touch "/usr/lib/x86_64-linux-gnu/$lib"
-              echo "stub: $lib"
-            fi
-          done
+          sudo apt-get install -y -qq gcc libcups2 libfontconfig1 libgsf-1-114 \
+            libgtk-3-0 libcanberra-gtk3-module libsm6 libice6 libglu1-mesa libsoup2.4-1
+          # Заглушка libwebkitgtk (deprecated, не нужна для batch-mode)
+          echo 'void __attribute__((constructor)) _stub(void) {}' | \
+            gcc -shared -x c - -o /usr/lib/x86_64-linux-gnu/libwebkitgtk-3.0.so.0
+          sudo cp /usr/lib/x86_64-linux-gnu/libwebkitgtk-3.0.so.0 /usr/lib/x86_64-linux-gnu/libjavascriptcoregtk-3.0.so.0
           sudo ldconfig
 
       - name: Setup Onescript Action

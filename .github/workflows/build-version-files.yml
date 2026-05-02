@@ -150,19 +150,22 @@ jobs:
           rm -rf "${WS_DIR}" "${OUTPUT_DIR}"
           mkdir -p "${WS_DIR}" "${OUTPUT_DIR}"
 
-          # 5. EDT Import (LangTool применяет переводы пр�� импорте в workspace)
+          # 5. EDT Import (LangTool применяет переводы при импорте в workspace)
           cd src
           "${EDT_CLI}" -data "${WS_DIR}" \
             -vmargs -DdisableProjectChecks=true -DdisableFTS=true \
             -command import --project "${PROJECT_NAME}"
-          cd ..
           echo "Import OK"
 
           # 6. EDT Export (экспорт из workspace в формат конфигуратора)
+          # Остаёмся в src/ — export ищет проект по имени в текущем каталоге
+          ABS_OUTPUT="$(cd .. && pwd)/${OUTPUT_DIR}"
+          mkdir -p "${ABS_OUTPUT}"
           "${EDT_CLI}" -data "${WS_DIR}" -timeout 9000 \
             -vmargs -DdisableProjectChecks=true -DdisableFTS=true \
             -command export --project "${PROJECT_NAME}" \
-            --configuration-files "${OUTPUT_DIR}"
+            --configuration-files "${ABS_OUTPUT}"
+          cd ..
           echo "Export OK"
 
           # 7. Восстановление

@@ -1,0 +1,5 @@
+#Translations for: interface
+
+Method.ОбработкаЗапросаПутьНачалоВыбора.Var.Диалог.NStr.Внешние\ обработки\ (*\.epf)|*\.epf.Lines=External Data processors (*.epf)|*.epf
+Method.ПриСозданииНаServerе.Var.ТекЭлемент.NStr.В\ каталоге\:.Lines=In kataloge\:
+Method.СообщитьОбОшибке.Var.ЗаголовокОшибки.NStr.Ошибка.Lines=Step

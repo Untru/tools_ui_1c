@@ -1,0 +1,14 @@
+#Translations for: model
+
+Attribute.ВозвратХранилищаДляКонтейнераЗначения.Name=VozvratStorageToSuffixForm
+Attribute.ТаблицаСписка.Name=TableDialog
+Attribute.ТаблицаСписка.Значение.Name=Value
+Attribute.ТаблицаСписка.ЗначениеКонтейнер.Name=ValueGroup
+Attribute.ТаблицаСписка.ЗначениеТипЗначения.Name=ValueTypeForm
+Attribute.ТаблицаСписка.ЗначениеТипЗначенияПредставление.Name=ValueTypeFormPresentation
+Attribute.ТаблицаСписка.Картинка.Name=Picture
+Attribute.ТаблицаСписка.Пометка.Name=Check
+Attribute.ТаблицаСписка.Представление.Name=Presentation
+Attribute.ТипЗначенийСписка.Name=TypeTableDialog
+Attribute.ЭтоМассив.Name=IsArray
+Command.Применить.Name=Get selection

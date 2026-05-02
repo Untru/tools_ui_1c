@@ -1,0 +1,18 @@
+#Translations for: model
+
+Attribute.Объект.Name=Object
+Attribute.Список.Name=Tasks
+Attribute.Список.ВыбрасыватьИсключение.Name=ThrowException
+Attribute.Список.ВыполнятьВТранзакции.Name=ExecuteInTransaction
+Attribute.Список.ВыполнятьПоРасписанию.Name=ExecuteBySchedule
+Attribute.Список.ЗаписыватьОшибкиВЖР.Name=WriteErrorsToEventLog
+Attribute.Список.Идентификатор.Name=UUID
+Attribute.Список.ИдентификаторHTTP.Name=HttpID
+Attribute.Список.ИдентификаторРегламентногоЗадания.Name=ScheduledJobUUID
+Attribute.Список.Комментарий.Name=Comment
+Attribute.Список.Кэшировать.Name=Cache
+Attribute.Список.НаClientе.Name=AtClient
+Attribute.Список.Наименование.Name=Description
+Attribute.Список.ТекстАлгоритма.Name=AlgorithmText
+Command.Перечитать.Name=Reread
+Item.СписокТекстАлгоритма.Name=TasksTextOption

@@ -1,0 +1,5 @@
+#Translations for: interface
+
+Attribute.ЗначениеСтрокой.Title=Value Name
+Command.ПрименитьЗначение.Title=Get selection Value
+Command.ПрименитьЗначение.ToolTip=Get selection Value

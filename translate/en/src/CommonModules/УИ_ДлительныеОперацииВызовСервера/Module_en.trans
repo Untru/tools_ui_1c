@@ -1,0 +1,10 @@
+#Translations for: model
+
+Method.ОперацииВыполнены.Name=ActionsCompleted
+Method.ОперацииВыполнены.Param.ЗаданияДляОтмены.Name=DialogToCancel
+Method.ОперацииВыполнены.Param.ЗаданияДляПроверки.Name=DialogToExistence
+Method.ОперацииВыполнены.String.Отменено.Key=Otmeneno
+Method.ОперацииВыполнены.String.Статус.Key=Status
+Method.ОперацииВыполнены.Var.ИдентификаторЗадания.Name=UUIDDialog
+Method.ОперацииВыполнены.Var.Результат.Name=Result
+Region.СлужебныеПроцедурыИФункции.Name=SluzhebnyeProceduresTFunctions

@@ -1,0 +1,6 @@
+#Translations for: model
+
+Attribute.URLВзаимодействия.Name=URLVzaimodeystviya
+Attribute.ИдентификаторСессии.Name=UUIDSessii
+Attribute.ИмяПользователя.Name=NameUser
+Command.Подключиться.Name=Connect

@@ -1,0 +1,57 @@
+#Translations for: interface
+
+Attribute.ЛокальноеУсловноеОформление.Title=Local output parameters
+Attribute.ЛокальныеВыбранныеПоля.Title=Local selected fields
+Attribute.ЛокальныеПараметрыВывода.Title=Local output parameters
+Attribute.ЛокальныйОтбор.Title=Local filter
+Attribute.ЛокальныйПорядок.Title=Local order
+Item.ЛокальноеУсловноеОформление.Title=Assign the item with personal conditional appearance to format item records
+Item.ЛокальныеВыбранныеПоля.Title=Assign the item with personal field settings
+Item.ЛокальныеПараметрыВывода.Title=Assign the item with personal additional settings
+Item.ЛокальныйОтбор.Title=Assign the item with personal filters to filter item records
+Item.ЛокальныйПорядок.Title=Assign the item with personal sorts to sort item records
+Item.НадписьЛокальногоОтбора.Title=No filter is assigned to the item.
+In the structure tree, select the report and edit report filters.
+To assign the item with a personal filter, select the check box above.
+Item.НадписьЛокальногоПорядка.Title=No sort is assigned to the item.
+In the structure tree, select the report and edit report sorts.
+To assign the item with a personal sort, select the check box above.
+Item.НадписьЛокальногоУсловногоОформления.Title=No conditional appearance is assigned to the item.
+In the structure tree, select the report and edit report conditional appearance.
+To assign the item with a personal conditional appearance, select the check box above.
+Item.НадписьЛокальныхВыбранныхПолей.Title=The item adopts selected fields from the report.
+In the report structure tree, select the item and then select required fields.
+To add custom fields, select the check box above.
+Item.НадписьЛокальныхПараметровВывода.Title=No additional settings are assigned to the item.
+In the structure tree, select the report and edit report additional settings.
+To assign the item with personal additional settings, select the check box above.
+Item.НадписьНедоступногоОтбора.Title=Cannot assign filters to the item.
+In the structure tree, select the report and edit report filters.
+Item.НадписьНедоступногоПорядка.Title=Cannot assign sorts to the item.
+In the structure tree, select the report and edit report sorts.
+Item.НадписьНедоступногоУсловногоОформления.Title=Cannot assign conditional appearance to the item.
+In the structure tree, select the report and edit report conditional appearance.
+Item.НадписьНедоступныхВыбранныхПолей.Title=Cannot add selected fields to the item.
+In the report structure tree, select the item and then select required fields.
+Item.НадписьНедоступныхПараметровВывода.Title=Cannot assign additional settings to the item.
+In the structure tree, select the report and edit additional report settings.
+Item.НадписьНедоступныхПолейГруппировки.Title=The item cannot contain grouping fields.
+Browse the structure tree and select a grouping to view or edit grouping field structure.
+Item.ПереходКВыбраннымПолямОтчета.Title=View selected report fields
+Item.ПереходКВыбраннымПолямОтчета1.Title=View selected report fields
+Item.ПереходКОтборуОтчета.Title=View report filters
+Item.ПереходКОтборуОтчета1.Title=View report filters
+Item.ПереходКПараметрамВыводаОтчета.Title=View additional report settings
+Item.ПереходКПараметрамВыводаОтчета1.Title=View additional report settings
+Item.ПереходКПорядкуОтчета.Title=View report sorts
+Item.ПереходКПорядкуОтчета1.Title=View report sorts
+Item.ПереходКУсловномуОформлениюОтчета.Title=View report conditional appearance
+Item.ПереходКУсловномуОформлениюОтчета1.Title=View report conditional appearance
+Item.СтраницаОтбора.Title=Filter
+Item.СтраницаПараметровВывода.Title=Additional settings
+Item.СтраницаПараметровДанных.Title=Parameters
+Item.СтраницаПолейВыбора.Title=Fields
+Item.СтраницаПолейГруппировки.Title=Group fields
+Item.СтраницаПользовательскихПолей.Title=User-defined fields
+Item.СтраницаПорядка.Title=Sort
+Item.СтраницаУсловногоОформления.Title=Conditional appearance

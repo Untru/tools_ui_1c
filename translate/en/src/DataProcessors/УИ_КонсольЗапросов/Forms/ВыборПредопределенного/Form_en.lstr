@@ -1,0 +1,23 @@
+#Translations for: interface
+
+Attribute.ДанныеФормы.Title=Form data
+Attribute.ИмяОбъекта.Title=Object name
+Attribute.ТипОбъекта.Title=Object type
+Attribute.Элемент.Title=Item
+Command.КомандаВставитьЗНАЧЕНИЕ.Title=VALUE(...)
+Command.КомандаВставитьЗНАЧЕНИЕ.ToolTip=Command Insert Value
+Command.КомандаВставитьИмя.Title=Name
+Command.КомандаВставитьИмя.ToolTip=Command Insert Name
+Command.КомандаВставитьПустаяСсылка.Title=Empty ref
+Command.КомандаВставитьПустаяСсылка.ToolTip=Command Insert Page Ref
+Command.КомандаВставитьССЫЛКА.Title=REF...
+Command.КомандаВставитьССЫЛКА.ToolTip=Command Insert Ref
+Item.ГруппаЗначений.Title=Value group
+Item.ГруппаЗначений.ToolTip=Value group
+Item.ГруппаКнопок.Title=Button group
+Item.ГруппаКнопок.ToolTip=Button group
+Item.ГруппаНижняяПанель.Title=Bottom panel group
+Item.ГруппаНижняяПанель.ToolTip=Bottom panel group
+Item.ГруппаОсновная.Title=Main group
+Item.ГруппаОсновная.ToolTip=Main group
+Title=Predopredelennyy Item

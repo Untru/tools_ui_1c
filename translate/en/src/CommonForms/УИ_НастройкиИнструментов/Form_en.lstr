@@ -1,0 +1,33 @@
+#Translations for: interface
+
+Attribute.ВысотаСтрок.Title=Lines height
+Attribute.ИспользоватьКартуКода.Title=Use script map
+Attribute.ИспользоватьКомандыРаботыСБуферомВКонтекстномМеню.Title=Use Commands Option C buferom In kontekstnom menyu
+Attribute.ИспользоватьСтандартныеШаблоныКода.Title=Use code standard templates
+Attribute.КаталогХраненияДанныхИнстументовНаServerе.Title=Data storage instruments directory on server
+Attribute.КаталогиИсходныхФайловКонфигурации.Title=Configuration source files directories
+Attribute.КаталогиИсходныхФайловКонфигурации.Источник.Title=Data
+Attribute.КаталогиИсходныхФайловКонфигурации.Каталог.Title=Tech
+Attribute.ОтображатьПробелыИТабуляции.Title=Display spaces and tabs
+Attribute.РазмерШрифта.Title=Font size
+Attribute.РедакторКода1С.Title=Editor of 1C code
+Attribute.СкрытьНомераСтрок.Title=Hide line numbers
+Attribute.ТемаРедактораMonaco.Title=Subject
+Attribute.ШаблоныКода.Title=Script templates
+Attribute.ШаблоныКода.ИмяФайла.Title=File name
+Attribute.ЯзыкСинтаксисаРедактораMonaco.Title=Monaco editor script variant
+Command.Применить.Title=Get selection
+Command.СохранитьМодулиКонфигурацииВФайлы.Title=Save configuration modules to files
+Item.ГруппаКонсольЗапросов.Title=Query console
+Item.ГруппаРедакторКода.Title=Code editor
+Item.ГруппаРедакторКодаMonaco.Title=Group monaco code editor
+Item.ГруппаРедакторКодаMonacoКаталогиИсходныхМодулей.Title=Source file directories
+Item.ГруппаРедакторКодаMonacoОсновныеНастройки.Title=Group monaco code editor main settings
+Item.ГруппаРедакторКодаMonacoШаблоныКода.Title=Script templates
+Item.ГруппаСтраницаОбщиеНастройки.Title=Common
+Item.ГруппаСтраницы.Title=Group1
+Item.ИспользоватьКартуКода.Title=Script map
+Item.ИспользоватьСтандартныеШаблоныКода.ToolTip=Ukazat To Add In Tasks podskazok standartnykh shablonov 
+Item.КаталогХраненияДанныхИнстументовНаServerе.ToolTip=In etom kataloge khranitsya takaya Information As Data Managed, avtosokhranyaemye Data Tools, Algorithms T Config.Editor.
+Item.КаталогиИсходныхФайловКонфигурации.Title=Configuration source files directories
+Item.КаталогиИсходныхФайловКонфигурации.ToolTip=Nuzhno ukazat, chtoby rabotali podskazki By eksportnym metodam Modules In redaktore Monaco

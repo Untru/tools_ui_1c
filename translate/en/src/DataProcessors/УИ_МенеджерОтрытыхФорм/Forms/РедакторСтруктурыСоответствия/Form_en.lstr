@@ -1,0 +1,8 @@
+#Translations for: interface
+
+Attribute.РедактируемоеЗначение.Title=Redaktiruemoe Value
+Attribute.РедактируемоеЗначение.Значение.Title=Value
+Attribute.РедактируемоеЗначение.Ключ.Title=Key
+Attribute.РедактируемоеЗначение.ТипКоллекции.Title=Type Collection
+Command.ПрименитьИзменения.Title=Get selection Data
+Command.ПрименитьИзменения.ToolTip=Get selection Data

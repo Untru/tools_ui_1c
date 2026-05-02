@@ -1,0 +1,16 @@
+#Translations for: model
+
+Attribute.ДанныеФормы.Name=DataForm
+Attribute.ИмяОбъекта.Name=NameForm
+Attribute.Объект.Name=Object
+Attribute.ТипОбъекта.Name=ObjectType
+Attribute.Элемент.Name=Item
+Command.КомандаВставитьЗНАЧЕНИЕ.Name=InsertValueCommand
+Command.КомандаВставитьИмя.Name=InsertNameCommand
+Command.КомандаВставитьПустаяСсылка.Name=InsertEmptyRefCommand
+Command.КомандаВставитьССЫЛКА.Name=InsertRefCommand
+Item.ГруппаЗначений.Name=ValueGroup
+Item.ГруппаКнопок.Name=ButtonGroup
+Item.ГруппаНижняяПанель.Name=BottomPanelGroup
+Item.ГруппаОсновная.Name=MainGroup
+Item.КнопкаЗакрыть.Name=CloseButton

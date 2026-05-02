@@ -1,0 +1,17 @@
+#Translations for: interface
+
+Attribute.Объект.Title=Object
+Attribute.Список.Title=Tasks
+Attribute.Список.ВыбрасыватьИсключение.Title=Throw exception
+Attribute.Список.ВыполнятьВТранзакции.Title=Execute in transaction
+Attribute.Список.ВыполнятьПоРасписанию.Title=Execute by schedule
+Attribute.Список.ЗаписыватьОшибкиВЖР.Title=Write Flag VZhR
+Attribute.Список.Идентификатор.Title=UUID
+Attribute.Список.ИдентификаторHTTP.Title=HTTP ID
+Attribute.Список.ИдентификаторРегламентногоЗадания.Title=Scheduled job UUID
+Attribute.Список.Комментарий.Title=Comment
+Attribute.Список.Кэшировать.Title=Cache
+Attribute.Список.НаClientе.Title=At client
+Attribute.Список.Наименование.Title=Description
+Attribute.Список.ТекстАлгоритма.Title=Algorithm text
+Command.Перечитать.Title=Reread

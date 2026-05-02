@@ -1,0 +1,17 @@
+#Translations for: model
+
+Attribute.НайденныеОбъекты.Name=FoundObjects
+Attribute.ОбъектОбработки.Name=ObjectData processors
+Attribute.ОбъектПоиска.Name=SearchObject
+Attribute.ПометкаУдаления.Name=CheckRegistration
+Attribute.Родитель.Name=Parent
+Attribute.ТекущаяНастройка.Name=CurrentSetting
+Attribute.ТекущаяНастройкаПредставление.Name=CurrentSettingsPresentation
+Attribute.ТекущаяСтрока.Name=CurrentString
+Command.ВыполнитьКоманду.Handler.Name=ExecuteProcessorCommand
+Command.ВыполнитьКоманду.Name=ExecuteCommand
+Command.СохранитьНастройки.Handler.Name=SaveSettingsCommand
+Command.СохранитьНастройки.Name=SaveSettings
+Item.ВыполнитьОбработку.Name=ExecuteCommand
+Item.ГруппаКнопки.Name=GroupCommand
+Item.ТекущаяНастройка.Name=CurrentSetting

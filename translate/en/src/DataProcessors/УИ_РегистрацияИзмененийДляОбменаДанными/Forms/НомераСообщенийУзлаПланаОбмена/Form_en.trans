@@ -1,0 +1,11 @@
+#Translations for: model
+
+Attribute.ВерсияДанных.Name=ExchangeSchema
+Attribute.НомерОтправленного.Name=NumberSent
+Attribute.НомерПринятого.Name=NumberPrinyatogo
+Attribute.Объект.Name=Object
+Attribute.УзелОбменаСсылка.Name=NodeEncodingRef
+Command.ЗаписатьИзмененияУзла.Name=WriteNodeChanges
+Item.Группа3.Name=Group3
+Item.Группа4.Name=Group4
+Parameter.УзелОбменаСсылка.Name=NodeEncodingRef

@@ -1,0 +1,6 @@
+#Translations for: model
+
+Method.УИ_ПриНачалеРаботыСистемы.Description=@skip-warning
+Method.УИ_ПриНачалеРаботыСистемы.Name=UTOnStartOptionSistemy
+Var.УИ_ПараметрыПриложения.Description=UAnd_ParametersApplication
+Var.УИ_ПараметрыПриложения.Name=UTParametersApplication

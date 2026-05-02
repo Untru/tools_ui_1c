@@ -1,0 +1,5 @@
+#Translations for: interface
+
+Attribute.ВозвращатьТолькоВыбранныеЗначения.Title=Return only selected values
+Attribute.СписокЗначений.Title=Value list
+Command.Применить.Title=Get selection

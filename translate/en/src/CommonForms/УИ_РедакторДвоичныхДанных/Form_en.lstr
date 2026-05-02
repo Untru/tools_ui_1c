@@ -1,0 +1,9 @@
+#Translations for: interface
+
+Attribute.АдресДвоичныхДанных.Title=Destination Module Schema
+Attribute.ВозвратХранилищаДляКонтейнераЗначения.Title=Vozvrat Storage To Suffix Form
+Attribute.Представление.Title=Presentation
+Attribute.Размер.Title=File
+Command.ЗагрузитьИзФайла.Title=Import From Log
+Command.Применить.Title=Get selection
+Command.СохранитьВФайл.Title=Save to file

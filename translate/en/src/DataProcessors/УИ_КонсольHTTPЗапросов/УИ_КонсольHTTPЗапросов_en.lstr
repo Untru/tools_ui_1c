@@ -1,0 +1,7 @@
+#Translations for: interface
+
+Explanation=Allows to make HTTP requests from 1C
+ExtendedPresentation=Console HTTP Extension
+Form.Форма.Synonym=Form
+Form.ФормаПодробнойИнформацииОЗапросе.Synonym=Form podrobnoy Information D zaprose
+Synonym=HTTP Request console [UT]

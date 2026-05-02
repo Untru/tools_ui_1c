@@ -1,0 +1,7 @@
+#Translations for: interface
+
+Attribute.Значение.Title=Value
+Command.ОтменитьИЗакрыть.Title=Cancel
+Command.ОтменитьИЗакрыть.ToolTip=Cancel T Close
+Command.ПрименитьСписокВыбора.Title=Get selection
+Command.ПрименитьСписокВыбора.ToolTip=Get selection Tasks Scale

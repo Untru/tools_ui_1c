@@ -1,0 +1,25 @@
+#Translations for: interface
+
+Attribute.НадписьТекстВыражения.Title=Expression text label
+Attribute.ПередЗаписьюОбъекта.Title=Before write object
+Attribute.ПолеПередЗаписьюОбъекта.Title=Before write object
+Attribute.ПолеПослеДобавленияСтроки.Title=After add row
+Attribute.ПолеПриЗаписиОбъекта.Title=On write object
+Attribute.ПослеДобавленияСтроки.Title=After add row
+Attribute.ПриЗаписиОбъекта.Title=On write object
+Attribute.РежимЗагрузки.Title=Import mode
+Attribute.ТипОбъекта.Title=Object type
+Command.ОК.Title=OK
+Command.ОК.ToolTip=Ok
+Item.ГруппаПанель.Title=Bar group
+Item.ГруппаПанель.ToolTip=Bar group
+Item.ГруппаПанельКоманд.Title=Command bar group
+Item.ГруппаПанельКоманд.ToolTip=Group Bar Commands
+Item.ГруппаПередЗаписьюОбъекта.Title=Before write object
+Item.ГруппаПередЗаписьюОбъекта.ToolTip=Group Before Write Form
+Item.ГруппаПослеДобавленияСтроки.Title=After add row
+Item.ГруппаПослеДобавленияСтроки.ToolTip=Group After Add Trailing
+Item.ГруппаПриЗаписиОбъекта.Title=On write object
+Item.ГруппаПриЗаписиОбъекта.ToolTip=Group On Records Form
+Item.Закрыть.Title=Cancel
+Title=Edit expression

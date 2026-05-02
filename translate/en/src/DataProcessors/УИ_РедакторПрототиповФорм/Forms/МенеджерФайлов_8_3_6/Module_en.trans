@@ -1,0 +1,27 @@
+#Translations for: model
+
+Method.ЗагрузитьФайл.Name=ImportFile
+Method.ЗагрузитьФайл.Param.ВыполняемоеОповещение.Name=LoadFile
+Method.ЗагрузитьФайл.Param.Интерактивно.Name=Interactively
+Method.ЗагрузитьФайл.Param.РасположениеФайла.Name=FileLog
+Method.ЗагрузитьФайл.String.ВыполняемоеОповещение.Key=LoadFile
+Method.ЗагрузитьФайл.Var.ДополнительныеПараметры.Name=AdditionalParameters
+Method.ЗагрузитьФайлЗавершение.Name=ImportFileEnd
+Method.ЗагрузитьФайлЗавершение.Param.Адрес.Name=Destination
+Method.ЗагрузитьФайлЗавершение.Param.ВыбранноеИмяФайла.Name=VybrannoeNameLog
+Method.ЗагрузитьФайлЗавершение.Param.ДополнительныеПараметры.Name=AdditionalParameters
+Method.ЗагрузитьФайлЗавершение.Param.Результат.Name=Result
+Method.СохранитьФайл.Name=SaveFile
+Method.СохранитьФайл.Param.АдресФайлаВХранилище.Name=DestinationLogInStorage
+Method.СохранитьФайл.Param.Интерактивно.Name=Interactively
+Method.СохранитьФайл.Param.ОписаниеОповещения.Name=SaveFile
+Method.СохранитьФайл.Param.РасположениеФайла.Name=FileLog
+Method.СохранитьФайл.Var.НовыйФайл.Name=NewFile
+Method.СохранитьФайл.Var.ПолучаемыеФайлы.Name=PoluchaemyeFiles
+Method.СохранитьФайлЗавершение.Comment.Заглушка.Description=Zaglushka
+Method.СохранитьФайлЗавершение.Description=@skip-warning
+Method.СохранитьФайлЗавершение.Name=SaveFileCompletion
+Method.СохранитьФайлЗавершение.Param.ДополнительныеПараметры.Name=AdditionalParameters
+Method.СохранитьФайлЗавершение.Param.ПолученныеФайлы.Name=PoluchennyeFiles
+Region.ПрограммныйИнтерфейс.Name=API
+Region.ПрограммныйИнтерфейс.СлужебныеПроцедурыИФункции.Name=SluzhebnyeProceduresTFunctions

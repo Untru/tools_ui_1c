@@ -1,0 +1,7 @@
+#Translations for: interface
+
+Attribute.ДанныеВыбора.Title=Data Scale
+Command.ОтменитьИЗакрыть.Title=Cancel
+Command.ОтменитьИЗакрыть.ToolTip=Cancel T Close
+Command.ПрименитьДанныеВыбора.Title=Get selection
+Command.ПрименитьДанныеВыбора.ToolTip=Get selection Data Scale

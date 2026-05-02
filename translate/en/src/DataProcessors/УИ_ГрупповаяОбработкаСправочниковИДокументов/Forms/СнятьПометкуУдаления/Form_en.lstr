@@ -1,0 +1,18 @@
+#Translations for: interface
+
+Attribute.НайденныеОбъекты.Title=Found objects
+Attribute.ОбъектОбработки.Title=Object
+Attribute.ОбъектПоиска.Title=Search object
+Attribute.ПометкаУдаления.Title=Deletion mark
+Attribute.Родитель.Title=Parent
+Attribute.ТекущаяНастройка.Title=Current setting
+Attribute.ТекущаяНастройкаПредставление.Title=Current setting representation
+Attribute.ТекущаяСтрока.Title=Current row
+Command.ВыполнитьКоманду.Title=Execute
+Command.ВыполнитьКоманду.ToolTip=Execute Common
+Command.СохранитьНастройки.Title=Save settings
+Command.СохранитьНастройки.ToolTip=Save settings
+Item.ГруппаКнопки.Title=Buttons group
+Item.ГруппаКнопки.ToolTip=Buttons group
+Item.ТекущаяНастройка.Title=Current setting
+Title=Unmark deletion

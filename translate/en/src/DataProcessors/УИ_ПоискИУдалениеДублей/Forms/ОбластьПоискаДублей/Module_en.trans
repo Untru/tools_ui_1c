@@ -1,0 +1,18 @@
+#Translations for: model
+
+Description=Copyright (c) 2019, OOO 1S-Soft\nVse Tools zashchishcheny. Eta programma T soprovoditelnye materialy predostavlyayutsya\nv sootvetstvii C usloviyami Activation Attribution 4.0 International (CC BY 4.0)\nTekst Activation Available By Ref\:\nhttps\://creativecommons.org/Licenses/by/4.0/legalcode\n
+Method.ИнициализироватьСписокОбластейПоискаДублей.Name=InitializeSearchForDuplicatesAreasList
+Method.ИнициализироватьСписокОбластейПоискаДублей.Var.СтрокаТаблицы.Name=StringTable
+Method.ИнициализироватьСписокОбластейПоискаДублей.Var.ТаблицаНастроек.Name=TableManager
+Method.ИнициализироватьСписокОбластейПоискаДублей.Var.Элемент.Name=Item
+Method.ПриСозданииНаServerе.String.АдресНастроек.Key=OnCreateOnServerE
+Method.ПриСозданииНаServerе.String.ОбластьПоискаДублей.Key=OblastPoiskaDubley
+Method.ПроизвестиВыбор.Comment.Не\ было\ изменений.Description=Dont bylo Changes
+Method.ПроизвестиВыбор.Name=MakeChoice
+Method.ПроизвестиВыбор.Param.ИдентификаторСтроки.Name=UUIDTrailing
+Method.ПроизвестиВыбор.Var.Элемент.Name=Item
+Region.ОбработчикиСобытийФормы.Description=HandlersEventsForm
+Region.ОбработчикиСобытийФормы.Name=ReadEventForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.Name=ReadEventItemsShapkiForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.ОбработчикиКомандФормы.Name=ReadCommandsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Name=SluzhebnyeProceduresTFunctions

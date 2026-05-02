@@ -1,0 +1,6 @@
+#Translations for: model
+
+Method.ПолеHTMLПостроеноНаWebkit.Name=HTMLFieldBasedOnWebkit
+Method.СсылкиПоИменамПредопределенных.Name=RefsByPredefinedItemsNames
+Method.СсылкиПоИменамПредопределенных.Param.ПолноеИмяОбъектаМетаданных.Name=PanelNameFormPath
+Method.ТипыОбъектовДоступныйДляРедактораОбъектовБазыДанных.Name=DataBaseObjectEditorAvailableObjectsTypes

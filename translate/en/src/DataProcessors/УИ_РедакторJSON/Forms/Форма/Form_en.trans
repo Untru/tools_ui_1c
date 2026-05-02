@@ -1,0 +1,22 @@
+#Translations for: model
+
+Attribute.АдресБиблиотеки.Name=DestinationAddress
+Attribute.ИмяФайлаДанныхИнструмента.Name=NameLogSchemaChoosing
+Attribute.КаталогСохраненияБибилиотеки.Name=TechSettingsBibilioteki
+Attribute.Объект.Name=Object
+Attribute.ПолеРедактораДерево.Name=FieldFormTree
+Attribute.ПолеРедактораСтрока.Name=FieldFormString
+Attribute.РедактируемаяСтрока.Name=RedaktiruemayaString
+Attribute.РежимРедактирования.Name=ModeLink
+Command.ЗавершитьРедактирование.Name=FinishEditing
+Command.ЗакрытьИнструмент.Name=CloseTool
+Command.НовыйФайл.Name=NewFile
+Command.ОткрытьФайл.Name=OpenFile
+Command.СкопироватьИзДереваВСтроку.Name=CopyFromTreeToLine
+Command.СкопироватьИзСтрокиВДерево.Name=CopyFromLineToTree
+Command.СохранитьФайл.Name=SaveFile
+Command.СохранитьФайлКак.Name=SaveFileAs
+Item.ГруппаКомандыМеждуРедакторами.Name=GroupOfCommandsBetweenEditors
+Item.ГруппаОсновная.Name=MainGroup
+Item.ПолеРедактораДерево.Event.DocumentComplete.Name=TreeEditField
+Item.ФормаГруппаФайл.Name=FileGroup

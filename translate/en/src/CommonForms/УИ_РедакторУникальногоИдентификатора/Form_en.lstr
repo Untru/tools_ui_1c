@@ -1,0 +1,17 @@
+#Translations for: interface
+
+Attribute.Ссылка.Title=Ref
+Attribute.СтрокаУникальныйИдентификатор.Title=UUID
+Command.КомандаНайти.Title=Find command
+Command.КомандаНайти.ToolTip=Find command
+Command.КомандаОК.Title=OK command
+Command.КомандаОК.ToolTip=OK command
+Command.Сгенерировать.Title=Sgenerirovat
+Item.ГруппаИДИСсылка.Title=UUIDRef group
+Item.ГруппаИДИСсылка.ToolTip=UUIDRef group
+Item.ГруппаОсновная.Title=Main group
+Item.ГруппаОсновная.ToolTip=Main group
+Item.ГруппаУникальныйИдентификатор.Title=UUID group
+Item.ГруппаУникальныйИдентификатор.ToolTip=UUID group
+Item.КомандаОК.Title=Get selection
+Title=UUID

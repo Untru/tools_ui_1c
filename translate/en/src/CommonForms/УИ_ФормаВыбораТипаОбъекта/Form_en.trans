@@ -1,0 +1,12 @@
+#Translations for: model
+
+Attribute._ПереченьРазделов.Name=SpecialRazdelov
+Attribute._ПоказыватьПеречисления.Name=ShowName
+Attribute._ПоказыватьПростыеТипы.Name=ShowProstyeKey
+Attribute._ТипыДляКонсолиЗапросов.Name=KeyToConsoleExtension
+Attribute.ДеревоОбъектов.Name=TreeWriting
+Attribute.ДеревоОбъектов.Имя.Name=Name
+Attribute.ДеревоОбъектов.Картинка.Name=Picture
+Attribute.ДеревоОбъектов.ПолноеИмя.Name=PanelName
+Attribute.ДеревоОбъектов.Синоним.Name=Sinonim
+Command.ВыбратьОбъект.Name=SelectObject

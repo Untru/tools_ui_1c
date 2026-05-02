@@ -1,0 +1,15 @@
+#Translations for: model
+
+Attribute.Объект.Name=Object
+Attribute.СписокНастроек.Name=TasksManager
+Attribute.СписокНастроек.Значение.Name=Value
+Attribute.СписокНастроек.Пометка.Name=Check
+Attribute.СписокНастроек.Представление.Name=Presentation
+Command.ОК.Handler.Name=OK
+Command.ОК.Name=OK
+Command.Отмена.Handler.Name=Cancel
+Command.Отмена.Name=Cancel
+Command.Удалить.Handler.Name=Delete
+Command.Удалить.Name=Delete
+Item.ГруппаКнопки.Name=ButtonsGroup
+Item.ГруппаПоля.Name=FieldsGroup

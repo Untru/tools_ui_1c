@@ -1,0 +1,19 @@
+#Translations for: interface
+
+Attribute.ПоказыватьСиноним.Title=Show Synonym
+Attribute.СтрокаПоиска.Title=Search string
+Attribute.ТаблицаКонстант.Title=Constants Table
+Attribute.ТаблицаКонстант.ЗначениеКонстанты.Title=Value
+Attribute.ТаблицаКонстант.Изменено.Title=Izmeneno
+Attribute.ТаблицаКонстант.ИмяКонстанты.Title=Name
+Attribute.ТаблицаКонстант.Найдено.Title=Step
+Attribute.ТаблицаКонстант.ОписаниеТипов.Title=Type
+Attribute.ТаблицаКонстант.ПривилегированныйРежимПриПолучении.Title=Privilegirovannyy Mode
+Attribute.ТаблицаКонстант.СинонимКонстанты.Title=Sinonim
+Attribute.ТаблицаКонстант.ФОпция.Title=F.Algorithm
+Command.Записать.Title=Write
+Command.Записать.ToolTip=Write
+Command.Перечитать.Title=Reread
+Item.ГруппаДополнительнаяИнформацияТекущейКонстанты.Title=Group1
+Item.ГруппаПараметрыЗаписи.CollapsedRepresentationTitle=Write parameters
+Item.ГруппаПараметрыЗаписи.Title=Group write parametrs

@@ -1,0 +1,21 @@
+#Translations for: model
+
+Comment=Gorizontalnyy prototip
+Form.ВводСпискаЗначений.Name=InputDialogTable
+Form.ВводСтроки.Name=InputTrailing
+Form.ВводЧисла.Name=InputGroup
+Form.ВыборКартинки.Name=SelectPictures
+Form.ВыборФормы.Name=SelectForm
+Form.ДанныеВыбораСвойства.Name=DataScaleProperties
+Form.МенеджерНаборовЗначений.Name=ManagerCTable
+Form.МенеджерПрототипов.Name=ManagerPrototipov
+Form.МенеджерФайлов_8_3_15.Name=ManagerCollection8315
+Form.МенеджерФайлов_8_3_6.Name=ManagerCollection836
+Form.НастройкиИнструмента.Name=SettingsChoosing
+Form.Основная.Name=Main
+Form.Прототип.Name=Prototip
+Name=UTDPrototipovForm
+Template.Свойства.Name=Properties
+Template.СвойстваФормИЭлементовУправления.Name=PropertiesFormTItemsItems
+Template.СвойстваФормИЭлементовУправленияЭлементы.Name=PropertiesFormTItemsItemsItems
+Template.ФормыИЭлементыУправления.Name=FormTItemsItems

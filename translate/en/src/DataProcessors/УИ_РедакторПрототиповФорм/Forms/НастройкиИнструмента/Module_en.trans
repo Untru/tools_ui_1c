@@ -1,0 +1,12 @@
+#Translations for: model
+
+Method.ПриСозданииНаServerе.Var.СписокСвойств.Name=TasksForm
+Method.ПриСозданииНаServerе.Var.СписокСвойств.String.ЗагружатьСвойстваИзФайла.Key=OnCreateOnServerE
+Method.ПриСозданииНаServerе.Var.СписокСвойств.String.РежимРедактированияСвойств.Key=OnCreateOnServerE
+Method.ПрименитьНастройкиПроекта.String.АктивироватьТекущийЭлементВПрототипе.Key=ApplySettingsProject
+Method.ПрименитьНастройкиПроекта.String.ЗагружатьСвойстваИзФайла.Key=ApplySettingsProject
+Method.ПрименитьНастройкиПроекта.String.РежимРедактированияСвойств.Key=ApplySettingsProject
+Method.ПрименитьНастройкиПроекта.Var.ИсходнаяСтруктура.Name=IskhodnayaStructure
+Method.ПрименитьНастройкиПроекта.Var.Результат.Name=Result
+Region.ОбработчикиСобытийФормы.Name=ReadEventForm
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.Name=ReadCommandsForm

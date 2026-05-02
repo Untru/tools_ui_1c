@@ -1,0 +1,9 @@
+#Translations for: interface
+
+Attribute.РежимВставки.Title=Mode vstavki
+Attribute.Ссылка.Title=Ref
+Command.ВставитьИзБуфераОбмена.Title=Insert From bufera Encoding
+Command.ПерейтиПоСсылке.Title=Goto By Ref
+Command.СкопироватьВБуфер.Title=Copy In Buffer
+Item.ГруппаКоманднаяПанельСсылкиСправа.Title=Group1
+Item.КопированиеСсылки.Title=Group1

@@ -1,0 +1,21 @@
+#Translations for: interface
+
+Attribute.ОбрабатыватьТабличныеЧасти.Synonym=Process tabular parts
+Attribute.РежимПоиска.Synonym=Search mode
+Attribute.ТипОбъекта.Synonym=Object type
+ExtendedPresentation=Group Mode Catalogs T Documents
+Form.ИзменитьВремяДокументов.Synonym=Change time documents
+Form.ИзменитьСуммуОперации.Synonym=Change amount operation
+Form.ОтменитьПроведениеДокументов.Synonym=Cancel posting documents
+Form.ПеренумерацияОбъектов.Synonym=Renumbering objects
+Form.ПодборИОбработка.Synonym=Form of selection and processing of objects
+Form.ПометитьНаУдаление.Synonym=Mark to delete
+Form.ПровестиДокументы.Synonym=Post the documents
+Form.ПроизвольныйАлгоритм.Synonym=Arbitrary algorithm
+Form.СнятьПометкуУдаления.Synonym=Unmark deletion
+Form.Удалить.Synonym=Delete
+Form.УстановкаРеквизитов.Synonym=Setting attributes
+Form.ФормаВыбораТаблиц.Synonym=Form selection tables
+Form.ФормаОтбора.Synonym=Form selection
+Form.ШаблонОбработки.Synonym=Template processing
+Synonym=Group processing catalogs and documents

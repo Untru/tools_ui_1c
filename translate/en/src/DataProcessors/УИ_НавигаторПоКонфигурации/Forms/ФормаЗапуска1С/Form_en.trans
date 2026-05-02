@@ -1,0 +1,14 @@
+#Translations for: model
+
+Attribute.БазаДанных.Name=InfobaseSchema
+Attribute.ДопПараметры.Name=add.Parameters
+Attribute.Объект.Name=Object
+Attribute.РежимЗапуска.Name=ModeData
+Attribute.Server.Name=Files on server
+Attribute.Стартер1С.Name=Starter 1C
+Attribute.СтрокаКоманды.Name=StringCommands
+Command.Запустить1С.Name=Run1C
+Command.СформироватьСтрокуКоманды.Name=GenerateCommandLine
+Item.Декорация1.Name=Decoration1
+Item.Декорация2.Name=Decoration2
+Item.ПараметрыЗапуска.Name=RunParameters

@@ -1,0 +1,24 @@
+#Translations for: model
+
+Attribute.ДополнительныеСвойства.Name=AdditionalProperties
+Attribute.ЗамещатьСуществующиеЗаписи.Name=ReplaceExistingRecords
+Attribute.ИмяВидаРегистра.Name=RegisterTypeName
+Attribute.НеСоздаватьНовыхЭлементов.Name=DontCreateNewItems
+Attribute.ПерваяСтрокаДанныхТабличногоДокумента.Name=SpreadsheetDocumentFirstDataRow
+Attribute.ПередЗаписьюОбъекта.Name=BeforeWriteObject
+Attribute.ПослеДобавленияСтроки.Name=AfterAddRow
+Attribute.ПриЗаписиОбъекта.Name=OnWriteObject
+Attribute.РежимЗагрузки.Name=ImportMode
+Attribute.РучнаяНумерацияКолонокТабличногоДокумента.Name=ManualSpreadsheetDocumentColumnsNumeration
+Attribute.СсылкаИсточника.Name=SourceRef
+Attribute.ТабличнаяЧастьИсточника.Name=SourceTabularSection
+Attribute.ТипОбъектаСправочника.Name=CatalogObjectType
+Comment=Perepisyvaem Processor pochti zanovo, no C bolshim zaimstvovaniem Console From standartnoy Data processors To tolstogo Client
+Form.Форма.Name=Form
+Form.ФормаВыбораНастройки.Name=SelectSettingForm
+Form.ФормаРедактированияВыражения.Name=EditExpressionForm
+Form.ФормаРедактированияСвязи.Name=EditLinkForm
+Form.ФормаРедактированияСобытий.Name=EditEventsForm
+Form.ФормаСохраненияНастройки.Name=SaveSettingForm
+Name=UT_ImportDataFromSpreadsheetDocument
+Template.МакетСохраненияНастроек.Name=SaveSettingsTemplate

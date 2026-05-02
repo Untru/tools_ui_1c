@@ -1,0 +1,9 @@
+#Translations for: model
+
+Attribute._ЧислоЗаписей.Name=NumberAttributes
+Attribute.ТаблицаДанных.Name=TableSchema
+Command.КомандаЗакрыть.Name=CommandClose
+Command.КомандаОК.Name=OKCommand
+Command.КомандаОчиститьТаблицу.Name=CommandClearTable
+Parameter.Заголовок.Name=Title
+Parameter.ТаблицаДанных.Name=TableSchema

@@ -1,0 +1,23 @@
+#Translations for: model
+
+Attribute.email.Name=email
+Attribute.Город.Name=Town
+Attribute.Дом.Name=House
+Attribute.Имя.Name=Name
+Attribute.Индекс.Name=ZIP
+Attribute.Квартира.Name=Apartment
+Attribute.Компания.Name=Organization
+Attribute.НомерЛицензии.Name=LicenseNumber
+Attribute.Объект.Name=Object
+Attribute.Отчество.Name=MiddleName
+Attribute.ПинКод.Name=PinCode
+Attribute.ПредыдущийПинКод.Name=PreviousPinCode
+Attribute.Район.Name=District
+Attribute.Регион.Name=Region
+Attribute.Страна.Name=Country
+Attribute.Строение.Name=Building
+Attribute.Улица.Name=Street
+Attribute.Фамилия.Name=LastName
+Command.Активировать.Name=CommandActivate
+Item.ГруппаВладелецЛицензии.Name=GroupLicenseOwner
+Item.ГруппаЛицензия.Name=GroupLicense

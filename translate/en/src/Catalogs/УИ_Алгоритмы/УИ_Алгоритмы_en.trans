@@ -1,0 +1,23 @@
+#Translations for: model
+
+Attribute.ВыбрасыватьИсключение.Name=ThrowException
+Attribute.ВыполнятьВТранзакции.Name=ExecuteInTransaction
+Attribute.ВыполнятьПоРасписанию.Name=ExecuteBySchedule
+Attribute.ЗаписыватьОшибкиВЖР.Name=WriteErrorsToEventLog
+Attribute.ИдентификаторHTTP.Name=HttpID
+Attribute.ИдентификаторРегламентногоЗадания.Name=ScheduledJobUUID
+Attribute.Комментарий.Name=Comment
+Attribute.Кэшировать.Name=Sache
+Attribute.НаClientе.Name=AtClient
+Attribute.ТекстАлгоритма.Name=AlgorithmText
+Attribute.Хранилище.Name=Storage
+Form.ФормаПараметра.Name=ParameterForm
+Form.ФормаРедактора.Name=EditorForm
+Form.ФормаСписка.Name=FormDialog
+Form.ФормаЭлемента.Name=ItemForm
+Name=UT_Algorithms
+TabularSection.Параметры.Attribute.Вход.Name=Entry
+TabularSection.Параметры.Attribute.Имя.Name=Name
+TabularSection.Параметры.Attribute.ПоУмолчанию.Name=ByDefault
+TabularSection.Параметры.Attribute.ТипПараметра.Name=ParameterType
+TabularSection.Параметры.Name=Parameters

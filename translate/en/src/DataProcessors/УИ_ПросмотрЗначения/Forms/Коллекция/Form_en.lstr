@@ -1,0 +1,21 @@
+#Translations for: interface
+
+Attribute.ВозможенДоступКЭлементуКоллекцииПоИндексу.Title=Vozmozhen Access S elementu Collection By indeksu
+Attribute.ВходящееЗначениеКонтейнер.Title=Vkhodyashchee Value Group
+Attribute.Выражение.Title=Expression
+Attribute.ИменаСвойствКоллекции.Title=Rule Form Collection
+Attribute.КоличествоЭлементов.Title=Processed Items
+Attribute.КонтекстClientа.Title=Context Client
+Attribute.ПредставлениеТипа.Title=Presentation Type
+Attribute.ТаблицаКоллекции.Title=Table Collection
+Attribute.ТаблицаКоллекции.ВидКонтейнера.Title=Type Suffix
+Attribute.ТаблицаКоллекции.ЗначениеЕстьОшибка.Title=Value Has Step
+Attribute.ТаблицаКоллекции.ЗначениеКонтейнер.Title=Value Group
+Attribute.ТаблицаКоллекции.ЗначениеОписаниеОшибки.Title=Value Description Flag
+Attribute.ТаблицаКоллекции.ЗначениеПредставление.Title=Value
+Attribute.ТаблицаКоллекции.ЗначениеТипЗначения.Title=Value Type Form
+Attribute.ТаблицаКоллекции.ЗначениеТипЗначенияПредставление.Title=Type Name
+Attribute.ТаблицаКоллекции.ИмяОбъектаМетаданных.Title=Metadata object name
+Attribute.ТаблицаКоллекции.Индекс.Title=ZIP
+Command.ПоказатьВОтдельномОкне.Title=Show In otdelnom Window
+Item.ГруппаШапкаТаблицы.Title=Group1

@@ -1,0 +1,30 @@
+#Translations for: model
+
+Attribute.НайденныеОбъекты.Name=FoundObjects
+Attribute.НайденныеОбъекты.Выбрать.Name=Select
+Attribute.НайденныеОбъекты.Объект.Name=Object
+Attribute.НайденныеОбъекты.Т_НомерСтроки.Name=ConfigNumberTrailing
+Attribute.НайденныеОбъекты.Т_ТЧ.Name=ConfigConfigP
+Attribute.ОбрабатыватьТабличныеЧасти.Name=ProcessTabularParts
+Attribute.ОбъектОбработки.Name=ObjectData processors
+Attribute.ОбъектПоиска.Name=SearchObject
+Attribute.Реквизиты.Name=Attributes
+Attribute.Реквизиты.Выбрать.Name=Select
+Attribute.Реквизиты.Значение.Name=Value
+Attribute.Реквизиты.Идентификатор.Name=UUID
+Attribute.Реквизиты.Реквизит.Name=Attribute
+Attribute.Реквизиты.РеквизитТЧ.Name=AttributeConfigP
+Attribute.Реквизиты.Тип.Name=Type
+Attribute.Родитель.Name=Parent
+Attribute.ТекущаяНастройка.Name=CurrentSetting
+Attribute.ТекущаяНастройкаПредставление.Name=CurrentSettingsPresentation
+Attribute.ТекущаяСтрока.Name=CurrentString
+Command.ВыбратьВсе.Name=CheckAll
+Command.ВыполнитьКоманду.Handler.Name=ExecuteProcessorCommand
+Command.ВыполнитьКоманду.Name=ExecuteCommand
+Command.ОтменитьВыбор.Name=CancelSelect
+Command.СохранитьНастройки.Handler.Name=CooseAll
+Command.СохранитьНастройки.Name=CooseAll
+Item.ВыполнитьОбработку.Name=ExecuteCommand
+Item.ГруппаКнопки.Name=GroupCommand
+Item.ТекущаяНастройка.Name=CurrentSetting

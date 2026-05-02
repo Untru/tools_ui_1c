@@ -1,0 +1,15 @@
+#Translations for: model
+
+Attribute.КартинкиИзБиблиотеки.Name=PicturesFromAddress
+Attribute.КартинкиИзКаталогаПроекта.Name=PicturesFromCompletionProekta
+Attribute.КартинкиИзКонфигурации.Name=PicturesFromL
+Command.ОтменитьИЗакрыть.Name=CancelTClose
+Command.ПрименитьКартинку.Name=Get selectionPicture
+Item.ГруппаИзБиблиотеки.Name=GroupFromAddress
+Item.ГруппаИзКаталога.Name=GroupFromCompletion
+Item.ГруппаИзКонфигурации.Name=GroupFromL
+Item.ГруппаИсточникиКартинок.Name=GroupDPictures
+Item.ГруппаКоманды.Name=CommandsGroup
+Item.КартинкиИзБиблиотекиПредставление.Name=PicturesFromAddressPresentation
+Item.КартинкиИзКаталогаПроектаПредставление.Name=PicturesFromCompletionProektaPresentation
+Item.КартинкиИзКонфигурацииПредставление.Name=PicturesFromLPresentation

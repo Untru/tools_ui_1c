@@ -1,0 +1,20 @@
+#Translations for: model
+
+Method.ИзменитьПараметр.Name=EditParameter
+Method.ИзменитьПараметр.Param.ВходящееЗначение.Name=ChangeParameter
+Method.ИзменитьПараметр.Param.Ключ.Name=Key
+Method.ИзменитьПараметр.Var.ПараметрыХранилища.Name=ParametersStorage
+Method.ПереименоватьПараметр.Name=RenameParameter
+Method.ПереименоватьПараметр.Param.Ключ.Name=Key
+Method.ПереименоватьПараметр.Param.НовИмя.Name=NovName
+Method.ПереименоватьПараметр.Var.Значение.Name=Value
+Method.ПереименоватьПараметр.Var.ПараметрыХранилища.Name=ParametersStorage
+Method.ПолучитьПараметр.Name=GetParameter
+Method.ПолучитьПараметр.Param.НаименованиеПараметра.Name=DescriptionValue
+Method.ПолучитьПараметр.Var.ПараметрыХранилища.Name=ParametersStorage
+Method.ПолучитьПараметры.Name=GetParameters
+Method.ПолучитьПараметры.Var.ПараметрыХранилища.Name=ParametersStorage
+Method.УдалитьПараметр.Name=RemoveParameter
+Method.УдалитьПараметр.Param.Ключ.Name=Key
+Method.УдалитьПараметр.Var.ПараметрыХранилища.Name=ParametersStorage
+Region.СлужебныйПрограммныйИнтерфейс.Name=ServiceProgramInterface

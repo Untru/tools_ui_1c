@@ -1,0 +1,11 @@
+#Translations for: model
+
+Attribute.РежимВставки.Name=ModeVstavki
+Attribute.Ссылка.Name=Ref
+Command.ВставитьИзБуфераОбмена.Name=InsertFromBuferaEncoding
+Command.Загрузить.Name=Import
+Command.ПерейтиПоСсылке.Name=GotoByRef
+Command.СкопироватьВБуфер.Name=CopyInBuffer
+Item.ГруппаКоманднаяПанельСсылкиСправа.Name=GroupCommandBarReferencesSpaces
+Item.КопированиеСсылки.Name=KopirovanieReferences
+Item.СсылкаДляКопирования.Name=RefForCopy

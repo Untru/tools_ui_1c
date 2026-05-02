@@ -1,0 +1,10 @@
+#Translations for: interface
+
+Attribute.ИдентификаторЗадания.Title=Scheduled job ID
+Attribute.Статус.Title=Status
+Attribute.ТекстСообщения.Title=Text Setting
+Command.Отмена.Title=Cancel
+Command.Отмена.ToolTip=Cancel
+Item.ДекорацияДлительнаяОперация.Title=Time consuming operation page
+Item.ДекорацияПоясняющийТекстДлительнойОперации.Title=Please wait ...
+Item.КартинкаИНадпись.Title=Picture and label

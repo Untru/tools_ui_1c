@@ -1,0 +1,6 @@
+#Translations for: model
+
+Form.ФормаОбъекта.Name=ObjectForm
+Form.ФормаРедакторДвижений.Name=RecordsEditorForm
+Form.ФормаРедакторДвиженийДоп.Name=RecordsEditorAdditionalForm
+Name=UT_ObjectsAttributesEditor

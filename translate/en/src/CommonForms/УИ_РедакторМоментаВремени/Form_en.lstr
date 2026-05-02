@@ -1,0 +1,5 @@
+#Translations for: interface
+
+Attribute.Дата.Title=Date
+Attribute.Ссылка.Title=Ref
+Command.Применить.Title=Get selection

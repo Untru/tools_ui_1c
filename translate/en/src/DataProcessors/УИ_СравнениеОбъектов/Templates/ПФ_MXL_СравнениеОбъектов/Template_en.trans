@@ -1,0 +1,9 @@
+#Translations for: model
+
+Named.Значение.Key=Parameter
+Named.Объект.Key=Recalculation
+Named.Реквизит.Key=Attribute
+Row.2.Cell.1.DetailParameter=Attribute
+Row.2.Cell.1.Parameter=Attribute
+Row.2.Cell.2.DetailParameter=Value
+Row.2.Cell.2.Parameter=Value

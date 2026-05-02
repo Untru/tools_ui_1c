@@ -1,0 +1,9 @@
+#Translations for: interface
+
+Attribute.ИмяФайлаНаServerе.Title=File name at server
+Attribute.ОтладкаВключена.Title=Debug enabled
+Attribute.ЭтоОтчет.Title=Is report
+Command.Применить.Title=Get selection
+Item.ИмяФайлаНаServerе.ToolTip=File dolzhen byt Available To Server. 
+Item.ОтладкаВключена.EditFormat=BF\=Disabled; BT\=Enabled
+Item.ОтладкаВключена.Title=State Managed

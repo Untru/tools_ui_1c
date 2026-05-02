@@ -1,0 +1,56 @@
+#Translations for: interface
+
+Attribute.ВозвратХранилищаДляКонтейнераЗначения.Title=Vozvrat Storage To Suffix Form
+Attribute.ВыбранныеТипы.Title=Selected types
+Attribute.ДеревоТипов.Title=Type tree
+Attribute.ДеревоТипов.Выбран.Title=Vybran
+Attribute.ДеревоТипов.Групповой.Title=Gruppovoy
+Attribute.ДеревоТипов.Имя.Title=Name
+Attribute.ДеревоТипов.Картинка.Title=Picture
+Attribute.ДеревоТипов.НедоступенДляСоставногоТипа.Title=Unavailable To sostavnogo Type
+Attribute.ДеревоТипов.Представление.Title=Presentation
+Attribute.ДеревоТипов.ЭтоГруппа.Title=Is Group
+Attribute.ДлинаСтроки.Title=String length
+Attribute.ДлинаЧисла.Title=Length
+Attribute.ДопустамаяДлинаСтрокиФиксированная.Title=Acceptable fixed string length
+Attribute.ДоступенСоставнойТип.Title=Composite data type available
+Attribute.ДоступныеНаборыТипов.Title=Available Data Available
+Attribute.ИспользоватьДинамическийСписокДляВыбораСсылочногоЗначения.Title=Use dynamic list for referential value selection
+Attribute.НаборТипов.Title=Type set
+Attribute.НеограниченнаяДлинаСтроки.Title=Unlimited string length
+Attribute.НеотрицательноеЧисло.Title=Nonnegative number
+Attribute.ОграничениеТипа.Title=Parameter Type
+Attribute.РежимВыбора.Title=Choice mode
+Attribute.СоставДаты.Title=Date content
+Attribute.СоставНачальногоОписанияТипов.Title=Composition nachalnogo L Available
+Attribute.СоставНачальногоОписанияТипов.Идентификатор.Title=UUID
+Attribute.СоставНачальногоОписанияТипов.ИдентификаторОчищенный.Title=UUID ochishchennyy
+Attribute.СоставНачальногоОписанияТипов.ИдентификаторТипаКонфигурацииДляПоиска.Title=UUID Type L To Rules
+Attribute.СоставНачальногоОписанияТипов.ЭтоНабор.Title=Is Data
+Attribute.СоставНачальногоОписанияТипов.ЭтоТипКонфигурации.Title=Is Type L
+Attribute.СоставнойТип.Title=Composite type
+Attribute.СтрокаПоиска.Title=Search string
+Attribute.ТипКонтейнераЗначения.Title=Type Suffix Form
+Attribute.ТочностьЧисла.Title=Precision
+Command.Применить.Title=Get selection
+Command.Применить.ToolTip=Get selection
+Item.ГруппаВыбораФормыВыбораСсылочногоЗначения.Title=Group
+Item.ГруппаКвалификаторДаты.Title=Group date qualifier
+Item.ГруппаКвалификаторДаты.ToolTip=Group date qualifier
+Item.ГруппаКвалификаторСтроки.Title=Group string qualifier
+Item.ГруппаКвалификаторСтроки.ToolTip=Group string qualifier
+Item.ГруппаКвалификаторЧисла.Title=Group number qualifier
+Item.ГруппаКвалификаторЧисла.ToolTip=Group number qualifier
+Item.ДеревоТиповГруппаКолонка.Title=Types tree column group
+Item.ДеревоТиповСтрокаПоиска.Title=rrrrar
+Item.ДлинаСтроки.Title=Length
+Item.ДлинаЧисла.Title=Length
+Item.ДопустамаяДлинаСтрокиФиксированная.EditFormat=BF\=Variable; BT\=Fixed
+Item.ИспользоватьДинамическийСписокДляВыбораСсылочногоЗначения.EditFormat=BF\='Standard form'; BT\='Dynamic list'
+Item.ИспользоватьДинамическийСписокДляВыбораСсылочногоЗначения.Title=Referential value choice form
+Item.НеограниченнаяДлинаСтроки.Title=Neogranichennaya
+Item.СоставДаты.ChoiceList.0.Presentation=Date
+Item.СоставДаты.ChoiceList.1.Presentation=Time
+Item.СоставДаты.ChoiceList.2.Presentation=Date T Time
+Item.СоставДаты.Title=Composition
+Title=Edit type

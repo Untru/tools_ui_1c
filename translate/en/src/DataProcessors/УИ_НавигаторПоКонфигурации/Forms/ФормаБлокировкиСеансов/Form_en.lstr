@@ -1,0 +1,15 @@
+#Translations for: interface
+
+Attribute.КодРазрешения.Title=Key sode
+Attribute.Конец.Title=End
+Attribute.Начало.Title=Begin
+Attribute.Сообщение.Title=Message
+Attribute.Установлена.Title=Use
+Command.кУстановитьБлокировкуСеансов.Title=K set sessions lock
+Command.кУстановитьБлокировкуСеансов.ToolTip=K set sessions lock
+Item.КодРазрешения.ToolTip=ispolzuetsya On zapuske C klyuchom /UC
+Item.Конец.EditFormat=DF\='dd.MM.yyyy HH\:mm\:ss'
+Item.Начало.EditFormat=DF\='dd.MM.yyyy HH\:mm\:ss'
+Item.ПараметрыБлокировки.Title=Sessions lock parameters
+Item.ПараметрыБлокировки.ToolTip=Sessions lock parameters
+Title=Lock Form Data

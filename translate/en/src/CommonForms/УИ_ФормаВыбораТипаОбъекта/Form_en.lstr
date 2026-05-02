@@ -1,0 +1,14 @@
+#Translations for: interface
+
+Attribute._ПереченьРазделов.Title=Group list
+Attribute._ПоказыватьПеречисления.Title=Show enums
+Attribute._ПоказыватьПростыеТипы.Title=Show simple types
+Attribute._ТипыДляКонсолиЗапросов.Title=Key To Console Extension
+Attribute.ДеревоОбъектов.Title=Page tree
+Attribute.ДеревоОбъектов.Имя.Title=Name
+Attribute.ДеревоОбъектов.Картинка.Title=Picture
+Attribute.ДеревоОбъектов.ПолноеИмя.Title=Full name
+Attribute.ДеревоОбъектов.Синоним.Title=Presentation
+Command.ВыбратьОбъект.Title=Select object
+Command.ВыбратьОбъект.ToolTip=Select object
+Title=Configuration objects

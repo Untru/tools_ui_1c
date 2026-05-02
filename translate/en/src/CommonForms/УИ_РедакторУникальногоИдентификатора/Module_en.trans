@@ -1,0 +1,36 @@
+#Translations for: model
+
+Method.ДобавитьЗапрос.Lines.Таблица.Content=Table
+Method.ДобавитьЗапрос.Name=AddQuery
+Method.ДобавитьЗапрос.Param.ЗапросПоиска.Name=QueryRules
+Method.ДобавитьЗапрос.Param.КлассСсылки.Name=MReferences
+Method.ДобавитьЗапрос.Param.МаЗапросПоиска.Name=MaQueryRules
+Method.ДобавитьЗапрос.Param.Менеджер.Name=Manager
+Method.ДобавитьЗапрос.Param.СтрокаУникальныйИдентификатор.Name=StringUniqueUUID
+Method.ДобавитьЗапрос.String.Таблица.Key=Value
+Method.ДобавитьЗапрос.Var.ИмяМетаданных.Name=NamePath
+Method.ДобавитьЗапрос.Var.ИмяПараметра.Name=ParameterName
+Method.ДобавитьЗапрос.Var.Ссылка.Name=Ref
+Method.ДобавитьЗапрос.Var.ТаблицаБазы.Name=TableBase
+Method.КомандаНайтиНаServerе.Name=FindCommandAtServer
+Method.КомандаНайтиНаServerе.Param.СтрокаУникальныйИдентификатор.Name=StringUniqueUUID
+Method.КомандаНайтиНаServerе.Var.Выборка.Name=Selection
+Method.КомандаНайтиНаServerе.Var.ЗапросПоиска.Name=QueryRules
+Method.КомандаНайтиНаServerе.Var.МаЗапросПоиска.Name=MaQueryRules
+Method.КомандаНайтиНаServerе.Var.Менеджер.Name=Manager
+Method.КомандаНайтиНаServerе.Var.ТекстЗапроса.Name=ArbitraryQueryText
+Method.КомандаОК.Comment.@skip-check\ empty-except-statement.Description=@skip-check empty-except-statement
+Method.КомандаОК.String.Word.некорректный.Key=CommandAboutTo
+Method.КомандаОК.String.Word.уникальный.Key=is
+Method.КомандаОК.Var.ВыбранноеЗначение.Name=VybrannoeValue
+Method.ПриСозданииНаServerе.Comment.@skip-check\ unknown-form-parameter-access.Description=@skip-check unknown-form-parameter-access
+Method.СсылкаПриИзменении.Comment.@skip-warning.Description=@skip-warning
+Method.УникальныйИдентификаторОкончаниеВводаТекста.Comment.@skip-warning.Description=@skip-warning
+Method.УникальныйИдентификаторОкончаниеВводаТекста.Comment.СтандартнаяОбработка\ \=UniqueIdentifierEndInputText
+Method.УникальныйИдентификаторОкончаниеВводаТекста.String.Word.Некорректный.Key=UUID
+Method.УникальныйИдентификаторОкончаниеВводаТекста.String.Word.уникальный.Key=is
+Method.УникальныйИдентификаторОкончаниеВводаТекста.Var.ъ.Name=
+Region.ОбработчикиСобытийФормы.Name=ReadEventForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.Name=ReadEventItemsShapkiForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.ОбработчикиКомандФормы.Name=ReadCommandsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Name=SluzhebnyeProceduresTFunctions

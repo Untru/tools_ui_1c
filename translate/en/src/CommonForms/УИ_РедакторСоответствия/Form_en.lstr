@@ -1,0 +1,14 @@
+#Translations for: interface
+
+Attribute.ТаблицаСоответствия.Title=Table Map
+Attribute.ТаблицаСоответствия.Значение.Title=Value
+Attribute.ТаблицаСоответствия.ЗначениеКонтейнер.Title=Value Group
+Attribute.ТаблицаСоответствия.ЗначениеТипЗначения.Title=Value Type Form
+Attribute.ТаблицаСоответствия.ЗначениеТипЗначенияПредставление.Title=Value Type Form Presentation
+Attribute.ТаблицаСоответствия.Ключ.Title=Key
+Attribute.ТаблицаСоответствия.КлючКонтейнер.Title=Value Group
+Attribute.ТаблицаСоответствия.КлючТипЗначения.Title=Key Type Form
+Attribute.ТаблицаСоответствия.КлючТипЗначенияПредставление.Title=Key Type Form Presentation
+Command.Применить.Title=Get selection
+Item.ТаблицаСоответствияЗначениеТипЗначенияПредставление.Title=Type(Value)
+Item.ТаблицаСоответствияКлючТипЗначенияПредставление.Title=Type(Key)

@@ -1,0 +1,7 @@
+#Translations for: model
+
+Attribute.АктивироватьТекущийЭлементВПрототипе.Name=Command activateCurrentItemInPrototipe
+Attribute.ЗагружатьСвойстваИзФайла.Name=ImportPropertiesFromLog
+Attribute.Объект.Name=Object
+Attribute.РежимРедактированияСвойств.Name=ModeLinkForm
+Command.ПрименитьНастройкиПроекта.Name=Get selectionSettingsProekta

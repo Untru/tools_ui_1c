@@ -1,0 +1,14 @@
+#Translations for: model
+
+Attribute.Объект.Name=Object
+Attribute.Объекты.Name=Objects
+Attribute.ТабличныйДокумент.Name=SpreadsheetDocument
+Command.ДобавитьРанееДобавленныеКСравнению.Name=AddObjectsAddedToComparisonEarly
+Command.ОчиститьРанееДобавленныеКСравнению.Name=ClearObjectsAdedToComparisionEarly
+Command.Параметры.Name=Parameters
+Command.Сформировать.Name=Generate
+Item.ГруппаПараметры.Name=GroupParameters
+Item.ОбъектыГруппаОбъектыКСравнению.Name=ObjectsGroupObjectsToComparision
+Item.ОбъектыДобавитьРанееДобавленныеКСравнению.Name=AddObjectsAddedToComparisonEarly
+Item.ОбъектыЗначение.Name=ObjectsValue
+Item.ОбъектыОчиститьРанееДобавленныеКСравнению.Name=ClearObjectsAdedToComparisionEarly

@@ -1,0 +1,22 @@
+#Translations for: interface
+
+Attribute.ДоступнаРегистрацияСредствамиБСП.Synonym=Register with SSLMethods available
+Attribute.КонфигурацияПоддерживаетБСП.Synonym=Configuration supports SSL
+Attribute.НастройкаAutoрегистрацияДвижений.Synonym=Auto register records
+Attribute.НастройкаAutoрегистрацияДвижений.ToolTip=Auto register records
+Attribute.НастройкаAutoрегистрацияПоследовательностей.Synonym=Auto register sequences
+Attribute.НастройкаAutoрегистрацияПоследовательностей.ToolTip=Auto register sequences
+Attribute.НастройкаАдресВнешнейОбработкиЗапросов.Synonym=Address of external query data processor
+Attribute.НастройкаАдресВнешнейОбработкиЗапросов.ToolTip=Address of external query data processor
+Attribute.НастройкаВариантНомераСообщения.Synonym=Message numbering option
+Attribute.НастройкаКонтрольВыгрузкиОбъектов.Synonym=Configuration can control object export
+Explanation=ITS data processor fork with SSL adaptation
+ExtendedPresentation=Register changes for data exchange
+Form.ВыборКонстанты.Synonym=Select constant
+Form.ВыборОбъектовОтбором.Synonym=Select objects using filter
+Form.ВыборУзлаПланаОбмена.Synonym=Select exchange plan node
+Form.Настройки.Synonym=Settings
+Form.НомераСообщенийУзлаПланаОбмена.Synonym=Exchange plan node message numbers
+Form.УзлыРегистрацииОбъекта.Synonym=Object registration nodes
+Form.Форма.Synonym=Register changes for data exchange
+Synonym=Register changes for data exchange [UT]

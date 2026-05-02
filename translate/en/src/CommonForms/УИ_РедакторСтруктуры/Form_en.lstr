@@ -1,0 +1,10 @@
+#Translations for: interface
+
+Attribute.ТаблицаСтрукутуры.Title=Table strukutury
+Attribute.ТаблицаСтрукутуры.Значение.Title=Value
+Attribute.ТаблицаСтрукутуры.ЗначениеКонтейнер.Title=Value Group
+Attribute.ТаблицаСтрукутуры.ЗначениеТипЗначения.Title=Value Type Form
+Attribute.ТаблицаСтрукутуры.ЗначениеТипЗначенияПредставление.Title=Value Type Form Presentation
+Attribute.ТаблицаСтрукутуры.Ключ.Title=Key
+Command.Применить.Title=Get selection
+Item.ТаблицаСтрукутурыЗначениеТипЗначенияПредставление.Title=Type

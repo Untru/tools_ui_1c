@@ -1,0 +1,18 @@
+#Translations for: model
+
+Attribute.ТаблицаСоответствия.Name=TableMap
+Attribute.ТаблицаСоответствия.Значение.Name=Value
+Attribute.ТаблицаСоответствия.ЗначениеКонтейнер.Name=ValueGroup
+Attribute.ТаблицаСоответствия.ЗначениеТипЗначения.Name=ValueTypeForm
+Attribute.ТаблицаСоответствия.ЗначениеТипЗначенияПредставление.Name=ValueTypeFormPresentation
+Attribute.ТаблицаСоответствия.Ключ.Name=Key
+Attribute.ТаблицаСоответствия.КлючКонтейнер.Name=KeyGroup
+Attribute.ТаблицаСоответствия.КлючТипЗначения.Name=KeyTypeForm
+Attribute.ТаблицаСоответствия.КлючТипЗначенияПредставление.Name=KeyTypeFormPresentation
+Command.Применить.Name=Get selection
+Item.ТаблицаСоответствияЗначение.Event.Clearing.Name=TableStrukuturyValueClearing
+Item.ТаблицаСоответствияЗначение.Event.OnChange.Name=TableStrukuturyValueOnChange
+Item.ТаблицаСоответствияЗначение.Event.StartChoice.Name=TableStrukuturyValueBeginScale
+Item.ТаблицаСоответствияКлюч.Event.Clearing.Name=TableStrukuturyKeyClearing
+Item.ТаблицаСоответствияКлюч.Event.OnChange.Name=TableStrukuturyKeyOnChange
+Item.ТаблицаСоответствияКлюч.Event.StartChoice.Name=TableStrukuturyKeyBeginScale

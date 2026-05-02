@@ -1,0 +1,24 @@
+#Translations for: interface
+
+Attribute.ДеревоМетаданных.Title=Metadata tree
+Attribute.ДеревоМетаданных.ВидОбъекта.Title=Type Form
+Attribute.ДеревоМетаданных.Картинка.Title=Picture
+Attribute.ДеревоМетаданных.Комментарий.Title=Comment
+Attribute.ДеревоМетаданных.ПолноеИмя.Title=Full name
+Attribute.ДеревоМетаданных.Представление.Title=Presentation
+Attribute.ДеревоМетаданных.Реквизиты.Title=Attributes
+Attribute.ДеревоМетаданных.Реквизиты.Имя.Title=Name
+Attribute.ДеревоМетаданных.Реквизиты.Представление.Title=Presentation
+Attribute.ДеревоМетаданных.Реквизиты.ТипЗначения.Title=Value type
+Attribute.ДеревоМетаданных.ТипОбъектов.Title=Type Writing
+Attribute.ИдентификаторСтрокиОбъектаМетаданных.Title=ID of Metadata object row
+Attribute.ИмяОбъектаМетаданных.Title=Metadata object name
+Attribute.РежимВыбора.Title=Choice mode
+Attribute.СтрокаПоиска.Title=Search string
+Command.РедактироватьОбъект.Title=Edit object
+Command.УдалитьВыделенныеОбъекты.Title=Delete selected objects
+Item.ГруппаБезДинамическогоСписка.Title=Group without dynamic list
+Item.ГруппаНедоступнаяТаблица.Title=Group not available table
+Item.ГруппаСтраницыВыбораДинамическогоСписка.Title=Group dynamic list choose pages
+Item.Декорация1.Title=Choose type of displayed list
+Item.Декорация2.Title=The table is not available for view

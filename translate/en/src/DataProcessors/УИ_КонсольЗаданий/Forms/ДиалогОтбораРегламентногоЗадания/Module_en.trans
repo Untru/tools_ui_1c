@@ -1,0 +1,7 @@
+#Translations for: model
+
+Method.ОК.Var.Отбор.Name=Filter
+Method.ПриСозданииНаServerе.Var.Метаданное.Name=OnCreateOnServerE
+Method.ПриСозданииНаServerе.Var.Свойство.Name=Property
+Region.ОбработчикиСобытийФормы.Name=ReadEventForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовФормы.Name=ReadEventItemsForm

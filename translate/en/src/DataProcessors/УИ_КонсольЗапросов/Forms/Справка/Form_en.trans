@@ -1,0 +1,6 @@
+#Translations for: model
+
+Attribute.Объект.Name=Object
+Attribute.Текст.Name=Text
+Item.ГруппаКоманднаяПанельВнизу.Name=BottomCommandBarGroup
+Item.КнопкаЗакрыть.Name=CloseButton

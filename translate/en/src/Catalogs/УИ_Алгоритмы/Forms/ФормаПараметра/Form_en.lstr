@@ -1,0 +1,40 @@
+#Translations for: interface
+
+Attribute.АдресХранилища.Title=Storage address
+Attribute.ВнешнийФайл.Title=External file
+Attribute.ВыбраныйТип.Title=Selected type
+Attribute.ДоступныеТипы.Title=Available types
+Attribute.НаименованиеПараметра.Title=Parameter name
+Attribute.ОписаниеТипа.Title=Type description
+Attribute.ОпределяемыйТип.Title=Defined type
+Attribute.ПараметрКоллекция.Title=Collection parameter
+Attribute.ТипКоллекция.Title=Type collection
+Command.ДобавитьКолонку.Title=Add column
+Command.ДобавитьКолонку.ToolTip=Add Column
+Command.ЗаписатьИЗакрыть.Title=Write and close
+Command.ЗаписатьИЗакрыть.ToolTip=Write and close
+Command.УдалитьКолонку.Title=Delete column
+Command.УдалитьКолонку.ToolTip=Delete Column
+Command.УстановитьНаименованиеПараметра.Title=Set
+Command.УстановитьНаименованиеПараметра.ToolTip=Set Description Value
+Item.ВыбраныйТип.ChoiceList.0.Presentation=Available types
+Item.ВыбраныйТип.ChoiceList.1.Presentation=External file
+Item.ВыбраныйТип.ChoiceList.2.Presentation=Collection Table
+Item.ВыбраныйТип.ChoiceList.3.Presentation=Zadat programmno
+Item.ГруппаКоллекция.Title=Group collection
+Item.ГруппаКоллекция.ToolTip=Group collection
+Item.ГруппаКоллекция1.Title=Group collection1
+Item.ГруппаКоллекция1.ToolTip=Group collection1
+Item.ГруппаНаименованиеПараметра.Title=Enter the name of the new parameter (standard requirements for the names of the attributes)
+Item.ГруппаНаименованиеПараметра.ToolTip=Group Description Value
+Item.ГруппаОпределяемыйТип.Title=Group defined type
+Item.ГруппаОпределяемыйТип.ToolTip=Group defined type
+Item.НаименованиеПараметра.Title=Name of the new parameter
+Item.ОпределяемыйТип.Title=Example of description: Result = New ValueTable ...
+Item.ТипКоллекция.ChoiceList.0.Presentation=Array
+Item.ТипКоллекция.ChoiceList.1.Presentation=Structure
+Item.ТипКоллекция.ChoiceList.2.Presentation=Type
+Item.ТипКоллекция.ChoiceList.3.Presentation=Value table
+Item.ТипКоллекция.Title=Collection
+Item.грДоступныеТипы.Title=Group available types
+Item.грДоступныеТипы.ToolTip=Group Available Key

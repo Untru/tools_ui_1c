@@ -1,0 +1,19 @@
+#Translations for: model
+
+Attribute.ИдентификаторФормы.Name=UUIDForm
+Attribute.ИмяФайла.Name=NameLog
+Attribute.ОчиститьДанныеИнструментаПередЗаполнением.Name=ClearDataChoosingBeforeZapolneniem
+Attribute.ПрочитатьФайлВоВременноеХранилище.Name=ReadFileToTempStorage
+Attribute.Текст.Name=Text
+Attribute.Формат.Name=Format
+Attribute.ФорматыИмпорта.Name=FormatyFile
+Attribute.ФорматыИмпорта.ВариантСодержимого.Name=SettingsSoderzhimogo
+Attribute.ФорматыИмпорта.Идентификатор.Name=UUID
+Attribute.ФорматыИмпорта.Представление.Name=Presentation
+Attribute.ФорматыИмпорта.ФильтрФайловДляДиалога.Name=PagesCollectionToDialog
+Command.Загрузить.Name=Import
+Item.ГруппаСтраницаВыборФайла.Name=GroupAboutSelectLog
+Item.ГруппаСтраницаНеВыбранФормат.Name=GroupAboutDontVybranFormat
+Item.ГруппаСтраницаТекст.Name=GroupAboutText
+Item.ГруппаСтраницы.Name=GroupPages
+Item.ДекорацияВыберитеФормат.Name=DecorationVyberiteFormat

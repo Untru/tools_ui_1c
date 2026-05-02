@@ -1,0 +1,22 @@
+#Translations for: interface
+
+Attribute.ВариантИспользованияКонсолиЗапросов.Title=Query console usage option
+Attribute.ИдентификаторКонсолиЗапросов.Title=Query console ID
+Command.ПодтвердитьВыбор.Title=OK
+Command.ПодтвердитьВыбор.ToolTip=Confirm Select
+Item.AutoрегистрацияДвижений.Title=Register records with documents
+Item.AutoрегистрацияПоследовательностей.Title=Sequences with documents
+Item.Группа1.Title=Auto register
+Item.Группа2.Title=Query console
+Item.Группа7.Title=Setting Exchange Setting On Registration
+Item.ГруппаБСП.Title=Standard Subsystems Library
+Item.ГруппаБСП.ToolTip=Group BSP
+Item.НастройкаКонтрольВыгрузкиОбъектов.Title=Use data migration restrictions when registering object changes
+Item.НомераСообщенийРегистрации.ChoiceList.0.Presentation=Registrirovat As Dont otpravlennye
+Item.НомераСообщенийРегистрации.ChoiceList.1.Presentation=Use Number Setting Node Encoding
+Item.ОбработкаЗапросаВнешняя.ChoiceList.0.Presentation=In kataloge Call\:
+Item.ОбработкаЗапросаВнешняя.ChoiceList.1.Presentation=In sostave L
+Item.ОбработкаЗапросаВнешняя.ChoiceList.2.Presentation=Dont Use
+Item.ОбработкаЗапросаВнешняя.Title=Auxiliary data processor to process query results
+Item.ФормаОК.Title=Write
+Title=Settings

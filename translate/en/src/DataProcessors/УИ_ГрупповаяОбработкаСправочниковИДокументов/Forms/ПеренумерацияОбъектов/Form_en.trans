@@ -1,0 +1,26 @@
+#Translations for: model
+
+Attribute.ДлинаНомера.Name=LengthExchange
+Attribute.ЗаменяемаяПодстрока.Name=ZamenyaemayaSubstring
+Attribute.ИмяТипаОбъектов.Name=NameTypeWriting
+Attribute.НайденныеОбъекты.Name=FoundObjects
+Attribute.НачальныйНомер.Name=ElementaryNumber
+Attribute.НеИзменятьЧисловуюНумерацию.Name=DontIzmenyatChislovuyuNumeratsiyu
+Attribute.ОбъектОбработки.Name=ObjectData processors
+Attribute.ОбъектПоиска.Name=SearchObject
+Attribute.Родитель.Name=Parent
+Attribute.СпособОбработкиПрефиксов.Name=DataData processorsPrefixes
+Attribute.СтрокаПрефикса.Name=StringPrefiksa
+Attribute.ТекущаяНастройка.Name=CurrentSetting
+Attribute.ТекущаяНастройкаПредставление.Name=CurrentSettingsPresentation
+Attribute.ТекущаяСтрока.Name=CurrentString
+Attribute.ТипНомера.Name=TypeExchange
+Command.ВыполнитьКоманду.Handler.Name=ExecuteProcessorCommand
+Command.ВыполнитьКоманду.Name=ExecuteCommand
+Command.СохранитьНастройки.Handler.Name=SaveSettingsCommand
+Command.СохранитьНастройки.Name=SaveSettings
+Item.ВыполнитьОбработку.Name=ExecuteCommand
+Item.Группа1.Name=Group1
+Item.ГруппаКнопки.Name=GroupCommand
+Item.ПрефиксыНомеров.Name=GroupNumberPrefixes
+Item.ТекущаяНастройка.Name=CurrentSetting

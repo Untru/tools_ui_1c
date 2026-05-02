@@ -1,0 +1,10 @@
+#Translations for: model
+
+Attribute.ЗначенияПеречисления.Name=FormName
+Attribute.ЗначенияПеречисления.ЗначениеСтрокой.Name=ValueName
+Attribute.ЗначенияПеречисления.Имя.Name=Name
+Attribute.ЗначенияПеречисления.Представление.Name=Presentation
+Attribute.ЗначенияПеречисления.Ссылка.Name=Ref
+Attribute.ПустаяСсылка.Name=PageRef
+Command.ВыбратьЗначение.Name=ValueByKey
+Item.ЗначениеСтр.Name=ValueStr

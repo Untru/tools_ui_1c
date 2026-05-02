@@ -1,0 +1,16 @@
+#Translations for: interface
+
+Attribute.ВидГраницы.Title=Boundary type
+Attribute.ДатаМомента.Title=Date
+Attribute.Значение.Title=Value
+Attribute.ЗначениеГраницы.Title=Value
+Attribute.СсылкаМомента.Title=Ref
+Command.КомандаОК.Title=OK command
+Command.КомандаОК.ToolTip=OK command
+Item.ГруппаГраница.Title=Boundary group
+Item.ГруппаГраница.ToolTip=Boundary group
+Item.ГруппаКоманднаяПанельВнизу.Title=Command bar footer group
+Item.ГруппаКоманднаяПанельВнизу.ToolTip=Bottom command bar group
+Item.ГруппаМоментВремени.Title=Point in time group
+Item.ГруппаМоментВремени.ToolTip=Point in time group
+Item.КомандаОК.Title=OK

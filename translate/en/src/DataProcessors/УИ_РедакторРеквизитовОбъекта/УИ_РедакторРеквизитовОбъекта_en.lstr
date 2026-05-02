@@ -1,0 +1,8 @@
+#Translations for: interface
+
+Explanation=pozvolyaet nizkourovnevoe Edit Types Writing. Supports Edit Additional Form.
+ExtendedPresentation=D Attributes Form Base Schema
+Form.ФормаОбъекта.Synonym=Object form
+Form.ФормаРедакторДвижений.Synonym=Records editor form
+Form.ФормаРедакторДвиженийДоп.Synonym=Records editor additional form
+Synonym=Objects attributes editor [UT]

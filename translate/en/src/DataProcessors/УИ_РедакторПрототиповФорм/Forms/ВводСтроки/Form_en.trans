@@ -1,0 +1,7 @@
+#Translations for: model
+
+Attribute.Значение.Name=Value
+Attribute.Объект.Name=Object
+Command.ОтменитьИЗакрыть.Name=CancelTClose
+Command.ПрименитьСписокВыбора.Name=Get selectionTasksScale
+Item.Группа3.Name=Group3

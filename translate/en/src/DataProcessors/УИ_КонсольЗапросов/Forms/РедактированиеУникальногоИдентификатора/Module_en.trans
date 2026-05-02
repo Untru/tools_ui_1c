@@ -1,0 +1,30 @@
+#Translations for: model
+
+Method.ДобавитьЗапрос.Lines.Таблица.Content=Table
+Method.ДобавитьЗапрос.Name=AddQuery
+Method.ДобавитьЗапрос.Param.ЗапросПоиска.Name=QueryRules
+Method.ДобавитьЗапрос.Param.КлассСсылки.Name=MReferences
+Method.ДобавитьЗапрос.Param.Менеджер.Name=Manager
+Method.ДобавитьЗапрос.Param.СтрокаУникальныйИдентификатор.Name=StringUniqueUUID
+Method.ДобавитьЗапрос.Param.маЗапросПоиска.Name=maQueryRules
+Method.ДобавитьЗапрос.String.Таблица.Key=Value
+Method.ДобавитьЗапрос.Var.ИмяМетаданных.Name=NamePath
+Method.ДобавитьЗапрос.Var.ИмяПараметра.Name=ParameterName
+Method.ДобавитьЗапрос.Var.Ссылка.Name=Ref
+Method.ДобавитьЗапрос.Var.ТаблицаБазы.Name=TableBase
+Method.КомандаНайтиНаServerе.Name=FindCommandAtServer
+Method.КомандаНайтиНаServerе.Param.СтрокаУникальныйИдентификатор.Name=StringUniqueUUID
+Method.КомандаНайтиНаServerе.Var.Выборка.Name=Selection
+Method.КомандаНайтиНаServerе.Var.ЗапросПоиска.Name=QueryRules
+Method.КомандаНайтиНаServerе.Var.Менеджер.Name=Manager
+Method.КомандаНайтиНаServerе.Var.ТекстЗапроса.Name=ArbitraryQueryText
+Method.КомандаНайтиНаServerе.Var.маЗапросПоиска.Name=maQueryRules
+Method.КомандаОК.Var.ВозвращаемоеЗначение.Name=CommandAboutTo
+Method.КомандаОК.Var.Значение.Name=Value
+Method.СсылкаПриИзменении.Comment.@skip-warning.Description=@skip-warning
+Method.УникальныйИдентификаторОкончаниеВводаТекста.Comment.@skip-warning.Description=@skip-warning
+Method.УникальныйИдентификаторОкончаниеВводаТекста.Comment.СтандартнаяОбработка\ \=UniqueIdentifierEndInputText
+Method.УникальныйИдентификаторОкончаниеВводаТекста.String.Word.Некорректный.Key=UUID
+Method.УникальныйИдентификаторОкончаниеВводаТекста.String.Word.уникальный.Key=is
+Method.УникальныйИдентификаторОкончаниеВводаТекста.Var.ъ.Name=
+Method.УникальныйИдентификаторПриИзменении.Comment.@skip-warning.Description=@skip-warning

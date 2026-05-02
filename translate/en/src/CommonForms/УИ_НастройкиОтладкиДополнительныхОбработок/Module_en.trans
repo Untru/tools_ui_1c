@@ -1,0 +1,19 @@
+#Translations for: model
+
+Method.ИмяФайлаНаServerеНачалоВыбора.String.Word.epf.Key=epf
+Method.ИмяФайлаНаServerеНачалоВыбора.String.Word.erf.Key=erf
+Method.ИмяФайлаНаServerеНачалоВыбора.String.epf.Key=epf
+Method.ИмяФайлаНаServerеНачалоВыбора.String.erf.Key=erf
+Method.ИмяФайлаНаServerеНачалоВыбора.Var.СтруктураОписанияВыбираемогоФайла.Name=StructureLVybiraemogoLog
+Method.ИмяФайлаНаServerеНачалоВыбораЗавершение.Name=FileNameAtServerStartChoiceEnd
+Method.ИмяФайлаНаServerеНачалоВыбораЗавершение.Param.ДополнительныеПараметры.Name=AdditionalParameters
+Method.ИмяФайлаНаServerеНачалоВыбораЗавершение.Param.Результат.Name=Result
+Method.ПриСозданииНаServerе.String.Word.Дополнительная.Key=Additional
+Method.ПриСозданииНаServerе.String.ДополнительнаяОбработка.Key=OnCreateOnServerE
+Method.ПриСозданииНаServerе.Var.Вид.Name=Type
+Method.ПриСозданииНаServerе.Var.ДополнительнаяОбработка.Name=AdditionalMode
+Method.ПриСозданииНаServerе.Var.МассивНовыхРеквизитов.Name=ArrayNewAttributes
+Method.ПриСозданииНаServerе.Var.ОписаниеЭлемента.Name=DescriptionName
+Method.ПриСозданииНаServerе.Var.СохраненныеНастройки.Name=SavedSettings
+Method.ПрименитьНаServerе.Name=ApplyAtServer
+Method.ПрименитьНаServerе.Var.СтруктураНастройки.Name=StructureSettings

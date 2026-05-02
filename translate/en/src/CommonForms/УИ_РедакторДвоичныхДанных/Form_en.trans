@@ -1,0 +1,9 @@
+#Translations for: model
+
+Attribute.АдресДвоичныхДанных.Name=DestinationModuleSchema
+Attribute.ВозвратХранилищаДляКонтейнераЗначения.Name=VozvratStorageToSuffixForm
+Attribute.Представление.Name=Presentation
+Attribute.Размер.Name=File
+Command.ЗагрузитьИзФайла.Name=ImportFromLog
+Command.Применить.Name=Get selection
+Command.СохранитьВФайл.Name=SaveInFile

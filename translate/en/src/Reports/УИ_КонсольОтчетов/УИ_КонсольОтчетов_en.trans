@@ -1,0 +1,7 @@
+#Translations for: model
+
+Form.Форма.Name=Form
+Form.ФормаВарианта.Name=VariantForm
+Form.ФормаРасшифровки.Name=DetailsForm
+Name=UT_ReportsConsole
+Template.ОсновнаяСхемаКомпоновкиДанных.Name=MainDataCompositionSchema

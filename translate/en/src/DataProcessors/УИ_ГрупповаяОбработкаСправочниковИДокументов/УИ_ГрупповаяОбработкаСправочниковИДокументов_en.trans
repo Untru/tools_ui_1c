@@ -1,0 +1,20 @@
+#Translations for: model
+
+Attribute.ОбрабатыватьТабличныеЧасти.Name=ProcessTabularParts
+Attribute.РежимПоиска.Name=SearchMode
+Attribute.ТипОбъекта.Name=ObjectType
+Form.ИзменитьВремяДокументов.Name=ChangeTimeDocuments
+Form.ИзменитьСуммуОперации.Name=ChangeAmountOperation
+Form.ОтменитьПроведениеДокументов.Name=CancelPostingDocuments
+Form.ПеренумерацияОбъектов.Name=RenumberingObjects
+Form.ПодборИОбработка.Name=SelectionAndProcessing
+Form.ПометитьНаУдаление.Name=MarkToDelete
+Form.ПровестиДокументы.Name=PostTheDocuments
+Form.ПроизвольныйАлгоритм.Name=ArbitraryAlgorithm
+Form.СнятьПометкуУдаления.Name=UnmarkDeletion
+Form.Удалить.Name=Delete
+Form.УстановкаРеквизитов.Name=SettingAttributes
+Form.ФормаВыбораТаблиц.Name=FormSelectionTables
+Form.ФормаОтбора.Name=FormSelection
+Form.ШаблонОбработки.Name=TemplateProcessing
+Name=UT_GroupProcessingCatalogsAndDocuments

@@ -1,0 +1,22 @@
+#Translations for: model
+
+Method.ЗаголовокНастроекПроксиПоПараметрам.Name=TitleManagerProksiByReport
+Method.ЗаголовокНастроекПроксиПоПараметрам.Var.ЗаголовокГруппыПрокси.Name=TitleGroupProksi
+Method.ЗаголовокНастроекПроксиПоПараметрам.Var.ЗаголовокГруппыПрокси.String.Word.Аутентификация.Key=Autentifikatsiya
+Method.ЗаголовокНастроекПроксиПоПараметрам.Var.ЗаголовокГруппыПрокси.String.Word.Не.Key=Exchange
+Method.ЗаголовокНастроекПроксиПоПараметрам.Var.ЗаголовокГруппыПрокси.String.Word.ОС.Key=authentication
+Method.ЗаголовокНастроекПроксиПоПараметрам.Var.ЗаголовокГруппыПрокси.String.Word.используется.Key=used
+Method.ЗаголовокНастроекПроксиПоПараметрам.Var.ПрефиксЗаголовка.Name=PrefixAttribute
+Method.ПриОткрытии.String.БезТела.Key=BezTela
+Method.ПриОткрытии.String.ДвоичныеДанные.Key=DvoichnyeDannye
+Method.ПриОткрытии.String.МультипартФорм.Key=MultipartForm
+Method.ПриОткрытии.Var.ТекСтраница.Name=TekAbout
+Method.ПриОткрытии.Var.ТекСтрокаЗапроса.Name=TekStringText
+Method.ПриОткрытии.Var.ТекСтрокаИстории.Name=TekStringIstorii
+Method.ПриСозданииНаServerе.Comment.@skip-check\ unknown-form-parameter-access.Description=@skip-check unknown-form-parameter-access
+Method.СохранитьДвоичныеДанныеТелаЗапросаИзИстории.Var.ПараметрыСохранения.Name=ParametersSettings
+Method.СохранитьТелоОтветаДвоичныеДанныеВФайл.Var.ПараметрыСохранения.Name=ParametersSettings
+Region.ОбработчикиСобытийФормы.Comment.Код\ процедур\ и\ функций.Description=HandlersEventsForm
+Region.ОбработчикиСобытийФормы.Name=ReadEventForm
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.Name=ReadCommandsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Name=SluzhebnyeProceduresTFunctions

@@ -1,0 +1,16 @@
+#Translations for: model
+
+Method.ВыполнитьФоновоеЗадание.Name=ExecuteBackgroundJob
+Method.ВыполнитьФоновоеЗадание.Param.ИдентификаторЗадания.Name=UUIDDialog
+Method.ВыполнитьФоновоеЗадание.Var.ФоновоеЗадание.Name=BackgroundJob
+Method.ОК.Var.ИдентификаторЗадания.Name=UUIDDialog
+Method.ПолучитьОбъектФоновогоЗадания.Name=GetBackgroundJobObject
+Method.ПолучитьОбъектФоновогоЗадания.Param.УникальныйНомерЗадания.Name=UniqueNumberDialog
+Method.ПолучитьОбъектФоновогоЗадания.Var.ТекущееФоновоеЗадание.Name=CurrentBackgroundJob
+Method.ПолучитьОбъектФоновогоЗадания.Var.УникальныйИдентификаторЗадания.Name=UniqueUUIDDialog
+Method.ПриСозданииНаServerе.Var.ЗаданиеИД.Name=JobTEditor
+Method.ПриСозданииНаServerе.Var.Метаданное.Name=OnCreateOnServerE
+Method.ПриСозданииНаServerе.Var.ФоновоеЗадание.Name=BackgroundJob
+Region.ОбработчикиСобытийФормы.Name=ReadEventForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовФормы.Name=ReadEventItemsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовФормы.СлужебныеПроцедурыИФункции.Name=SluzhebnyeProceduresTFunctions

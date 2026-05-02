@@ -1,0 +1,21 @@
+#Translations for: interface
+
+Method.ВопросСкопироватьНастройкиЗавершение.NStr.Копирование\ настроек\ выполнено.Lines=Kopirovanie Manager Completed
+Method.ОбновитьНастройкиВладельцаНаServerе.Var.СтрокаДереваКонфигурация.NStr.\ (Все\ настройки).Lines=(All Settings)
+Method.ОбновитьНастройкиВладельцаНаServerе.Var.СтрокаДереваПрочее.NStr.Прочее.Lines=Other
+Method.ОбновитьОтображениеЭлементов.NStr.Показать\ всех.Lines=Show All
+Method.ОбновитьОтображениеЭлементов.NStr.Показать\ выбранные\ настройки.Lines=Show selected settings
+Method.ОбновитьОтображениеЭлементов.NStr.Показать\ выбранных.Lines=Show Fields
+Method.ОбновитьОтображениеЭлементов.NStr.Скрыть\ выбранные\ настройки.Lines=Hide Selected Settings
+Method.ПриСозданииНаServerе.NStr.Хранилище\ настроек\ данных\ форм.Lines=Storage Manager Schema Form
+Method.ПриСозданииНаServerе.NStr.Хранилище\ общих\ настроек.Lines=Storage Commands Manager
+Method.ПриСозданииНаServerе.NStr.Хранилище\ пользовательских\ настроек\ динамических\ списков.Lines=Storage Fields Manager dinamicheskikh spiskov
+Method.ПриСозданииНаServerе.NStr.Хранилище\ пользовательских\ настроек\ отчетов.Lines=Storage Fields Manager Console
+Method.ПриСозданииНаServerе.NStr.Хранилище\ системных\ настроек.Lines=Storage Settings Manager
+Method.СкопироватьВыбранныеНастройки.NStr.Внимание\!.Lines=Vnimanie\!
+Method.СкопироватьВыбранныеНастройки.NStr.Не\ выбраны\ настройки\ для\ копирования.Lines=Dont Metadata Settings To kopirovaniya
+Method.СкопироватьВыбранныеНастройки.NStr.Не\ указаны\ пользователи\ (кому\ копировать).Lines=Dont ukazany Users (komu Copy (F5))
+Method.СкопироватьВыбранныеНастройки.NStr.Скопировать\ выбранные\ настройки\ выбранным\ пользователям?.Lines=Copy Selected Settings Selected polzovatelyam?
+Method.УдалитьВыбранныеНастройки.NStr.Внимание\!.Lines=Vnimanie\!
+Method.УдалитьВыбранныеНастройки.NStr.Не\ выбраны\ настройки\ для\ удаления.Lines=Dont Metadata Settings To Registration
+Method.УдалитьВыбранныеНастройки.NStr.Удалить\ выбранные\ настройки\ у\ пользователя\ %1?.Lines=Delete Selected Settings U User %1?

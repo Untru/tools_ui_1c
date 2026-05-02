@@ -1,0 +1,19 @@
+#Translations for: interface
+
+Form.ВводСпискаЗначений.Synonym=Input Dialog Table
+Form.ВводСтроки.Synonym=Input Trailing
+Form.ВводЧисла.Synonym=Input Group
+Form.ВыборКартинки.Synonym=Select Pictures
+Form.ВыборФормы.Synonym=Select Form
+Form.ДанныеВыбораСвойства.Synonym=Data Scale Properties
+Form.МенеджерНаборовЗначений.Synonym=Manager C Table
+Form.МенеджерПрототипов.Synonym=Manager prototipov
+Form.МенеджерФайлов_8_3_15.Synonym=Manager Collection 8.3.15
+Form.МенеджерФайлов_8_3_6.Synonym=Manager Collection 8.3.6
+Form.Основная.Synonym=Main
+Form.Прототип.Synonym=Prototip
+Synonym=D prototipov Form [UT]
+Template.Свойства.Synonym=Properties
+Template.СвойстваФормИЭлементовУправления.Synonym=Properties Form T Items Items
+Template.СвойстваФормИЭлементовУправленияЭлементы.Synonym=Properties Form T Items Items Items
+Template.ФормыИЭлементыУправления.Synonym=Form T Items Items

@@ -1,0 +1,11 @@
+#Translations for: model
+
+Method.ПриСозданииНаServerе.String.ВидимостьПометки.Key=VidimostPometki
+Method.ПриСозданииНаServerе.String.ВидимостьПредставления.Key=OnCreateOnServerE
+Method.ПриСозданииНаServerе.String.ВозвращатьТолькоВыбранныеЗначения.Key=OnCreateOnServerE
+Method.ПриСозданииНаServerе.String.РежимПодбора.Key=RezhimPodbora
+Method.ПриСозданииНаServerе.String.ТипЭлементов.Key=TipElementov
+Method.ПриСозданииНаServerе.Var.РежимПодбора.Name=ModePodbora
+Method.ПриСозданииНаServerе.Var.ЭлементСписка.Name=ItemDialog
+Method.Применить.Var.СписокВозврата.Name=TasksVozvrata
+Method.Применить.Var.Элемент.Name=Item

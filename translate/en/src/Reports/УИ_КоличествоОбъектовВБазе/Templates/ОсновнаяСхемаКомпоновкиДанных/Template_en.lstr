@@ -1,0 +1,14 @@
+#Translations for: interface
+
+DataSet.НаборДанных1.Field.ВидОбъекта.Title.Content=Type Form
+DataSet.НаборДанных1.Field.ИмяОбъекта.Title.Content=Object name
+DataSet.НаборДанных1.Field.Количество.Title.Content=Processed Writing (Attributes)
+DataSet.НаборДанных1.Field.Организация.Title.Content=Organization
+DataSet.НаборДанных1.Field.Приоритет.Title.Content=Prioritet
+DataSet.НаборДанных1.Field.СинонимОбъекта.Title.Content=Sinonim Form
+Parameter.ВключитьПодчиненныеРегистратору.Title.Content=Enable Subordinate registratoru
+Parameter.КонецПериода.Title.Content=End Value
+Parameter.НачалоПериода.Title.Content=Begin Value
+Parameter.Период.Title.Content=Period
+Variant.КоличествоОбъектовВБазе.Presentation.Content=Main
+Variant.КоличествоОбъектовВБазеУпрощенная.Presentation.Content=Simple (Debug organizatsiy)

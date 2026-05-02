@@ -1,0 +1,15 @@
+#Translations for: interface
+
+Attribute.ДеревоТаблиц.Title=Tree table
+Attribute.ДеревоТаблиц.ИмяТаблицы.Title=Name Table
+Attribute.ДеревоТаблиц.Пометка.Title=Check
+Attribute.ДеревоТаблиц.ПредставлениеТаблицы.Title=Presentation Table
+Attribute.ОбрабатыватьТабличныеЧасти.Title=Process tabular parts
+Attribute.СписокВыбранных.Title=List of selected
+Attribute.ТипОбъекта.Title=Object type
+Command.Выбрать.Title=Choose
+Command.Выбрать.ToolTip=Select
+Command.СнятьПометки.Title=Remove marks
+Command.УстановитьПометки.Title=Set marks
+Item.ДеревоТаблицГруппа.Title=Tree table group
+Item.ДеревоТаблицГруппа.ToolTip=Tree table group

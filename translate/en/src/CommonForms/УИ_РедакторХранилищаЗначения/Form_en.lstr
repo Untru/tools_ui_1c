@@ -1,0 +1,9 @@
+#Translations for: interface
+
+Attribute.ВозвратХранилищаДляКонтейнераЗначения.Title=Vozvrat Storage To Suffix Form
+Attribute.Значение.Title=Value
+Attribute.ЗначениеКонтейнер.Title=Value Group
+Attribute.ЗначениеТипЗначения.Title=Value Type Form
+Attribute.ЗначениеТипЗначенияПредставление.Title=Value Type Form Presentation
+Command.Применить.Title=Get selection
+Item.ЗначениеТипЗначенияПредставление.Title=Type

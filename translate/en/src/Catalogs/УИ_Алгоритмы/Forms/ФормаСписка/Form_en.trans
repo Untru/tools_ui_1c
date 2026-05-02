@@ -1,0 +1,11 @@
+#Translations for: model
+
+Attribute.Список.Name=Tasks
+Command.ВыполнитьАлгоритм.Name=AlgorithmCodeSupplementedWithContext
+Item.ВыполнитьВТранзакции.Name=ExecuteInTransaction
+Item.Маска.Name=Mask
+Item.ПодключитьИнтерфейсПользователя.Name=ConnectInterfaceUser
+Item.ПрограммныйИнтерфейс.Name=API
+Item.СписокКомпоновщикНастроекПользовательскиеНастройки.Name=TasksSettingsManagerGroup3Settings
+Item.Теги.Name=Tags
+Item.ТекстАлгоритма.Name=AlgorithmText

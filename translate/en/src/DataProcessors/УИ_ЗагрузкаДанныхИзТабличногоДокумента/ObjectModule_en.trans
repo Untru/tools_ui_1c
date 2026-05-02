@@ -1,0 +1,30 @@
+#Translations for: model
+
+Comment.ВСПОМОГАТЕЛЬНЫЕ\ ПРОЦЕДУРЫ\ И\ ФУНКЦИИ.Description=Data Procedures T Functions
+Comment.ОПИСАНИЕ\ ИНТЕРФЕЙСОВ.Description=Description INTERFEYSOV
+Method.ВыполнитьКоманду.Description=ExecuteCommand
+Method.ВыполнитьКоманду.Name=ExecuteCommand
+Method.ВыполнитьКоманду.Param.ИдентификаторКоманды.Name=UUIDCommands
+Method.ДобавитьКоманду.Name=AddCommand
+Method.ДобавитьКоманду.Param.Идентификатор.Name=UUID
+Method.ДобавитьКоманду.Param.Использование.Name=Use
+Method.ДобавитьКоманду.Param.Модификатор.Name=Modifikator
+Method.ДобавитьКоманду.Param.ПоказыватьОповещение.Name=ShowNotification
+Method.ДобавитьКоманду.Param.Представление.Name=Presentation
+Method.ДобавитьКоманду.Param.ТаблицаКоманд.Name=TableCommands
+Method.ДобавитьКоманду.Var.НоваяКоманда.Name=NewCommand
+Method.ПолучитьМакетОбработки.Name=GetDataProcessorTemplate
+Method.ПолучитьМакетОбработки.Param.Имя.Name=Name
+Method.ПолучитьТаблицуКоманд.Name=GetCommandTable
+Method.ПолучитьТаблицуКоманд.String.Модификатор.Key=Modifikator
+Method.ПолучитьТаблицуКоманд.String.ПоказыватьОповещение.Key=GetTableCommands
+Method.ПолучитьТаблицуКоманд.Var.Команды.Name=Commands
+Method.СведенияОВнешнейОбработке.Description=InformationAboutExternalDataprocessor
+Method.СведенияОВнешнейОбработке.Name=ExternalDataProcessorInfo
+Method.СведенияОВнешнейОбработке.Return.Description=T On Edit Data Data processors. Prim. Has smysl Only\npri zapuske Data processors Debug Open Form.
+Method.СведенияОВнешнейОбработке.String.ДополнительнаяОбработка.Key=InformationAboutExternalDataprocessor
+Method.СведенияОВнешнейОбработке.String.Информация.Key=Information
+Method.СведенияОВнешнейОбработке.String.Открытие_ЗагрузкаДанныхИзТабличногоДокумента_.Key=InformationAboutExternalDataprocessor
+Method.СведенияОВнешнейОбработке.String.ОткрытиеФормы.Key=OtkrytieFormy
+Method.СведенияОВнешнейОбработке.Var.ПараметрыРегистрации.Name=ParametersRegistration
+Method.СведенияОВнешнейОбработке.Var.ТаблицаКоманд.Name=TableCommands

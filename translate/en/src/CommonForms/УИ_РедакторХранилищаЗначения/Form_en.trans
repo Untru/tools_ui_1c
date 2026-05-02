@@ -1,0 +1,8 @@
+#Translations for: model
+
+Attribute.ВозвратХранилищаДляКонтейнераЗначения.Name=VozvratStorageToSuffixForm
+Attribute.Значение.Name=Value
+Attribute.ЗначениеКонтейнер.Name=ValueGroup
+Attribute.ЗначениеТипЗначения.Name=ValueTypeForm
+Attribute.ЗначениеТипЗначенияПредставление.Name=ValueTypeFormPresentation
+Command.Применить.Name=Get selection

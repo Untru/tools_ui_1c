@@ -1,0 +1,21 @@
+#Translations for: interface
+
+Attribute.КлючФормыДанных.Title=Data form key
+Attribute.СписокДанных.Title=Data list
+Attribute.СтруктураДанных.Title=Data structure
+Command.ВыбратьОтобранныеЗначения.Title=Select
+Command.ВыбратьОтобранныеЗначения.ToolTip=Select Filtered Form
+Command.ВыбратьТекущуюСтроку.Title=Select
+Command.ВыбратьТекущуюСтроку.ToolTip=Select Current Row
+Command.ОткрытьТекущийОбъект.Title=Open
+Command.ОткрытьТекущийОбъект.ToolTip=Open Current Object
+Item.Группа1.Title=Filter items
+Item.ОтборГруппа1.Title=Filter actions
+Item.ОтборГруппа2.Title=Form actions
+Item.СписокДанныхВыбратьОтобранныеЗначения.Title=Select all
+Item.СписокДанныхВыбратьТекущуюСтроку.Title=Select
+Item.СписокДанныхЗакрыть.Title=Close
+Item.СписокДанныхКонтекстноеМенюВыбратьОтобранныеЗначения.Title=Select All Filtered
+Item.СписокДанныхКонтекстноеМенюВыбратьТекущуюСтроку.Title=Select Current Data
+Item.СписокДанныхКонтекстноеМенюОткрытьТекущийОбъект.Title=Open Handlers Settings Form
+Title=Select objects using filter

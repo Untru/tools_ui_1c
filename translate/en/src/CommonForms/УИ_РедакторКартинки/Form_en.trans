@@ -1,0 +1,16 @@
+#Translations for: model
+
+Attribute.АдресДвоичныхДанныхКартинки.Name=DestinationModuleSchemaPictures
+Attribute.Вид.Name=Type
+Attribute.ВозвратХранилищаДляКонтейнераЗначения.Name=VozvratStorageToSuffixForm
+Attribute.Размер.Name=File
+Command.ЗагрузитьИзФайла.Name=ImportFromLog
+Command.Очистить.Name=Clear
+Command.Применить.Name=Get selection
+Command.СохранитьВФайл.Name=SaveInFile
+Item.ГруппаКнопкиДляКартинки.Name=GroupButtonToPictures
+Item.ГруппаКнопкиЛево.Name=GroupButtonGroup
+Item.ГруппаКнопкиПраво.Name=GroupButtonGroup
+Item.ГруппаШапка.Name=HeaderGroup
+Item.ГруппаШапкаЛево.Name=GroupHeaderGroup
+Item.ГруппаШапкаПраво.Name=GroupHeaderGroup

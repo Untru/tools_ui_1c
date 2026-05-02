@@ -1,0 +1,27 @@
+#Translations for: model
+
+Named.Ключ1.Key=Klyuch1
+Named.Ключ2.Key=Klyuch2
+Named.Ключ3.Key=Klyuch3
+Named.Реквизиты.Key=Attributes
+Named.СтрокаБезОшибок.Key=StrokaBezOshibok
+Named.СтрокаСОшибками.Key=StrokaSOshibkami
+Named.Шапка.Key=Shapka
+Row.2.Cell.0.Parameter=Klyuch1
+Row.2.Cell.1.Parameter=Key2
+Row.2.Cell.2.Parameter=Key3
+Row.2.Cell.3.Parameter=ChisloStrok
+Row.2.Cell.4.Parameter=Attribute1
+Row.2.Cell.5.Parameter=Attribute2
+Row.2.Cell.6.Parameter=Rekvizit3
+Row.2.Cell.7.Parameter=Rekvizit4
+Row.2.Cell.8.Parameter=Rekvizit5
+Row.4.Cell.0.Parameter=Klyuch1
+Row.4.Cell.1.Parameter=Key2
+Row.4.Cell.2.Parameter=Key3
+Row.4.Cell.3.Parameter=ChisloStrok
+Row.4.Cell.4.Parameter=Attribute1
+Row.4.Cell.5.Parameter=Attribute2
+Row.4.Cell.6.Parameter=Rekvizit3
+Row.4.Cell.7.Parameter=Rekvizit4
+Row.4.Cell.8.Parameter=Rekvizit5

@@ -1,0 +1,24 @@
+#Translations for: model
+
+Attribute.ВариантИспользованияКонсолиЗапросов.Name=SettingsCompositionConsoleExtension
+Attribute.ИдентификаторКонсолиЗапросов.Name=UUIDConsoleExtension
+Attribute.Объект.Name=Object
+Command.ПодтвердитьВыбор.Name=ConfirmSelection
+Item.AutoрегистрацияДвижений.Name=RegisterRecordsAutoRecord
+Item.AutoрегистрацияПоследовательностей.Name=SequencesAutoRecord
+Item.Группа1.Name=Group1
+Item.Группа2.Name=Group2
+Item.Группа3.Name=Group3
+Item.Группа4.Name=Group4
+Item.Группа5.Name=Group5
+Item.Группа6.Name=Group6
+Item.Группа7.Name=Group7
+Item.Группа8.Name=Group8
+Item.ГруппаБСП.Name=SLGroup
+Item.Декорация1.Name=Decoration1
+Item.Декорация2.Name=Decoration2
+Item.НомераСообщенийРегистрации.Name=RegistrationMessagesNumbers
+Item.ОбработкаЗапросаВнешняя.Name=ExternalQueryDataProcessor
+Item.ОбработкаЗапросаПуть.Name=QueryDataProcessorPath
+Item.ФормаОК.Name=FormOK
+Item.ФормаОтмена.Name=FormCancel

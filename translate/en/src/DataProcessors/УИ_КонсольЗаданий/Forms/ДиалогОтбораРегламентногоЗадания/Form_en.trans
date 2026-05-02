@@ -1,0 +1,10 @@
+#Translations for: model
+
+Attribute.Использование.Name=Use
+Attribute.Ключ.Name=Key
+Attribute.МетаданныеВыбор.Name=MetadataSelect
+Attribute.Наименование.Name=Description
+Attribute.Объект.Name=Object
+Attribute.Предопределенное.Name=Predefined
+Command.ОК.Name=OK
+Item.Общие.Name=Common

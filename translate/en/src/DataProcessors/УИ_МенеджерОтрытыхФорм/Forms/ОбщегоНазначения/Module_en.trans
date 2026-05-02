@@ -1,0 +1,9 @@
+#Translations for: model
+
+Description=@strict-types
+Method.ВспомогательныеЗначения.Description=Data Form.
+Method.ВспомогательныеЗначения.Name=DataForm
+Method.ПолныйПутьКФормеОбработки.Name=ToPathSFormData processors
+Method.ПолныйПутьКФормеОбработки.Param.ИмяФормыОбработки.Name=NameFormData processors
+Region.ОбработчикиСобытийФормы.Name=ReadEventForm
+Region.ОбработчикиСобытийФормы.СлужебныеПроцедурыИФункции.Name=SluzhebnyeProceduresTFunctions

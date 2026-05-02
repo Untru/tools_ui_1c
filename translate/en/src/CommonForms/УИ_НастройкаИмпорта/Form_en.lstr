@@ -1,0 +1,19 @@
+#Translations for: interface
+
+Attribute.ИдентификаторФормы.Title=UUID Form
+Attribute.ИмяФайла.Title=File name
+Attribute.ОчиститьДанныеИнструментаПередЗаполнением.Title=Clear Data Choosing Before zapolneniem
+Attribute.ПрочитатьФайлВоВременноеХранилище.Title=Read File To Temp Storage
+Attribute.Текст.Title=Text
+Attribute.Формат.Title=Format
+Attribute.ФорматыИмпорта.Title=Formaty File
+Attribute.ФорматыИмпорта.ВариантСодержимого.Title=Settings soderzhimogo
+Attribute.ФорматыИмпорта.Идентификатор.Title=UUID
+Attribute.ФорматыИмпорта.Представление.Title=Presentation
+Attribute.ФорматыИмпорта.ФильтрФайловДляДиалога.Title=Pages Collection To Dialog
+Command.Загрузить.Title=Import
+Item.ГруппаСтраницаВыборФайла.Title=Group1
+Item.ГруппаСтраницаНеВыбранФормат.Title=Group1
+Item.ГруппаСтраницаТекст.Title=Group1
+Item.ГруппаСтраницы.Title=Group1
+Item.ДекорацияВыберитеФормат.Title=<fontsize 16><b>Vyberite Format</></>

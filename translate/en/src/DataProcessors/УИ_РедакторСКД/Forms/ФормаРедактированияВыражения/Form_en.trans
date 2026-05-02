@@ -1,0 +1,13 @@
+#Translations for: model
+
+Attribute.ПолеРедактированияВыражения.Name=FieldLinkForm
+Attribute.ПоляСКД.Name=FieldsCSEditor
+Attribute.ПоляСКД.Картинка.Name=Picture
+Attribute.ПоляСКД.Поле.Name=Field
+Attribute.ПоляСКД.ПутьКДанным.Name=PathSData
+Attribute.ПоляСКД.ТипЗначения.Name=TypeForm
+Attribute.ТекстВыражения.Name=TextForm
+Command.Применить.Name=Get selection
+Item.ГруппаДосутныеПоляИМетоды.Name=GroupDosutnyeFieldsTH
+Item.ПоляСКДГруппаПоле.Name=FieldsCSEditorGroupField
+Item.ФормаОК.Name=FormOK

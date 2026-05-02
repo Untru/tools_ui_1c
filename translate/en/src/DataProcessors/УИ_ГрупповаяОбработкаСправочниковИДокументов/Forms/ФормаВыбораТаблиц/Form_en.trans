@@ -1,0 +1,13 @@
+#Translations for: model
+
+Attribute.ДеревоТаблиц.Name=TreeTables
+Attribute.ДеревоТаблиц.ИмяТаблицы.Name=NameTable
+Attribute.ДеревоТаблиц.Пометка.Name=Check
+Attribute.ДеревоТаблиц.ПредставлениеТаблицы.Name=PresentationTable
+Attribute.ОбрабатыватьТабличныеЧасти.Name=ProcessTabularParts
+Attribute.Объект.Name=Object
+Attribute.СписокВыбранных.Name=TasksFields
+Attribute.ТипОбъекта.Name=ObjectType
+Command.Выбрать.Name=Choose
+Command.СнятьПометки.Name=RemoveMarks
+Command.УстановитьПометки.Name=SetMarks

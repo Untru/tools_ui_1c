@@ -1,0 +1,30 @@
+#Translations for: interface
+
+Attribute.ИмяБазы.Title=Info base name
+Attribute.КаталогИнформационнойБазы.Title=Infobase directory
+Attribute.КаталогиСохранения.Title=Save directories
+Attribute.КаталогиСохранения.Источник.Title=Data
+Attribute.КаталогиСохранения.Каталог.Title=Tech
+Attribute.КаталогиСохранения.Пометка.Title=Check
+Attribute.КаталогиСохранения.ТолькоМодули.Title=Only Configuration
+Attribute.ОбщийКаталогСохранения.Title=Common save directory
+Attribute.Пароль.Title=Password
+Attribute.Пользователь.Title=Username
+Attribute.РасположениеБазы.Title=Infobase placement
+Attribute.ServerИБ.Title=Infobase server
+Attribute.ФайлЗапускаПлатформы.Title=Platform launch file
+Command.ВыбратьОбщийКаталогСохранения.Title=Select common save directory
+Command.ВыгрузитьИсходныеМодули.Title=Unload source modules
+Command.СнятьПометки.Title=Remove marks
+Command.УстановитьПометки.Title=Set marks
+Item.ГруппаАдресБазы.Title=Group infobase address
+Item.ГруппаБазаServerная.Title=Group server info base
+Item.ГруппаБазаФайловая.Title=Group file infobase
+Item.ГруппаПользователь.Title=Username
+Item.ГруппаПользовательПароль.Title=Group user password
+Item.ГруппаСтраницыРаположенияБазы.Title=Group pages infobase placement
+Item.КаталогиСохраненияТолькоМодули.ToolTip=If ustanovleno budut vygruzheny Only Objects C Deleting. If Dont ustanovleno budet vygruzhena vsya Group configuration
+Item.КаталогиСохраненияТолькоМодулиРасширеннаяПодсказка.Title=If ustanovleno budut vygruzheny Only Objects C Deleting. If Dont ustanovleno budet vygruzhena vsya Group configuration
+Item.РасположениеБазы.ChoiceList.0.Presentation=To lokalnom kompyutere Or To kompyutere In lokalnoy seti
+Item.РасположениеБазы.ChoiceList.1.Presentation=To Server 1S\:Predpriyatiya
+Item.ServerИБ.Title=Claster serverov

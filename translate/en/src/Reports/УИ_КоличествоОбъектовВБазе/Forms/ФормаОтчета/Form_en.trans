@@ -1,0 +1,17 @@
+#Translations for: model
+
+Attribute.КонтекстВарианта.Name=ContextForm
+Attribute.НастройкиОтчета.Name=SettingsBuilder
+Attribute.Отчет.Name=Report
+Attribute.ОтчетДанныеРасшифровки.Name=ReportDataForm
+Attribute.ОтчетТабличныйДокумент.Name=ReportSpreadsheetDocument
+Item.КомпоновщикНастроекПользовательскиеНастройки.Name=SettingsComposerUserSettings
+Item.ОтчетТабличныйДокумент.Event.DetailProcessing.Name=ResultModeForm
+Parameter.КлючВарианта.Name=KeyForm
+Parameter.КонтекстВарианта.Name=ContextForm
+Parameter.Неконтекстный.Name=Non-contextual
+Parameter.Отчет.Name=Report
+Parameter.ПредставлениеВарианта.Name=PresentationForm
+Parameter.Расшифровка.Name=Rasshifrovka
+Parameter.Ссылка.Name=Ref
+Parameter.СформироватьПриОткрытии.Name=GenerateOnData

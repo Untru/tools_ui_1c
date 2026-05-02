@@ -1,0 +1,9 @@
+#Translations for: model
+
+Method.ПриСозданииНаServerе.Var.Поле.Name=Field
+Method.ПриСозданииНаServerе.Var.СтрокаРоли.Name=StringAccess right to object role
+Method.ПриСозданииНаServerе.Var.ТипБухгалтерскогоОстатка.String.Нет.Key=No
+Method.ПриСозданииНаServerе.Var.ТипОстатка.String.Нет.Key=No
+Method.Применить.String.ПериодДополнительный.Key=Apply
+Method.Применить.Var.Роль.Name=Role
+Method.УстановитьДоступность.Name=SetEnabled

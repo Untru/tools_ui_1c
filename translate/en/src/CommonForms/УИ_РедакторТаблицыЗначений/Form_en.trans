@@ -1,0 +1,14 @@
+#Translations for: model
+
+Attribute.ВозвратХранилищаДляКонтейнераЗначения.Name=VozvratStorageToSuffixForm
+Attribute.ИмяРеквизитаХранилища.Name=NameAttributeStorage
+Attribute.КолонкиТаблицы.Name=NameTable
+Attribute.КолонкиТаблицы.Имя.Name=Name
+Attribute.КолонкиТаблицы.ИмяДляПоиска.Name=NameToRules
+Attribute.КолонкиТаблицы.Квалификаторы.Name=Qualifiers
+Attribute.КолонкиТаблицы.ТипЗначения.Name=TypeForm
+Attribute.ПрефиксОкончаниеКолонокКонтейнера.Name=PrefixNewDocumentSuffix
+Attribute.СериализоватьВXML.Name=SerializovatInXML
+Attribute.ЭтоДерево.Name=IsTree
+Command.Применить.Name=Get selection
+Item.ГруппаКолонкиТаблицы.Name=GroupNameTable

@@ -1,0 +1,34 @@
+#Translations for: interface
+
+Attribute._РежимРаботы.Title=Run mode
+Attribute.АутентификацияОС.Title=Authentication of Operation System
+Attribute.АутентификацияСтандартная.Title=Authentication 1S\:Predpriyatie
+Attribute.ЗащитаОтОпасныхДействий.Title=Unsafe operation protection
+Attribute.Идентификатор.Title=UUID
+Attribute.ИдентификаторПользователяИБ.Title=DBUser ID
+Attribute.Имя.Title=Name
+Attribute.Пароль.Title=Password
+Attribute.ПодтверждениеПароля.Title=Password confirmation
+Attribute.ПоказыватьВСпискеВыбора.Title=Show in the selection list
+Attribute.ПолноеИмя.Title=Full name
+Attribute.ПользовательОС.Title=Operation system user
+Attribute.РолиПользователя.Title=User roles
+Attribute.РолиПользователя.Имя.Title=Name
+Attribute.РолиПользователя.Пометка.Title=Group
+Attribute.РолиПользователя.Представление.Title=Presentation
+Attribute.РолиПользователя.Присвоена.Title=Prisvoena
+Command._ПоказатьТолькоДоступные.Title=Only available
+Command._ПоказатьТолькоДоступные.ToolTip=Show Only Available Access right to object role
+Command.ЗаписатьОбъект.Title=Write object
+Command.ЗаписатьОбъект.ToolTip=Write Object
+Command.ИзменитьПароль.Title=Change password
+Command.ИзменитьПароль.ToolTip=Change password
+Item.ГруппаКоманды.Title=Group commands
+Item.ГруппаКоманды.ToolTip=Commands group
+Item.ГруппаСтраницы.Title=Pages group
+Item.ГруппаСтраницы.ToolTip=Pages group
+Item.РолиПользователяПометка.ToolTip=Role Group
+Item.СтрОсновное.Title=Main
+Item.СтрОсновное.ToolTip=Str Page main
+Item.СтрРоли.Title=Roles
+Item.СтрРоли.ToolTip=Str Access right to object role

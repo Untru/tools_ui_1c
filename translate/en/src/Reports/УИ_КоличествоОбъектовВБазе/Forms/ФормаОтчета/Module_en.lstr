@@ -1,0 +1,9 @@
+#Translations for: interface
+
+Method.СобытияНастроек.NStr.Изменение\ состава\ быстрых\ настроек.Lines=Exchange sostava bystrykh Manager
+Method.СобытияНастроек.NStr.Расширенная\ настройка.Lines=Rasshirennaya Settings
+Method.СобытияНастроек.NStr.Фильтровать\.\.\..Lines=Filtrovat...
+Method.УточненияСобытийНастроек.NStr.Оформить\ (еще).Lines=Checkout (eshche)
+Method.УточненияСобытийНастроек.NStr.Оформить\ желтым.Lines=Checkout zheltym
+Method.УточненияСобытийНастроек.NStr.Оформить\ зеленым.Lines=Checkout zelenym
+Method.УточненияСобытийНастроек.NStr.Оформить\ красным.Lines=Checkout krasnym

@@ -1,0 +1,13 @@
+#Translations for: model
+
+Method.УИ_ПодключитьВнешнююОбработку.Name=UT_AttachExternalDataProcessor
+Method.УИ_ПодключитьВнешнююОбработку.Param.Ссылка.Name=Ref
+Method.УИ_ПодключитьВнешнююОбработку.Var.УИ_Вид.Name=UTType
+Method.УИ_ПодключитьВнешнююОбработку.Var.УИ_ДвоичныеДанные.Name=UTBinaryData
+Method.УИ_ПодключитьВнешнююОбработку.Var.УИ_ЕстьОтладка.Name=UTHasDebug
+Method.УИ_ПодключитьВнешнююОбработку.Var.УИ_Менеджер.Name=UTManager
+Method.УИ_ПодключитьВнешнююОбработку.Var.УИ_НастройкаОтладки.Name=UTSettingsManaged
+Method.УИ_ПодключитьВнешнююОбработку.Var.УИ_ОбработкаОбъект.Name=UTModeObject
+Method.УИ_ПодключитьВнешнююОбработку.Var.УИ_ОписаниеЗащитыОтОпасныхДействий.Name=UAnd_ConnectExternalDataprocessor
+Method.УИ_ПодключитьВнешнююОбработку.Var.УИ_ФайлОбработки.Name=UTFileData processors
+Method.УИ_ПодключитьВнешнююОбработку.Var.УИ_ХранилищеОбработки.Name=UTStorageData processors

@@ -1,0 +1,26 @@
+#Translations for: model
+
+Comment.ОБРАБОТЧИКИ\ КОМАНД\ ФОРМЫ.Description=Read Commands Form
+Comment.ОБРАБОТЧИКИ\ СОБЫТИЙ\ ТАБЛИЦЫ\ ФОРМЫ\ СписокКонстант.Description=AboutB2RAB2AboutTHAndToAndWithAboutB2YTAndYTAB2LAndCYFAboutRMYListConstants
+Comment.СЛУЖЕБНЫЕ\ ПРОЦЕДУРЫ\ И\ ФУНКЦИИ.Description=SLUZhEBNYE Procedures T Functions
+Description=Read Event Form
+Method.ВыбратьКонстанту.Description=Proizvodit Select Constants
+Method.ИдентификаторСтрокиПоМетаИмени.Name=RowIDByMetaName
+Method.ИдентификаторСтрокиПоМетаИмени.Param.ПолноеИмяМетаданных.Name=PanelNamePath
+Method.ИдентификаторСтрокиПоМетаИмени.Var.Данные.Name=Data
+Method.ИдентификаторСтрокиПоМетаИмени.Var.ТекСтрока.Name=TekString
+Method.ИдентификаторСтрокиПоМетаИмени.Var.ТекСтрока.String.МетаПолноеИмя.Key=MetaPolnoeImya
+Method.ПриОткрытии.Var.ТекПараметры.Name=TekParameters
+Method.ПриПовторномОткрытии.Var.ТекПараметры.Name=TekParameters
+Method.ПриСозданииНаServerе.Comment.Возврат\ при\ получении\ формы\ для\ анализа\..Description=Vozvrat On poluchenii Form To analiza.
+Method.ПриСозданииНаServerе.String.AutoТест.Key=AvtoTest
+Method.ПриСозданииНаServerе.Var.ЗаголовокAutoрегистрации.Name=OnCreateOnServerE
+Method.ПриСозданииНаServerе.Var.Строка.Name=String
+Method.ПриСозданииНаServerе.Var.ТекИнд.Name=TekInd
+Method.ПроизвестиВыборКонстанты.Description=PerformSelectConstants
+Method.ПроизвестиВыборКонстанты.Name=PerformConstantSelection
+Method.ПроизвестиВыборКонстанты.Var.Данные.Name=Data
+Method.ПроизвестиВыборКонстанты.Var.ТекСтрока.Name=TekString
+Method.ПроизвестиВыборКонстанты.Var.ТекЭл.Name=TekEl
+Method.УстановитьПараметрыФормы.Name=SetFormParameters
+Method.УстановитьПараметрыФормы.Var.Результат.Name=Result

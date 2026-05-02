@@ -1,0 +1,9 @@
+#Translations for: interface
+
+Attribute.АктивироватьТекущийЭлементВПрототипе.Title=Command activate Current Item In prototipe
+Attribute.ЗагружатьСвойстваИзФайла.Title=Import Properties From Log
+Attribute.РежимРедактированияСвойств.Title=Mode Link Form
+Command.ПрименитьНастройкиПроекта.Title=Get selection
+Command.ПрименитьНастройкиПроекта.ToolTip=Get selection Settings proekta
+Item.АктивироватьТекущийЭлементВПрототипе.ToolTip=Item Items budet podsvechivatsya, A prototip - vykhodit To First Plan On pozitsionirovanii In Correct Form T Items Items.
+Title=Settings

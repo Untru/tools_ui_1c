@@ -1,0 +1,10 @@
+#Translations for: model
+
+Command.ВопросРазработчику.Name=QuestionToDeveloper
+Command.ИнформацияДляТехподдержки.Name=InformationToTekhpodderzhki
+Command.ОчиститьКэшИнструментовНаClientе.Name=ClearEditorToolsToClient
+Command.ПроверитьНеобходимостьОбновления.Name=CheckUpdate
+Command.СтраницаРазработки.Name=AboutPage
+Form.ОбновлениеИнструментов.Name=UpdateTools
+Form.СписокЗадач.Name=TasksList
+Name=UT_Support

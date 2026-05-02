@@ -1,0 +1,5 @@
+#Translations for: model
+
+Form.ФормаОтчета.Name=FormBuilder
+Name=UTProcessedWritingInBase
+Template.ОсновнаяСхемаКомпоновкиДанных.Name=MainDataCompositionSchema

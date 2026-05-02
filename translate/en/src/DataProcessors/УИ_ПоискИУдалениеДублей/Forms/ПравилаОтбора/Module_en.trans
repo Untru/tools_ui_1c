@@ -1,0 +1,9 @@
+#Translations for: model
+
+Description=Copyright (c) 2019, OOO 1S-Soft\nVse Tools zashchishcheny. Eta programma T soprovoditelnye materialy predostavlyayutsya\nv sootvetstvii C usloviyami Activation Attribution 4.0 International (CC BY 4.0)\nTekst Activation Available By Ref\:\nhttps\://creativecommons.org/Licenses/by/4.0/legalcode\n
+Method.АдресНастроекКомпоновщикаОтбора.Name=FilterComposerSettingsAddress
+Method.ПриСозданииНаServerе.Var.АдресНастроекКомпоновщикаОтбора.Name=FilterComposerSettingsAddress
+Region.ОбработчикиСобытийФормы.Description=HandlersEventsForm
+Region.ОбработчикиСобытийФормы.Name=ReadEventForm
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.Name=ReadCommandsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Name=SluzhebnyeProceduresTFunctions

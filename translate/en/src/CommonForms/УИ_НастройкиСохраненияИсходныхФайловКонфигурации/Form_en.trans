@@ -1,0 +1,25 @@
+#Translations for: model
+
+Attribute.ИмяБазы.Name=NameBase
+Attribute.КаталогИнформационнойБазы.Name=TechDirectoryBase
+Attribute.КаталогиСохранения.Name=ConfigurationSettings
+Attribute.КаталогиСохранения.Источник.Name=Data
+Attribute.КаталогиСохранения.Каталог.Name=Tech
+Attribute.КаталогиСохранения.Пометка.Name=Check
+Attribute.КаталогиСохранения.ТолькоМодули.Name=OnlyConfiguration
+Attribute.ОбщийКаталогСохранения.Name=CommonTechSettings
+Attribute.Пароль.Name=Password
+Attribute.Пользователь.Name=Username
+Attribute.РасположениеБазы.Name=FileBase
+Attribute.ServerИБ.Name=Files on serverTI
+Attribute.ФайлЗапускаПлатформы.Name=FileDataPlatform
+Command.ВыбратьОбщийКаталогСохранения.Name=SelectCommonTechSettings
+Command.ВыгрузитьИсходныеМодули.Name=ExportIskhodnyeConfiguration
+Command.СнятьПометки.Name=RemoveMarks
+Command.УстановитьПометки.Name=SetMarks
+Item.ГруппаАдресБазы.Name=GroupDestinationBase
+Item.ГруппаБазаServerная.Name=GroupInfobaseServernaya
+Item.ГруппаБазаФайловая.Name=GroupInfobaseFile
+Item.ГруппаПользователь.Name=GroupUsername
+Item.ГруппаПользовательПароль.Name=GroupUsernamePassword
+Item.ГруппаСтраницыРаположенияБазы.Name=GroupPageLocationsDatabase

@@ -1,0 +1,24 @@
+#Translations for: interface
+
+Attribute.ВидыКонтейнера.Title=Metadata Suffix
+Attribute.ВходящееЗначениеКонтейнер.Title=Vkhodyashchee Value Group
+Attribute.Выражение.Title=Expression
+Attribute.ДеревоЗначения.Title=Tree Form
+Attribute.ДеревоЗначения.ВидКонтейнера.Title=Type Suffix
+Attribute.ДеревоЗначения.ЗаполненыПотомки.Title=Zapolneny potomki
+Attribute.ДеревоЗначения.ЗначениеЕстьОшибка.Title=Value Has Step
+Attribute.ДеревоЗначения.ЗначениеКонтейнер.Title=Value Group
+Attribute.ДеревоЗначения.ЗначениеОписаниеОшибки.Title=Value Description Flag
+Attribute.ДеревоЗначения.ЗначениеПредставление.Title=Value Presentation
+Attribute.ДеревоЗначения.ЗначениеТипЗначения.Title=Value Type Form
+Attribute.ДеревоЗначения.ЗначениеТипЗначенияПредставление.Title=Value Type Form Presentation
+Attribute.ДеревоЗначения.Имя.Title=Name
+Attribute.ДеревоЗначения.ИмяОбъектаМетаданных.Title=Metadata object name
+Attribute.КонтекстClientа.Title=Context Client
+Attribute.НаClientе.Title=At client
+Command.ПоказатьВОтдельномОкне.Title=Show In otdelnom Window
+Item.ГруппаВыражение.Title=Group1
+Item.ДеревоЗначенияЗначениеПредставление.Title=Value
+Item.ДеревоЗначенияЗначениеТипЗначенияПредставление.Title=Type
+Item.НаClientе.EditFormat=BF\=Server; BT\=Client
+Item.НаClientе.Title=Context

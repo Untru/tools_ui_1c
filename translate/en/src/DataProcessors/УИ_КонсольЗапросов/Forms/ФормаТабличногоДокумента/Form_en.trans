@@ -1,0 +1,20 @@
+#Translations for: model
+
+Attribute.Документ.Name=Document
+Attribute.Инициализированна.Name=Initialized
+Attribute.Объект.Name=Object
+Item.ГруппаДерево.Name=TreeGroup
+Item.ГруппаДокумент.Name=DocumentGroup
+Item.ДокументКнопкаВернуть.Name=RedoDocumentButton
+Item.ДокументКнопкаОбъединить.Name=MergeDocumentButton
+Item.ДокументКнопкаОтменить.Name=UndoDocumentButton
+Item.ДокументКнопкаОтображатьГруппировки.Name=ShowGroupsDocumentButton
+Item.ДокументКнопкаОтображатьЗаголовки.Name=ShowHeadersDocumentButton
+Item.ДокументКнопкаПараметрыСтраницы.Name=PageSetupDocumentButton
+Item.ДокументКнопкаПечать.Name=PrintDocumentButton
+Item.ДокументКнопкаПредварительныйПросмотр.Name=PreviewDocumentButton
+Item.ДокументКнопкаРазвернутьВсеГруппы.Name=ExpandAllGroupsDocumentButton
+Item.ДокументКнопкаРедактирование.Name=EditDocumentButton
+Item.ДокументКнопкаСвернутьВсеГруппы.Name=CollapseAllGroupsDocumentButton
+Item.ДокументКнопкаСохранить.Name=SaveDocumentButton
+Item.КоманднаяПанельДокумента.Name=DocumentCommandBar

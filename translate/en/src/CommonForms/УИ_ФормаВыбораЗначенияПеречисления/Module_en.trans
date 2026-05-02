@@ -1,0 +1,28 @@
+#Translations for: model
+
+Method.ЗавершитьВыборЗначения.Name=CompletionSelectForm
+Method.ЗавершитьВыборЗначения.Var.ВыбранноеЗначение.Name=VybrannoeValue
+Method.ЗавершитьВыборЗначения.Var.ТекДанные.Name=TekData
+Method.ПриСозданииНаServerе.Comment.@skip-check\ unknown-form-parameter-access.Description=@skip-check unknown-form-parameter-access
+Method.ПриСозданииНаServerе.String.Word.Не.Key=Exchange
+Method.ПриСозданииНаServerе.String.Word.Нельзя.Key=Cannot
+Method.ПриСозданииНаServerе.String.Word.выбирать.Key=select
+Method.ПриСозданииНаServerе.String.Word.для.Key=for
+Method.ПриСозданииНаServerе.String.Word.других.Key=other
+Method.ПриСозданииНаServerе.String.Word.значения.Key=subordinate
+Method.ПриСозданииНаServerе.String.Word.открыть.Key=open
+Method.ПриСозданииНаServerе.String.Word.типов.Key=types
+Method.ПриСозданииНаServerе.String.Word.удалось.Key=read
+Method.ПриСозданииНаServerе.String.ЗначениеПеречисления.Key=OnCreateOnServerE
+Method.ПриСозданииНаServerе.String.ТипПеречисления.Key=OnCreateOnServerE
+Method.ПриСозданииНаServerе.Var.ЗначениеПеречисления.Name=ValueName
+Method.ПриСозданииНаServerе.Var.МенеджерПеречисления.Name=ManagerName
+Method.ПриСозданииНаServerе.Var.МетаданныеПеречисления.Name=MetadataName
+Method.ПриСозданииНаServerе.Var.НайденныеСтроки.Name=FoundTrailing
+Method.ПриСозданииНаServerе.Var.НоваяСтрока.Name=NewString
+Method.ПриСозданииНаServerе.Var.ТипПеречисления.Name=TypeName
+Method.ПриСозданииНаServerе.Var.ЭлементПеречисления.Name=ItemName
+Region.ОбработчикиСобытийФормы.Name=ReadEventForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовТаблицыФормыЗначенияПеречисления.Name=ReadEventItemsTableFormFormName
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовТаблицыФормыЗначенияПеречисления.ОбработчикиКомандФормы.Name=ReadCommandsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовТаблицыФормыЗначенияПеречисления.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Name=SluzhebnyeProceduresTFunctions

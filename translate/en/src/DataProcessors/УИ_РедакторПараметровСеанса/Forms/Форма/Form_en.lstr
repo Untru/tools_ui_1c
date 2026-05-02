@@ -1,0 +1,15 @@
+#Translations for: interface
+
+Attribute.СтрокаПоиска.Title=Search string
+Attribute.ТаблицаПараметровСеанса.Title=Table Table Label
+Attribute.ТаблицаПараметровСеанса.Значение.Title=Value
+Attribute.ТаблицаПараметровСеанса.ЗначениеКонтейнер.Title=Value Group
+Attribute.ТаблицаПараметровСеанса.ЗначениеТипЗначения.Title=Value Type Form
+Attribute.ТаблицаПараметровСеанса.ЗначениеТипЗначенияПредставление.Title=Value Type Form Presentation
+Attribute.ТаблицаПараметровСеанса.Изменено.Title=Izmeneno
+Attribute.ТаблицаПараметровСеанса.Имя.Title=Name
+Attribute.ТаблицаПараметровСеанса.Найдено.Title=Step
+Attribute.ТаблицаПараметровСеанса.Синоним.Title=Sinonim
+Attribute.ТаблицаПараметровСеанса.ТипЗначения.Title=Value type
+Command.Записать.Title=Write
+Command.Перечитать.Title=Reread

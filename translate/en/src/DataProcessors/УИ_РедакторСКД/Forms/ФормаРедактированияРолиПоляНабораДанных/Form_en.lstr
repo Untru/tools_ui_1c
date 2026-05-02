@@ -1,0 +1,26 @@
+#Translations for: interface
+
+Attribute.БезРоли.Title=Without role
+Attribute.ВыражениеВидаСчета.Title=Account type expression
+Attribute.ГруппаОстатка.Title=Balance group
+Attribute.ИгнорироватьЗначенияNULL.Title=Ignore NULL Values
+Attribute.Измерение.Title=Dimension
+Attribute.НомерПериода.Title=Period number
+Attribute.Обязательное.Title=Required
+Attribute.Остаток.Title=Balance
+Attribute.Период.Title=Period
+Attribute.ПериодДополнительный.Title=Period additional
+Attribute.ПолеСчета.Title=Account field
+Attribute.РодительскоеИзмерение.Title=Parent dimension
+Attribute.Счет.Title=Account
+Attribute.ТипБухгалтерскогоОстатка.Title=Accounting balance type
+Attribute.ТипОстатка.Title=Balance type
+Command.Применить.Title=Apply
+Item.ВыражениеВидаСчета.Title=Type
+Item.ГруппаОстатка.Title=Name
+Item.ИзмерениеРодитель.Title=Parent
+Item.ПериодДополнительный.Title=Additional
+Item.ТипБухгалтерскогоОстатка.Title=Account type
+Item.ТипОстатка.ChoiceList.1.Presentation=Nachalnyy Balance
+Item.ТипОстатка.ChoiceList.2.Presentation=Konechnyy Balance
+Item.ТипОстатка.Title=Type

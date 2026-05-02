@@ -1,0 +1,14 @@
+#Translations for: interface
+
+Attribute.ВерсияДанных.Title=Data version
+Attribute.НомерОтправленного.Title=Sent message number
+Attribute.НомерПринятого.Title=Received no
+Attribute.УзелОбменаСсылка.Title=Exchange node
+Command.ЗаписатьИзмененияУзла.Title=Write node changes
+Command.ЗаписатьИзмененияУзла.ToolTip=Write node changes
+Item.Группа3.Title=Message numbers
+Item.ЗаписатьИзмененияУзла.Title=Write
+Item.НомерОтправленного.Title=Sent
+Item.НомерПринятого.Title=Received
+Item.Отмена.Title=Close
+Title=Exchange plan node message numbers

@@ -1,0 +1,23 @@
+#Translations for: interface
+
+Attribute.ВыбрасыватьИсключение.Synonym=Throw exception
+Attribute.ВыполнятьВТранзакции.Synonym=Execute in transaction
+Attribute.ВыполнятьПоРасписанию.Synonym=Execute by schedule
+Attribute.ЗаписыватьОшибкиВЖР.Synonym=Write errors to event log
+Attribute.ИдентификаторHTTP.Synonym=HTTP ID
+Attribute.ИдентификаторРегламентногоЗадания.Synonym=Scheduled job UUID
+Attribute.Комментарий.Synonym=Comment
+Attribute.Кэшировать.Synonym=Cache return values
+Attribute.НаClientе.Synonym=At client
+Attribute.ТекстАлгоритма.Synonym=Algorithm text
+Attribute.Хранилище.Synonym=Parameters storage
+Form.ФормаПараметра.Synonym=Parameter form
+Form.ФормаРедактора.Synonym=Editor form
+Form.ФормаСписка.Synonym=Form Dialog
+Form.ФормаЭлемента.Synonym=Item Form
+Synonym=Algorithms [UT]
+TabularSection.Параметры.Attribute.Вход.Synonym=Entry
+TabularSection.Параметры.Attribute.Имя.Synonym=Name
+TabularSection.Параметры.Attribute.ПоУмолчанию.Synonym=By default
+TabularSection.Параметры.Attribute.ТипПараметра.Synonym=Parameter type
+TabularSection.Параметры.Synonym=Parameters

@@ -1,0 +1,18 @@
+#Translations for: model
+
+Attribute.Объект.Name=Object
+Attribute.СписокКонстант.Name=TasksEditor
+Attribute.СписокКонстант.ИндексКартинки.Name=PictureIndex
+Attribute.СписокКонстант.ИндексКартинкиAutoрегистрация.Name=ZIPPicturesAuto register
+Attribute.СписокКонстант.МетаПолноеИмя.Name=AttributesPanelName
+Attribute.СписокКонстант.Наименование.Name=Description
+Command.ВыбратьКонстанту.Name=SelectConstant
+Item.Группа1.Name=Group1
+Item.Декорация1.Name=Decoration1
+Item.ДекорацияAutoрегистрация.Name=AutoRecordDecoration
+Item.СписокКонстантКонтекстноеМенюГруппа1.Name=TasksEditorKontekstnoeMenyuGroup1
+Parameter.МассивAutoрегистрации.Name=ArrayAutoRegistration
+Parameter.МассивИменМетаданных.Name=ArrayNamesPath
+Parameter.МассивПредставлений.Name=ArrayList
+Parameter.НачальноеЗначениеВыбора.Name=NachalnoeValueScale
+Parameter.УзелОбмена.Name=NodeEncoding

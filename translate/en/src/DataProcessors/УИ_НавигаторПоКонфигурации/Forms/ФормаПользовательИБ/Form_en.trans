@@ -1,0 +1,26 @@
+#Translations for: model
+
+Attribute._РежимРаботы.Name=ModeOption
+Attribute.АутентификацияОС.Name=AuthenticationDC
+Attribute.АутентификацияСтандартная.Name=AuthenticationStandartnaya
+Attribute.ЗащитаОтОпасныхДействий.Name=ProtectionFromDangerousActions
+Attribute.Идентификатор.Name=UUID
+Attribute.ИдентификаторПользователяИБ.Name=UUIDUserTI
+Attribute.Имя.Name=Name
+Attribute.Пароль.Name=Password
+Attribute.ПодтверждениеПароля.Name=PodtverzhdenieB
+Attribute.ПоказыватьВСпискеВыбора.Name=ShowInListScale
+Attribute.ПолноеИмя.Name=PanelName
+Attribute.ПользовательОС.Name=UsernameDC
+Attribute.РолиПользователя.Name=Access right to object roleUser
+Attribute.РолиПользователя.Имя.Name=Name
+Attribute.РолиПользователя.Пометка.Name=Check
+Attribute.РолиПользователя.Представление.Name=Presentation
+Attribute.РолиПользователя.Присвоена.Name=Prisvoena
+Command._ПоказатьТолькоДоступные.Name=_ShowOnlyAvailable
+Command.ЗаписатьОбъект.Name=WriteObject
+Command.ИзменитьПароль.Name=ChangePassword
+Item.ГруппаКоманды.Name=GroupCommands
+Item.ГруппаСтраницы.Name=GroupPages
+Item.СтрОсновное.Name=PageMain
+Item.СтрРоли.Name=PageRoles

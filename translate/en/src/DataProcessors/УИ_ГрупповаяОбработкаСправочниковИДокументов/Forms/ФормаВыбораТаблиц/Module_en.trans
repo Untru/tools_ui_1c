@@ -1,0 +1,30 @@
+#Translations for: model
+
+Method.Выбрать.Comment.ИмяТипаОбъекта\ \=\ ?(ObjectType\ \=\ 1,"Document","Group");.Description=ImyaTipaObekta \= ?(ObjectType \= 1,"Document","Group");
+Method.Выбрать.String.Word.ТЧ.Key=TP
+Method.Выбрать.Var.Строка.Name=String
+Method.Выбрать.Var.СтрокаТаблицы.Name=StringTable
+Method.ДеревоТаблицПометкаПриИзменении.Var.ПометкаРодителя.Name=CheckParent
+Method.ДеревоТаблицПометкаПриИзменении.Var.Строка.Name=String
+Method.ДеревоТаблицПометкаПриИзменении.Var.ТекущиеДанные.Name=CurrentData
+Method.ПриСозданииНаServerе.Comment.ИмяТипаОбъекта\ \=\ ?(ObjectType\ \=\ 1,"Document","Group");.Description=ImyaTipaObekta \= ?(ObjectType \= 1,"Document","Group");
+Method.ПриСозданииНаServerе.Var.Дерево.Name=Tree
+Method.ПриСозданииНаServerе.Var.Заголовок.String.Word.по.Key=by
+Method.ПриСозданииНаServerе.Var.Заголовок.String.Word.табличным.Key=tablichnym
+Method.ПриСозданииНаServerе.Var.Заголовок.String.Word.частям.Key=chastyam
+Method.ПриСозданииНаServerе.Var.Заголовок.String.документам.Key=documents
+Method.ПриСозданииНаServerе.Var.Заголовок.String.документов.Key=OnCreateOnServerE
+Method.ПриСозданииНаServerе.Var.Заголовок.String.справочникам.Key=catalogs
+Method.ПриСозданииНаServerе.Var.Заголовок.String.справочников.Key=OnCreateOnServerE
+Method.ПриСозданииНаServerе.Var.ИмяМетаданного.Name=NameSize
+Method.ПриСозданииНаServerе.Var.ИмяТаблицы.Name=NameTable
+Method.ПриСозданииНаServerе.Var.Метаданное.Name=OnCreateOnServerE
+Method.ПриСозданииНаServerе.Var.МетаданныеОбъектов.Name=MetadataWriting
+Method.ПриСозданииНаServerе.Var.ПометкаРодителя.Name=CheckParent
+Method.ПриСозданииНаServerе.Var.Строка.Name=String
+Method.ПриСозданииНаServerе.Var.СтрокаТЧ.Name=StringConfigP
+Method.ПриСозданииНаServerе.Var.ТабличнаяЧасть.Name=SourceTabular
+Method.УстановитьПометкуНаВсеСтроки.Name=SetChecksOnAllLines
+Method.УстановитьПометкуНаВсеСтроки.Param.НоваяПометка.Name=NewCheck
+Method.УстановитьПометкуНаВсеСтроки.Var.Строка.Name=String
+Method.УстановитьПометкуНаВсеСтроки.Var.СтрокаТаблицы.Name=StringTable

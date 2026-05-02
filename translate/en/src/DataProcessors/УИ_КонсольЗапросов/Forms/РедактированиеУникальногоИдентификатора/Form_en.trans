@@ -1,0 +1,13 @@
+#Translations for: model
+
+Attribute.Объект.Name=Object
+Attribute.Ссылка.Name=Ref
+Attribute.СтрокаУникальныйИдентификатор.Name=StringUniqueUUID
+Command.КомандаНайти.Name=FindCommand
+Command.КомандаОК.Name=OKCommand
+Item.ГруппаИДИСсылка.Name=UUIDRefGroup
+Item.ГруппаКоманднаяПанельВнизу.Name=CommandBarBottomGroup
+Item.ГруппаОсновная.Name=MainGroup
+Item.ГруппаУникальныйИдентификатор.Name=UUIDGroup
+Item.КнопкаЗакрыть.Name=CloseButton
+Item.УникальныйИдентификатор.Name=UUIDString

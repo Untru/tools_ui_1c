@@ -1,0 +1,30 @@
+#Translations for: interface
+
+Attribute.АдресСхемы.Title=Address scheme
+Attribute.ОтборДанных.Title=Data selection
+Attribute.ПараметрыЗапроса.Title=Query parameters
+Attribute.ПараметрыЗапроса.ЗначениеПараметра.Title=Value
+Attribute.ПараметрыЗапроса.ИмяПараметра.Title=Parameter
+Attribute.ПараметрыЗапроса.ЭтоВыражение.Title=Is Expression
+Attribute.РежимПоиска.Title=Search mode
+Attribute.СписокПредставлений.Title=View list
+Attribute.СтрокаПоиска.Title=Search string
+Attribute.ТекстЗапроса.Title=Query text
+Attribute.ТекстПроизвольногоЗапроса.Title=Arbitrary query text
+Command.КонструкторЗапроса.Title=Query wizard
+Command.КонструкторЗапроса.ToolTip=Query wizard
+Command.ОбновитьПараметры.Title=Update parameters
+Command.ОбновитьПараметры.ToolTip=Update parameters
+Command.ПолучитьОтбор.Title=Get selection
+Command.ПолучитьОтбор.ToolTip=Get Filter
+Item.ГруппаКнопки.Title=Group commands
+Item.ГруппаКнопки.ToolTip=Buttons group
+Item.ГруппаСтраницы.Title=Group pages
+Item.ГруппаСтраницы.ToolTip=Pages group
+Item.ОтборПоЗначениямРеквизитов.Title=Selection by values attributes
+Item.ОтборПоЗначениямРеквизитов.ToolTip=Selection by values attributes
+Item.ПараметрыЗапросаОбновитьПараметры.Title=Update
+Item.ПроизвольныйЗапрос.Title=Arbitrary query
+Item.ПроизвольныйЗапрос.ToolTip=Arbitrary Query
+Item.РежимПоиска.Title=Mode Rules
+Title=Settings Rules

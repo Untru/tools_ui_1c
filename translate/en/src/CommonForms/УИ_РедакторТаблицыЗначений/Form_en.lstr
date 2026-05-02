@@ -1,0 +1,14 @@
+#Translations for: interface
+
+Attribute.ВозвратХранилищаДляКонтейнераЗначения.Title=Vozvrat Storage To Suffix Form
+Attribute.ИмяРеквизитаХранилища.Title=Name Attribute Storage
+Attribute.КолонкиТаблицы.Title=Table columns
+Attribute.КолонкиТаблицы.Имя.Title=Name
+Attribute.КолонкиТаблицы.ИмяДляПоиска.Title=Name To Rules
+Attribute.КолонкиТаблицы.Квалификаторы.Title=Qualifiers
+Attribute.КолонкиТаблицы.ТипЗначения.Title=Value type
+Attribute.ПрефиксОкончаниеКолонокКонтейнера.Title=Prefix New Document Suffix
+Attribute.СериализоватьВXML.Title=Serializovat VXML
+Attribute.ЭтоДерево.Title=Is Tree
+Command.Применить.Title=Get selection
+Item.ГруппаКолонкиТаблицы.Title=Name

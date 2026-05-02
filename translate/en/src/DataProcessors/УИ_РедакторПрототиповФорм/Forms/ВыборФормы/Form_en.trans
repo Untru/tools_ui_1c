@@ -1,0 +1,18 @@
+#Translations for: model
+
+Attribute.ИсточникФорм.Name=DataForm
+Attribute.ОткрытыеФормы.Name=OtkrytyeForm
+Attribute.ОткрытыеФормы.Заголовок.Name=Title
+Attribute.ОткрытыеФормы.ИдентификаторФормы.Name=UUIDForm
+Attribute.ФормыКонфигурации.Name=FormL
+Attribute.ФормыКонфигурации.Имя.Name=Name
+Attribute.ФормыКонфигурации.Представление.Name=Presentation
+Attribute.ФормыКонфигурации.Путь.Name=Path
+Attribute.ФормыКонфигурации.ЭтоФорма.Name=IsForm
+Command.Отменить.Name=Cancel
+Command.Применить.Name=Get selection
+Item.ГруппаКоманды.Name=CommandsGroup
+Item.ИсточникиФорм.Name=DForm
+Item.ОткрытыеФормыРеквизит1.Name=OtkrytyeFormAttribute1
+Item.ФормыИзКонфигуратора.Name=FormFromKonfiguratora
+Item.ФормыИзПредприятия.Name=FormFromPredpriyatiya

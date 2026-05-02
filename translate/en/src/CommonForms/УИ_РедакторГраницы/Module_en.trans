@@ -1,0 +1,11 @@
+#Translations for: model
+
+Method.ПриСозданииНаServerе.Comment.@skip-check\ unknown-form-parameter-access.Description=@skip-check unknown-form-parameter-access
+Method.ПриСозданииНаServerе.String.ХранилищеКонтейнераЗначения.Key=OnCreateOnServerE
+Method.ПриСозданииНаServerе.Var.Вид.String.Включая.Key=Vklyuchaya
+Method.ПриСозданииНаServerе.Var.ХранилищеКонтейнераЗначения.Name=StorageSuffixForm
+Region.ОбработчикиСобытийФормы.Name=ReadEventForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.Name=ReadEventItemsShapkiForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.ОбработчикиКомандФормы.Name=ReadCommandsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Comment.Код\ процедур\ и\ функций.Description=HandlersEventsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Name=SluzhebnyeProceduresTFunctions

@@ -1,0 +1,7 @@
+#Translations for: interface
+
+Attribute.ВариантОтображения.Title=Scale variant
+Attribute.ИмяПользователя.Title=Username
+Command.УстановитьМасштабОтображения.Title=Set scale variant
+Command.УстановитьМасштабОтображения.ToolTip=Set Scale Form
+Title=Select Selection Form Form

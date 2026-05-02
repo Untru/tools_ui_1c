@@ -1,0 +1,6 @@
+#Translations for: model
+
+Method.ВыделитьВесьТекстПоляЗначение.Name=MarkVesTextFieldsValue
+Region.ОбработчикиСобытийФормы.Name=ReadEventForm
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.Name=ReadCommandsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Name=SluzhebnyeProceduresTFunctions

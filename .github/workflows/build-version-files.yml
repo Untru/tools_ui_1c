@@ -112,9 +112,9 @@ jobs:
           "${EDT_EXE}" \
             -application org.eclipse.equinox.p2.director \
             -noSplash \
-            -repository https://edt.1c.ru/downloads/releases/plugins/language-tool/ \
+            -repository https://edt.1c.ru/downloads/releases/plugins/language-tool/edt-2024.1/1.6.0/repo/ \
             -destination "${EDT_DIR}" \
-            -installIU com.e1c.langtool.feature.group
+            -installIU com.e1c.langtool.feature.feature.group
 
       - name: Setup Onescript Action
         uses: otymko/setup-onescript@v1.4

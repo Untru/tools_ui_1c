@@ -8,28 +8,40 @@ jobs:
     name: Кеш 8.3.17.2760
     runs-on: ubuntu-22.04
     steps:
-      - name: Установка 1С:Предприятие 8.3.17.2760
-        uses: 1CDevFlow/onec-setup-action@main
-        with:
-          type: onec
-          onec_version: 8.3.17.2760
-          cache: true
+      - name: Скачивание дистрибутива из release
+        run: |
+          gh release download cache-warm --repo Untru/tools_ui_1c --pattern "client_8_3_17_2760.deb64.tar.gz" --dir /tmp
+          mkdir -p /tmp/debs
+          tar xzf /tmp/client_8_3_17_2760.deb64.tar.gz -C /tmp/debs
+          sudo dpkg -i /tmp/debs/*.deb 2>/dev/null || sudo apt-get install -f -y
+          ls /opt/1C/v8.3/x86_64/
         env:
-          ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
-          ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
-        timeout-minutes: 30
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Сохранение в кеш
+        uses: actions/cache/save@v4
+        with:
+          path: /opt/1C
+          key: setup--onec--8.3.17.2760--linux
 
   warm-8327:
     name: Кеш 8.3.27.1989
     runs-on: ubuntu-22.04
     steps:
-      - name: Установка 1С:Предприятие 8.3.27.1989
-        uses: 1CDevFlow/onec-setup-action@main
-        with:
-          type: onec
-          onec_version: 8.3.27.1989
-          cache: true
+      - name: Скачивание дистрибутива из release
+        run: |
+          gh release download cache-warm --repo Untru/tools_ui_1c --pattern "client_8_3_27_1989.deb64.tar.gz" --dir /tmp
+          mkdir -p /tmp/debs
+          tar xzf /tmp/client_8_3_27_1989.deb64.tar.gz -C /tmp/debs
+          sudo dpkg -i /tmp/debs/*.deb 2>/dev/null || sudo apt-get install -f -y
+          ls /opt/1C/v8.3/x86_64/ || ls /opt/1cv8/x86_64/
         env:
-          ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
-          ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
-        timeout-minutes: 30
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Сохранение в кеш
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            /opt/1C
+            /opt/1cv8
+          key: setup--onec--8.3.27.1989--linux

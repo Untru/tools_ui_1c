@@ -14,9 +14,9 @@ jobs:
           mkdir -p /tmp/debs
           tar xzf /tmp/client_8_3_17_2760.deb64.tar.gz -C /tmp/debs
           ls /tmp/debs/
-          sudo apt-get install -y -f /tmp/debs/*.deb
+          sudo dpkg -i --force-all /tmp/debs/*.deb
           echo "=== Installed ==="
-          find /opt -maxdepth 4 -type d | grep -i "1[cC]" | head -10
+          find /opt -maxdepth 4 -type d | grep -i "1[cC]\|1cv8" | head -10
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -38,9 +38,9 @@ jobs:
           mkdir -p /tmp/debs
           tar xzf /tmp/client_8_3_27_1989.deb64.tar.gz -C /tmp/debs
           ls /tmp/debs/
-          sudo apt-get install -y -f /tmp/debs/*.deb
+          sudo dpkg -i --force-all /tmp/debs/*.deb
           echo "=== Installed ==="
-          find /opt -maxdepth 4 -type d | grep -i "1[cC]" | head -10
+          find /opt -maxdepth 4 -type d | grep -i "1[cC]\|1cv8" | head -10
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

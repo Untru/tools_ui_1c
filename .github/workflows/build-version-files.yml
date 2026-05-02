@@ -116,25 +116,76 @@ jobs:
             -destination "${EDT_DIR}" \
             -installIU com.e1c.langtool.feature.feature.group
 
-      - name: Setup Onescript Action
-        uses: otymko/setup-onescript@v1.4
-        with:
-          version: 1.9.2
-
-      - name: Наложение словаря перевода EN
+      - name: Наложение словаря перевода EN и экспорт через EDT
         run: |
-          cp -r translate/en/src/* src/Инструменты/src/
-          mkdir -p src/Инструменты/.settings
-          cat > src/Инструменты/.settings/com.e1c.langtool.v8.dt.prefs << 'EOF'
+          set -e
+          EDT_CLI="${{ env.TOOLS_UI_1C_BUILDER_EDT_PATH }}1cedtcli"
+          PROJECT_DIR="src/Инструменты"
+          PROJECT_NAME="tools_ui_1c"
+          WS_DIR="/tmp/edt-ws-en"
+          OUTPUT_DIR="build/source/Инструменты"
+
+          # 1. Наложение словаря перевода
+          cp -r translate/en/src/* "${PROJECT_DIR}/src/"
+          echo "Словарь перевода наложен"
+
+          # 2. Настройки LangTool
+          mkdir -p "${PROJECT_DIR}/.settings"
+          cat > "${PROJECT_DIR}/.settings/com.e1c.langtool.v8.dt.prefs" << 'PREFS'
           eclipse.preferences.version=1
           translationProperties/contextDefStorageCheckBackTranslation=true
           translationProperties/fillEmptyHelpTranslationFromSource=true
           translationProperties/fillEmptyHtmlTranslationFromSource=true
           translationProperties/fillEmptyInterfaceTranslationFromSource=true
-          EOF
+          PREFS
+          echo "LangTool prefs созданы"
 
-      - name: Конвертация исходников
-        run: oscript -encoding=utf-8 ./src/builder/build.os xml
+          # 3. Переименование проекта в ASCII (EDT CLI не работает с кириллицей в аргументах)
+          cp "${PROJECT_DIR}/.project" "${PROJECT_DIR}/.project.bak"
+          sed -i "s|<name>Инструменты</name>|<name>${PROJECT_NAME}</name>|" "${PROJECT_DIR}/.project"
+          ln -s "Инструменты" "src/${PROJECT_NAME}" || cp -al "${PROJECT_DIR}" "src/${PROJECT_NAME}"
+          echo "Проект переименован в ${PROJECT_NAME}"
+
+          # 4. Подготовка каталогов
+          rm -rf "${WS_DIR}" "${OUTPUT_DIR}"
+          mkdir -p "${WS_DIR}" "${OUTPUT_DIR}"
+
+          # 5. EDT Import (LangTool применяет переводы пр�� импорте в workspace)
+          cd src
+          "${EDT_CLI}" -data "${WS_DIR}" \
+            -vmargs -DdisableProjectChecks=true -DdisableFTS=true \
+            -command import --project "${PROJECT_NAME}"
+          cd ..
+          echo "Import OK"
+
+          # 6. EDT Export (экспорт из workspace в формат конфигуратора)
+          "${EDT_CLI}" -data "${WS_DIR}" -timeout 9000 \
+            -vmargs -DdisableProjectChecks=true -DdisableFTS=true \
+            -command export --project "${PROJECT_NAME}" \
+            --configuration-files "${OUTPUT_DIR}"
+          echo "Export OK"
+
+          # 7. Восстановление
+          rm -f "src/${PROJECT_NAME}" 2>/dev/null || rm -rf "src/${PROJECT_NAME}" 2>/dev/null || true
+          mv -f "${PROJECT_DIR}/.project.bak" "${PROJECT_DIR}/.project"
+
+          # 8. Проверка
+          if [ -f "${OUTPUT_DIR}/Configuration.xml" ]; then
+            echo "Исходники EN готовы в ${OUTPUT_DIR}"
+          else
+            echo "ОШИБКА: Configuration.xml не найден"
+            exit 1
+          fi
+        timeout-minutes: 30
+
+      - name: Экспорт портативного проекта
+        run: |
+          EDT_CLI="${{ env.TOOLS_UI_1C_BUILDER_EDT_PATH }}1cedtcli"
+          "${EDT_CLI}" -data /tmp/edt-ws-portable \
+            -vmargs -DdisableProjectChecks=true -DdisableFTS=true \
+            -command export --project "src/Портативный" \
+            --configuration-files "build/source/Портативный"
+        timeout-minutes: 15
 
       - name: Публикация исходников EN в формате конфигуратора
         uses: actions/upload-artifact@v4

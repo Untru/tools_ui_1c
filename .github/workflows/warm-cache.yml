@@ -8,15 +8,15 @@ jobs:
     name: Кеш 8.3.17.2760
     runs-on: ubuntu-22.04
     steps:
-      - name: Скачивание дистрибутива из release
+      - name: Скачивание и установка дистрибутива
         run: |
           gh release download cache-warm --repo Untru/tools_ui_1c --pattern "client_8_3_17_2760.deb64.tar.gz" --dir /tmp
           mkdir -p /tmp/debs
           tar xzf /tmp/client_8_3_17_2760.deb64.tar.gz -C /tmp/debs
-          sudo dpkg -i /tmp/debs/*.deb || sudo apt-get install -f -y
-          echo "Installed to:"
-          find /opt -name "1cv8" -o -name "ibsrv" 2>/dev/null | head -5
-          ls /opt/1cv8/x86_64/ || ls /opt/1C/v8.3/x86_64/ || true
+          ls /tmp/debs/
+          sudo apt-get install -y -f /tmp/debs/*.deb
+          echo "=== Installed ==="
+          find /opt -maxdepth 4 -type d | grep -i "1[cC]" | head -10
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -32,15 +32,15 @@ jobs:
     name: Кеш 8.3.27.1989
     runs-on: ubuntu-22.04
     steps:
-      - name: Скачивание дистрибутива из release
+      - name: Скачивание и установка дистрибутива
         run: |
           gh release download cache-warm --repo Untru/tools_ui_1c --pattern "client_8_3_27_1989.deb64.tar.gz" --dir /tmp
           mkdir -p /tmp/debs
           tar xzf /tmp/client_8_3_27_1989.deb64.tar.gz -C /tmp/debs
-          sudo dpkg -i /tmp/debs/*.deb || sudo apt-get install -f -y
-          echo "Installed to:"
-          find /opt -name "1cv8" -o -name "ibsrv" 2>/dev/null | head -5
-          ls /opt/1cv8/x86_64/ || ls /opt/1C/v8.3/x86_64/ || true
+          ls /tmp/debs/
+          sudo apt-get install -y -f /tmp/debs/*.deb
+          echo "=== Installed ==="
+          find /opt -maxdepth 4 -type d | grep -i "1[cC]" | head -10
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

@@ -97,11 +97,24 @@ jobs:
 
       - name: Установка плагина LangTool
         run: |
-          "${{ env.TOOLS_UI_1C_BUILDER_EDT_PATH }}1cedtcli" -data /tmp/ws-install \
-            -command directorInstall \
-            --repository https://edt.1c.ru/downloads/releases/plugins/language-tool/ \
-            --installIU com.e1c.langtool.feature.group
-          rm -rf /tmp/ws-install
+          # Определяем исполняемый файл EDT (1cedt или eclipse)
+          EDT_DIR="${{ env.TOOLS_UI_1C_BUILDER_EDT_PATH }}"
+          if [ -f "${EDT_DIR}1cedt" ]; then
+            EDT_EXE="${EDT_DIR}1cedt"
+          elif [ -f "${EDT_DIR}eclipse" ]; then
+            EDT_EXE="${EDT_DIR}eclipse"
+          else
+            echo "EDT executable not found, listing directory:"
+            ls -la "${EDT_DIR}"
+            exit 1
+          fi
+          echo "Using EDT executable: ${EDT_EXE}"
+          "${EDT_EXE}" \
+            -application org.eclipse.equinox.p2.director \
+            -noSplash \
+            -repository https://edt.1c.ru/downloads/releases/plugins/language-tool/ \
+            -destination "${EDT_DIR}" \
+            -installIU com.e1c.langtool.feature.group
 
       - name: Setup Onescript Action
         uses: otymko/setup-onescript@v1.4

@@ -234,8 +234,9 @@ jobs:
             libgtk-3-0 libcanberra-gtk3-module libsm6 libice6 libglu1-mesa libsoup2.4-1
           # Заглушка libwebkitgtk (deprecated, не нужна для batch-mode)
           echo 'void __attribute__((constructor)) _stub(void) {}' | \
-            gcc -shared -x c - -o /usr/lib/x86_64-linux-gnu/libwebkitgtk-3.0.so.0
-          sudo cp /usr/lib/x86_64-linux-gnu/libwebkitgtk-3.0.so.0 /usr/lib/x86_64-linux-gnu/libjavascriptcoregtk-3.0.so.0
+            gcc -shared -x c - -o /tmp/libstub.so
+          sudo cp /tmp/libstub.so /usr/lib/x86_64-linux-gnu/libwebkitgtk-3.0.so.0
+          sudo cp /tmp/libstub.so /usr/lib/x86_64-linux-gnu/libjavascriptcoregtk-3.0.so.0
           sudo ldconfig
 
       - name: Setup Onescript Action
@@ -302,8 +303,9 @@ jobs:
             libgtk-3-0 libcanberra-gtk3-module libsm6 libice6 libglu1-mesa libsoup2.4-1
           # Заглушка libwebkitgtk (deprecated, не нужна для batch-mode)
           echo 'void __attribute__((constructor)) _stub(void) {}' | \
-            gcc -shared -x c - -o /usr/lib/x86_64-linux-gnu/libwebkitgtk-3.0.so.0
-          sudo cp /usr/lib/x86_64-linux-gnu/libwebkitgtk-3.0.so.0 /usr/lib/x86_64-linux-gnu/libjavascriptcoregtk-3.0.so.0
+            gcc -shared -x c - -o /tmp/libstub.so
+          sudo cp /tmp/libstub.so /usr/lib/x86_64-linux-gnu/libwebkitgtk-3.0.so.0
+          sudo cp /tmp/libstub.so /usr/lib/x86_64-linux-gnu/libjavascriptcoregtk-3.0.so.0
           sudo ldconfig
 
       - name: Setup Onescript Action

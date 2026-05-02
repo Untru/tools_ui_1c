@@ -227,6 +227,20 @@ jobs:
           ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
         timeout-minutes: 30
 
+      - name: Установка зависимостей платформы
+        run: |
+          # Создаём заглушки для библиотек которые нужны только GUI
+          # Для batch-mode (сборка cf/cfe) они не вызываются
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libfontconfig1 libgsf-1-114 t1utils imagemagick 2>/dev/null || true
+          for lib in libwebkitgtk-3.0.so.0 libjavascriptcoregtk-3.0.so.0 libwebkitgtk-3.0.so.0.22.17; do
+            if [ ! -f "/usr/lib/x86_64-linux-gnu/$lib" ]; then
+              sudo touch "/usr/lib/x86_64-linux-gnu/$lib"
+              echo "stub: $lib"
+            fi
+          done
+          sudo ldconfig
+
       - name: Setup Onescript Action
         uses: otymko/setup-onescript@v1.4
         with:
@@ -283,6 +297,20 @@ jobs:
           ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
           ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
         timeout-minutes: 30
+
+      - name: Установка зависимостей платформы
+        run: |
+          # Создаём заглушки для библиотек которые нужны только GUI
+          # Для batch-mode (сборка cf/cfe) они не вызываются
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libfontconfig1 libgsf-1-114 t1utils imagemagick 2>/dev/null || true
+          for lib in libwebkitgtk-3.0.so.0 libjavascriptcoregtk-3.0.so.0 libwebkitgtk-3.0.so.0.22.17; do
+            if [ ! -f "/usr/lib/x86_64-linux-gnu/$lib" ]; then
+              sudo touch "/usr/lib/x86_64-linux-gnu/$lib"
+              echo "stub: $lib"
+            fi
+          done
+          sudo ldconfig
 
       - name: Setup Onescript Action
         uses: otymko/setup-onescript@v1.4

@@ -34,9 +34,9 @@ jobs:
     steps:
       - name: Скачивание и установка дистрибутива
         run: |
-          gh release download cache-warm --repo Untru/tools_ui_1c --pattern "client_8_3_27_1989.deb64.tar.gz" --dir /tmp
+          gh release download cache-warm --repo Untru/tools_ui_1c --pattern "client_8_3_27_1989.deb64.zip" --dir /tmp
           mkdir -p /tmp/debs
-          tar xzf /tmp/client_8_3_27_1989.deb64.tar.gz -C /tmp/debs
+          unzip -o /tmp/client_8_3_27_1989.deb64.zip -d /tmp/debs
           ls /tmp/debs/
           sudo dpkg -i --force-all /tmp/debs/*.deb
           echo "=== Installed ==="

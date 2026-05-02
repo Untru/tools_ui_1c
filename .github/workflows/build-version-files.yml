@@ -95,6 +95,14 @@ jobs:
           ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
         timeout-minutes: 30
 
+      - name: Установка плагина LangTool
+        run: |
+          "${{ env.TOOLS_UI_1C_BUILDER_EDT_PATH }}1cedtcli" \
+            -application org.eclipse.equinox.p2.director \
+            -repository https://edt.1c.ru/downloads/releases/plugins/language-tool/ \
+            -installIU com.e1c.langtool.feature.group \
+            -vmargs -DdisableProjectChecks=true
+
       - name: Setup Onescript Action
         uses: otymko/setup-onescript@v1.4
         with:

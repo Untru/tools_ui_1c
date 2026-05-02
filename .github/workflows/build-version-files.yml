@@ -219,7 +219,7 @@ jobs:
       - name: Установка 1С:Предприятие 8.3.17.2760
         run: |
           curl -sL https://github.com/v8platform/oneget/releases/download/v0.6.0/oneget_Linux_x86_64.tar.gz | tar xz -C /tmp
-          /tmp/oneget get --extract platform:linux.deb64@8.3.17.2760 -d tmp/__downloads__
+          /tmp/oneget get --extract platform:deb.x64@8.3.17.2760 -d tmp/__downloads__
           sudo dpkg -i tmp/__downloads__/1c-enterprise*.deb 2>/dev/null || sudo apt-get install -f -y
         env:
           ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
@@ -275,7 +275,7 @@ jobs:
       - name: Установка 1С:Предприятие 8.3.17.2760
         run: |
           curl -sL https://github.com/v8platform/oneget/releases/download/v0.6.0/oneget_Linux_x86_64.tar.gz | tar xz -C /tmp
-          /tmp/oneget get --extract platform:linux.deb64@8.3.17.2760 -d tmp/__downloads__
+          /tmp/oneget get --extract platform:deb.x64@8.3.17.2760 -d tmp/__downloads__
           sudo dpkg -i tmp/__downloads__/1c-enterprise*.deb 2>/dev/null || sudo apt-get install -f -y
         env:
           ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
@@ -334,7 +334,7 @@ jobs:
       - name: Установка 1С:Предприятие 8.3.27.1989
         run: |
           curl -sL https://github.com/v8platform/oneget/releases/download/v0.6.0/oneget_Linux_x86_64.tar.gz | tar xz -C /tmp
-          /tmp/oneget get --extract platform:linux.deb64@8.3.27.1989 -d tmp/__downloads__
+          /tmp/oneget get --extract platform:deb.x64@8.3.27.1989 -d tmp/__downloads__
           sudo dpkg -i tmp/__downloads__/1c-enterprise*.deb 2>/dev/null || sudo apt-get install -f -y
         env:
           ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
@@ -385,7 +385,7 @@ jobs:
       - name: Установка 1С:Предприятие 8.3.27.1989
         run: |
           curl -sL https://github.com/v8platform/oneget/releases/download/v0.6.0/oneget_Linux_x86_64.tar.gz | tar xz -C /tmp
-          /tmp/oneget get --extract platform:linux.deb64@8.3.27.1989 -d tmp/__downloads__
+          /tmp/oneget get --extract platform:deb.x64@8.3.27.1989 -d tmp/__downloads__
           sudo dpkg -i tmp/__downloads__/1c-enterprise*.deb 2>/dev/null || sudo apt-get install -f -y
         env:
           ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}

@@ -131,13 +131,13 @@ jobs:
 
           # 2. Настройки LangTool
           mkdir -p "${PROJECT_DIR}/.settings"
-          cat > "${PROJECT_DIR}/.settings/com.e1c.langtool.v8.dt.prefs" <<'PREFS'
-eclipse.preferences.version=1
-translationProperties/contextDefStorageCheckBackTranslation=true
-translationProperties/fillEmptyHelpTranslationFromSource=true
-translationProperties/fillEmptyHtmlTranslationFromSource=true
-translationProperties/fillEmptyInterfaceTranslationFromSource=true
-PREFS
+          printf '%s\n' \
+            "eclipse.preferences.version=1" \
+            "translationProperties/contextDefStorageCheckBackTranslation=true" \
+            "translationProperties/fillEmptyHelpTranslationFromSource=true" \
+            "translationProperties/fillEmptyHtmlTranslationFromSource=true" \
+            "translationProperties/fillEmptyInterfaceTranslationFromSource=true" \
+            > "${PROJECT_DIR}/.settings/com.e1c.langtool.v8.dt.prefs"
           echo "LangTool prefs созданы"
           cat "${PROJECT_DIR}/.settings/com.e1c.langtool.v8.dt.prefs"
 

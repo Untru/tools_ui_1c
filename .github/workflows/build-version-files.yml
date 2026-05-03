@@ -131,14 +131,15 @@ jobs:
 
           # 2. Настройки LangTool
           mkdir -p "${PROJECT_DIR}/.settings"
-          cat > "${PROJECT_DIR}/.settings/com.e1c.langtool.v8.dt.prefs" << 'PREFS'
-          eclipse.preferences.version=1
-          translationProperties/contextDefStorageCheckBackTranslation=true
-          translationProperties/fillEmptyHelpTranslationFromSource=true
-          translationProperties/fillEmptyHtmlTranslationFromSource=true
-          translationProperties/fillEmptyInterfaceTranslationFromSource=true
-          PREFS
+          cat > "${PROJECT_DIR}/.settings/com.e1c.langtool.v8.dt.prefs" <<'PREFS'
+eclipse.preferences.version=1
+translationProperties/contextDefStorageCheckBackTranslation=true
+translationProperties/fillEmptyHelpTranslationFromSource=true
+translationProperties/fillEmptyHtmlTranslationFromSource=true
+translationProperties/fillEmptyInterfaceTranslationFromSource=true
+PREFS
           echo "LangTool prefs созданы"
+          cat "${PROJECT_DIR}/.settings/com.e1c.langtool.v8.dt.prefs"
 
           # 3. Переименование проекта в ASCII (EDT CLI не работает с кириллицей в аргументах)
           cp "${PROJECT_DIR}/.project" "${PROJECT_DIR}/.project.bak"
@@ -146,15 +147,24 @@ jobs:
           ln -s "Инструменты" "src/${PROJECT_NAME}" || cp -al "${PROJECT_DIR}" "src/${PROJECT_NAME}"
           echo "Проект переименован в ${PROJECT_NAME}"
 
+          # 3b. Подготовка зависимого проекта перевода
+          TRANS_NAME="tools_ui_1c_en"
+          # Обновляем DEPENDENT.PMF чтобы ссылался на переименованный проект
+          sed -i "s|Parent-Project: Инструменты|Parent-Project: ${PROJECT_NAME}|" translate/en/DT-INF/DEPENDENT.PMF
+          # Переименуем проект перевода тоже в ASCII
+          sed -i "s|<name>tools_ui_1c.en</name>|<name>${TRANS_NAME}</name>|" translate/en/.project
+          ln -s "../../translate/en" "src/${TRANS_NAME}" || true
+          echo "Зависимый проект перевода: ${TRANS_NAME}"
+
           # 4. Подготовка каталогов
           rm -rf "${WS_DIR}" "${OUTPUT_DIR}"
           mkdir -p "${WS_DIR}" "${OUTPUT_DIR}"
 
-          # 5. EDT Import (LangTool применяет переводы при импорте в workspace)
+          # 5. EDT Import — импортируем ОБА проекта (основной + зависимый перевод)
           cd src
           "${EDT_CLI}" -data "${WS_DIR}" \
             -vmargs -DdisableProjectChecks=true -DdisableFTS=true \
-            -command import --project "${PROJECT_NAME}"
+            -command import --project "${PROJECT_NAME}" --project "${TRANS_NAME}"
           echo "Import OK"
 
           # 6. EDT Export (экспорт из workspace в формат конфигуратора)
@@ -175,6 +185,11 @@ jobs:
           # 8. Проверка
           if [ -f "${OUTPUT_DIR}/Configuration.xml" ]; then
             echo "Исходники EN готовы в ${OUTPUT_DIR}"
+            # Проверка наличия перевода — ищем Synonym на английском
+            echo "=== Проверка перевода (Configuration.xml) ==="
+            grep -i "Synonym\|English\|en\"" "${OUTPUT_DIR}/Configuration.xml" | head -5
+            echo "=== Проверка .mdo ==="
+            find "${OUTPUT_DIR}" -name "*.mdo" | head -1 | xargs grep -i "Synonym" | head -3
           else
             echo "ОШИБКА: Configuration.xml не найден"
             exit 1

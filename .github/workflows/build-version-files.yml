@@ -160,12 +160,16 @@ jobs:
           rm -rf "${WS_DIR}" "${OUTPUT_DIR}"
           mkdir -p "${WS_DIR}" "${OUTPUT_DIR}"
 
-          # 5. EDT Import — импортируем ОБА проекта (основной + зависимый перевод)
+          # 5. EDT Import — импортируем основной проект и зависимый перевод
           cd src
           "${EDT_CLI}" -data "${WS_DIR}" \
             -vmargs -DdisableProjectChecks=true -DdisableFTS=true \
-            -command import --project "${PROJECT_NAME}" --project "${TRANS_NAME}"
-          echo "Import OK"
+            -command import --project "${PROJECT_NAME}"
+          echo "Import main OK"
+          "${EDT_CLI}" -data "${WS_DIR}" \
+            -vmargs -DdisableProjectChecks=true -DdisableFTS=true \
+            -command import --project "${TRANS_NAME}"
+          echo "Import translation OK"
 
           # 6. EDT Export (экспорт из workspace в формат конфигуратора)
           # Остаёмся в src/ — export ищет проект по имени в текущем каталоге

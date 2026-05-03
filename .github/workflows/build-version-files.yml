@@ -180,13 +180,16 @@ jobs:
           # 8. Проверка
           if [ -f "${OUTPUT_DIR}/Configuration.xml" ]; then
             echo "Исходники EN готовы в ${OUTPUT_DIR}"
-            # Проверка наличия перевода — ищем Synonym на английском
-            echo "=== Проверка перевода (Configuration.xml) ==="
-            grep -i "Synonym\|English\|en\"" "${OUTPUT_DIR}/Configuration.xml" | head -5
-            echo "=== Проверка .mdo ==="
-            find "${OUTPUT_DIR}" -name "*.mdo" | head -1 | xargs grep -i "Synonym" | head -3
+            # Проверка наличия перевода — ищем язык en в XML
+            echo "=== ��роверка перевода ==="
+            grep -c "lang=\"en\"" "${OUTPUT_DIR}/Configuration.xml" || echo "Нет lang=en в Configuration.xml"
+            SAMPLE_MDO=$(find "${OUTPUT_DIR}" -name "*.xml" -path "*/CommonModules/*" | head -1)
+            if [ -n "$SAMPLE_MDO" ]; then
+              echo "Sample: $SAMPLE_MDO"
+              grep "lang\|Synonym\|content" "$SAMPLE_MDO" | head -5 || true
+            fi
           else
-            echo "ОШИБКА: Configuration.xml не найден"
+            echo "ОШИБКА: Configuration.xml не н��йден"
             exit 1
           fi
         timeout-minutes: 30

@@ -145,10 +145,10 @@ jobs:
           rm -rf "${WS_DIR}" "${OUTPUT_DIR}"
           mkdir -p "${WS_DIR}" "${OUTPUT_DIR}"
 
-          # 5. EDT Import (с -clean чтобы EDT подхватил свежеустановленный LangTool)
+          # 5. EDT Import
           cd src
-          "${EDT_CLI}" -data "${WS_DIR}" -clean \
-            -vmargs -DdisableProjectChecks=true -DdisableFTS=true \
+          "${EDT_CLI}" -data "${WS_DIR}" \
+            -vmargs -Dosgi.clean=true -DdisableProjectChecks=true -DdisableFTS=true \
             -command import --project "${PROJECT_NAME}"
           echo "Import OK"
 

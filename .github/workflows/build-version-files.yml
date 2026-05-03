@@ -149,12 +149,14 @@ jobs:
 
           # 3b. Подготовка зависимого проекта перевода
           TRANS_NAME="tools_ui_1c_en"
+          # Копируем проект перевода в src/ (рядом с основным)
+          cp -r translate/en "src/${TRANS_NAME}"
           # Обновляем DEPENDENT.PMF чтобы ссылался на переименованный проект
-          sed -i "s|Parent-Project: Инструменты|Parent-Project: ${PROJECT_NAME}|" translate/en/DT-INF/DEPENDENT.PMF
-          # Переименуем проект перевода тоже в ASCII
-          sed -i "s|<name>tools_ui_1c.en</name>|<name>${TRANS_NAME}</name>|" translate/en/.project
-          ln -s "../../translate/en" "src/${TRANS_NAME}" || true
+          sed -i "s|Parent-Project: Инструменты|Parent-Project: ${PROJECT_NAME}|" "src/${TRANS_NAME}/DT-INF/DEPENDENT.PMF"
+          # Переименуем проект перевода в ASCII
+          sed -i "s|<name>tools_ui_1c.en</name>|<name>${TRANS_NAME}</name>|" "src/${TRANS_NAME}/.project"
           echo "Зависимый проект перевода: ${TRANS_NAME}"
+          cat "src/${TRANS_NAME}/.project"
 
           # 4. Подготовка каталогов
           rm -rf "${WS_DIR}" "${OUTPUT_DIR}"

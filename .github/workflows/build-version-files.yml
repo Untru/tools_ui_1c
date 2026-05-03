@@ -145,12 +145,22 @@ jobs:
           rm -rf "${WS_DIR}" "${OUTPUT_DIR}"
           mkdir -p "${WS_DIR}" "${OUTPUT_DIR}"
 
-          # 5. EDT Import (файлы перевода .lstr/.trans уже в проекте — LangTool подхватит)
+          # 5. EDT Import
           cd src
           "${EDT_CLI}" -data "${WS_DIR}" \
             -vmargs -DdisableProjectChecks=true -DdisableFTS=true \
             -command import --project "${PROJECT_NAME}"
           echo "Import OK"
+
+          # 5b. LangTool synchronize — применяем переводы
+          ABS_TRANS="$(cd .. && pwd)/translate/en"
+          ring edt-langtool workspace synchronize \
+            --project "$(pwd)/${PROJECT_NAME}" \
+            --workspace-location "${WS_DIR}" \
+            --language-projects "${ABS_TRANS}" \
+            --languages en \
+            || echo "WARN: ring edt-langtool sync failed, trying alternative..."
+          echo "Synchronize OK"
 
           # 6. EDT Export (экспорт из workspace в формат конфигуратора)
           # Остаёмся в src/ — export ищет проект по имени в текущем каталоге

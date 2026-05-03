@@ -147,31 +147,20 @@ jobs:
           ln -s "Инструменты" "src/${PROJECT_NAME}" || cp -al "${PROJECT_DIR}" "src/${PROJECT_NAME}"
           echo "Проект переименован в ${PROJECT_NAME}"
 
-          # 3b. Подготовка зависимого проекта перевода
-          TRANS_NAME="tools_ui_1c_en"
-          # Копируем проект перевода в src/ (рядом с основным)
-          cp -r translate/en "src/${TRANS_NAME}"
-          # Обновляем DEPENDENT.PMF чтобы ссылался на переименованный проект
-          sed -i "s|Parent-Project: Инструменты|Parent-Project: ${PROJECT_NAME}|" "src/${TRANS_NAME}/DT-INF/DEPENDENT.PMF"
-          # Переименуем проект перевода в ASCII
-          sed -i "s|<name>tools_ui_1c.en</name>|<name>${TRANS_NAME}</name>|" "src/${TRANS_NAME}/.project"
-          echo "Зависимый проект перевода: ${TRANS_NAME}"
-          cat "src/${TRANS_NAME}/.project"
+          # 3b. Проверка что файлы перевода на месте
+          echo "Translation files count:"
+          find "${PROJECT_DIR}/src" -name "*_en.lstr" -o -name "*_en.trans" | wc -l
 
           # 4. Подготовка каталогов
           rm -rf "${WS_DIR}" "${OUTPUT_DIR}"
           mkdir -p "${WS_DIR}" "${OUTPUT_DIR}"
 
-          # 5. EDT Import — импортируем основной проект и зависимый перевод
+          # 5. EDT Import (файлы перевода .lstr/.trans уже в проекте — LangTool подхватит)
           cd src
           "${EDT_CLI}" -data "${WS_DIR}" \
             -vmargs -DdisableProjectChecks=true -DdisableFTS=true \
             -command import --project "${PROJECT_NAME}"
-          echo "Import main OK"
-          "${EDT_CLI}" -data "${WS_DIR}" \
-            -vmargs -DdisableProjectChecks=true -DdisableFTS=true \
-            -command import --project "${TRANS_NAME}"
-          echo "Import translation OK"
+          echo "Import OK"
 
           # 6. EDT Export (экспорт из workspace в формат конфигуратора)
           # Остаёмся в src/ — export ищет проект по имени в текущем каталоге

@@ -69,127 +69,24 @@ jobs:
   export-xml-en:
     name: Экспорт исходников EN в формате конфигуратора
     runs-on: ubuntu-24.04
-    env:
-      TOOLS_UI_1C_BUILDER_EDT_PATH: "/opt/1C/1CE/components/1c-edt-2024.1.3+13-x86_64/"
-    defaults:
-      run:
-        shell: bash
+    needs: export-xml
     steps:
       - name: Извлечение исходников ветки ${{ github.ref_name }}
         if: github.event_name == 'push'
         uses: actions/checkout@v4
-      - name: JAVA
-        uses: actions/setup-java@v4
+
+      - name: Загрузка RU-исходников
+        uses: actions/download-artifact@v4
         with:
-          distribution: "zulu"
-          java-version: "17"
+          name: designer-src
+          path: build/source
 
-      - name: Установка 1C:EDT
-        uses: 1CDevFlow/onec-setup-action@main
-        with:
-          type: edt
-          edt_version: 2024.1.3
-          cache: true
-        env:
-          ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
-          ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
-        timeout-minutes: 30
-
-      - name: Установка плагина LangTool
+      - name: Применение переводов EN
         run: |
-          EDT_DIR="${{ env.TOOLS_UI_1C_BUILDER_EDT_PATH }}"
-          EDT_EXE="${EDT_DIR}1cedt"
-          "${EDT_EXE}" \
-            -application org.eclipse.equinox.p2.director \
-            -noSplash \
-            -repository https://edt.1c.ru/downloads/releases/plugins/language-tool/edt-2024.1/1.6.0/repo/ \
-            -destination "${EDT_DIR}" \
-            -installIU com.e1c.langtool.feature.feature.group
-
-      - name: Наложение словаря перевода EN и экспорт через EDT
-        run: |
-          set -e
-          EDT_CLI="${{ env.TOOLS_UI_1C_BUILDER_EDT_PATH }}1cedtcli"
-          PROJECT_DIR="src/Инструменты"
-          PROJECT_NAME="tools_ui_1c"
-          WS_DIR="/tmp/edt-ws-en"
-          OUTPUT_DIR="build/source/Инструменты"
-
-          # 1. Наложение словаря перевода
-          cp -r translate/en/src/* "${PROJECT_DIR}/src/"
-          echo "Словарь перевода наложен"
-
-          # 2. Настройки LangTool
-          mkdir -p "${PROJECT_DIR}/.settings"
-          printf '%s\n' \
-            "eclipse.preferences.version=1" \
-            "translationProperties/contextDefStorageCheckBackTranslation=true" \
-            "translationProperties/fillEmptyHelpTranslationFromSource=true" \
-            "translationProperties/fillEmptyHtmlTranslationFromSource=true" \
-            "translationProperties/fillEmptyInterfaceTranslationFromSource=true" \
-            > "${PROJECT_DIR}/.settings/com.e1c.langtool.v8.dt.prefs"
-          echo "LangTool prefs созданы"
-          cat "${PROJECT_DIR}/.settings/com.e1c.langtool.v8.dt.prefs"
-
-          # 3. Переименование проекта в ASCII (EDT CLI не работает с кириллицей в аргументах)
-          cp "${PROJECT_DIR}/.project" "${PROJECT_DIR}/.project.bak"
-          sed -i "s|<name>Инструменты</name>|<name>${PROJECT_NAME}</name>|" "${PROJECT_DIR}/.project"
-          ln -s "Инструменты" "src/${PROJECT_NAME}" || cp -al "${PROJECT_DIR}" "src/${PROJECT_NAME}"
-          echo "Проект переименован в ${PROJECT_NAME}"
-
-          # 3b. Проверка что файлы перевода на месте
-          echo "Translation files count:"
-          find "${PROJECT_DIR}/src" -name "*_en.lstr" -o -name "*_en.trans" | wc -l
-
-          # 4. Подготовка каталогов
-          rm -rf "${WS_DIR}" "${OUTPUT_DIR}"
-          mkdir -p "${WS_DIR}" "${OUTPUT_DIR}"
-
-          # 5. EDT Import
-          cd src
-          "${EDT_CLI}" -data "${WS_DIR}" \
-            -vmargs -Dosgi.clean=true -DdisableProjectChecks=true -DdisableFTS=true \
-            -command import --project "${PROJECT_NAME}"
-          echo "Import OK"
-
-          # 5b. Проверка что LangTool активен в workspace
-          ls "${WS_DIR}/.metadata/.plugins/com.e1c.langtool"* 2>/dev/null && echo "LangTool active" || echo "LangTool NOT active in workspace"
-
-          # 6. EDT Export (экспорт из workspace в формат конфигуратора)
-          # Остаёмся в src/ — export ищет проект по имени в текущем каталоге
-          ABS_OUTPUT="$(cd .. && pwd)/${OUTPUT_DIR}"
-          mkdir -p "${ABS_OUTPUT}"
-          "${EDT_CLI}" -data "${WS_DIR}" -timeout 9000 \
-            -vmargs -DdisableProjectChecks=true -DdisableFTS=true \
-            -command export --project "${PROJECT_NAME}" \
-            --configuration-files "${ABS_OUTPUT}"
-          cd ..
-          echo "Export OK"
-
-          # 7. Восстановление
-          rm -f "src/${PROJECT_NAME}" 2>/dev/null || rm -rf "src/${PROJECT_NAME}" 2>/dev/null || true
-          mv -f "${PROJECT_DIR}/.project.bak" "${PROJECT_DIR}/.project"
-
-          # 8. Проверка
-          if [ -f "${OUTPUT_DIR}/Configuration.xml" ]; then
-            echo "Исходники EN готовы в ${OUTPUT_DIR}"
-            echo "=== Проверка перевода ==="
-            grep -c "v8:lang" "${OUTPUT_DIR}/Configuration.xml" || echo "0 v8:lang entries"
-            grep -m5 "v8:lang\|v8:content" "${OUTPUT_DIR}/Configuration.xml" || true
-          else
-            echo "ОШИБКА: Configuration.xml не найден"
-            exit 1
-          fi
-        timeout-minutes: 30
-
-      - name: Экспорт портативного проекта
-        run: |
-          EDT_CLI="${{ env.TOOLS_UI_1C_BUILDER_EDT_PATH }}1cedtcli"
-          "${EDT_CLI}" -data /tmp/edt-ws-portable \
-            -vmargs -DdisableProjectChecks=true -DdisableFTS=true \
-            -command export --project "src/Портативный" \
-            --configuration-files "build/source/Портативный"
-        timeout-minutes: 30
+          python3 src/builder/apply_translations.py translate/en/src build/source/Инструменты
+          echo "=== Проверка ==="
+          grep -c "v8:lang" build/source/Инструменты/Configuration.xml || echo "0"
+          grep -m3 "en</v8:content>" build/source/Инструменты/CommonModules/УИ_АлгоритмыКлиентСервер.xml || true
 
       - name: Публикация исходников EN в формате конфигуратора
         uses: actions/upload-artifact@v4
